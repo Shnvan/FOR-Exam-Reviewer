@@ -6,7 +6,7 @@ const read=n=>fs.readFileSync(path.join(root,n),'utf8');
 const bank=JSON.parse(read('data/questions.json'));
 let checks=0,suites=[];
 function ok(value,label){assert.ok(value,label);checks++;}
-function equal(a,b,label){const plain=x=>x&&typeof x==='object'?JSON.parse(JSON.stringify(x)):x;assert.deepEqual(plain(a),plain(b),label);checks++;}
+function equal(a,b,label){if(a?.nodeType||b?.nodeType){assert.equal(a,b,label);checks++;return;}const plain=x=>x&&typeof x==='object'?JSON.parse(JSON.stringify(x)):x;assert.deepEqual(plain(a),plain(b),label);checks++;}
 function test(name,fn){fn();suites.push(name);console.log('PASS '+name);}
 function env({hash='#/',raw=null,blocked=false,quota=false,theme='light',mutateBank=null}={}){
  const dom=new JSDOM(read('index.html'),{url:'https://research.test/'+hash,runScripts:'outside-only',pretendToBeVisual:true});
@@ -16,6 +16,7 @@ function env({hash='#/',raw=null,blocked=false,quota=false,theme='light',mutateB
  w.document.documentElement.dataset.theme=theme;
  w.eval(read('data/bank.js'));if(mutateBank)mutateBank(w.RESEARCH_BANK);
  w.eval(read('progress.js'));
+ w.eval(read('data/terms.js'));w.eval(read('terms-view.js'));
  if(blocked)Object.defineProperty(w,'localStorage',{get(){throw Error('storage blocked');}});
  else {
   w.localStorage.setItem('study-room-progress-v1','untouched');
@@ -180,6 +181,79 @@ test('blocked/quota storage stays usable with warning',()=>{
 test('question and clarification content are rendered inert',()=>{
  const e=env({hash:'#/practice/all',mutateBank:b=>{b.questions[0].prompt='<img src=x onerror="window.injected=true">';b.questions[0].choices[0].text='<script>window.injected=true</script>';b.questions[0].explanation='<b>inert explanation</b>';}});
  ok(e.$('#question-title').textContent.includes('<img'));ok(!e.$('#question-title img'));e.select('answer');e.$('#check-answer').click();ok(e.$('.explanation').textContent.includes('<b>'));ok(!e.w.injected);e.close();
+});
+test('last collection migration and resume preserve old answers and independent cursors',()=>{
+ const e=env({hash:'#/practice/variables'}),P=e.w.ResearchProgress,q=bank.questions.find(q=>q.topic==='variables');
+ e.select('answer');e.$('#check-answer').click();
+ const saved=e.state(),legacy=JSON.parse(JSON.stringify(saved));delete legacy.lastCollection;
+ const restored=P.restore(JSON.stringify(legacy),bank);equal(restored.lastCollection,'variables');equal(restored.answers,saved.answers);
+ legacy.positions.all=bank.questions[0].id;equal(P.restore(JSON.stringify(legacy),bank).lastCollection,'all');
+ legacy.lastCollection='variables';equal(P.restore(JSON.stringify(legacy),bank).lastCollection,'variables');
+ legacy.lastCollection='invalid';equal(P.restore(JSON.stringify(legacy),bank).lastCollection,'all');
+ e.route('not-a-topic');equal(e.$('.hero-actions a').getAttribute('href'),'#/practice/variables');ok(e.$('.hero-actions a').textContent.includes('Continue practice'));e.close();
+});
+test('mobile actions, numeric jumping, progress and overlay exclusivity',()=>{
+ const e=env({hash:'#/practice/variables'}),{$,w}=e,items=bank.questions.filter(q=>q.topic==='variables');
+ ok($('#mobile-check').disabled);e.select('answer');ok(!$('#mobile-check').disabled);
+ $('#mobile-next').click();equal($('#question-title').textContent,items[1].prompt);ok(!e.state().answers[items[0].id].checked);
+ $('#mobile-previous').click();equal($('input:checked').value,'answer');$('#mobile-check').click();ok(!$('#mobile-check'));ok($('#mobile-continue'));ok($('#answer-feedback'));
+ $('#mobile-continue').click();equal($('#question-title').textContent,items[1].prompt);
+ $('#pdf-menu').open=true;$('#more-menu').open=true;$('#mobile-jump').focus();$('#mobile-jump').click();ok($('#jump-dialog').open);ok(!$('#pdf-menu').open);ok(!$('#more-menu').open);
+ const before=e.state().positions.variables;
+ for(const value of ['', '0', '1.5', String(items.length+1)]){
+  $('#jump-number').value=value;$('#jump-form').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));
+  equal($('#jump-number').getAttribute('aria-invalid'),'true');equal(e.state().positions.variables,before);ok($('#jump-dialog').open);
+ }
+ $('#jump-number').value='3';$('#jump-form').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));ok(!$('#jump-dialog').open);equal($('#question-title').textContent,items[2].prompt);
+ $('#mobile-progress').focus();$('#mobile-progress').click();ok($('#progress-dialog').open);ok($('#progress-summary').textContent.includes('1 / '+items.length+' checked'));
+ $('#progress-dialog').dispatchEvent(new w.Event('cancel',{cancelable:true}));ok(!$('#progress-dialog').open);equal(w.document.activeElement,$('#more-menu summary'));
+ e.change('#question-jump',items.at(-1).id);e.select('answer');$('#mobile-check').click();ok($('#mobile-continue').textContent.includes('View progress'));$('#mobile-continue').focus();$('#mobile-continue').click();ok($('#progress-dialog').open);
+ e.close();
+});
+test('glossary provenance, exact-source regressions and complete page inventory',()=>{
+ const glossary=JSON.parse(read('data/terms.json')),ids=require('./terms-validation.cjs')(glossary,bank),inv=JSON.parse(read('audit/terms-inventory.json'));
+ equal(ids.size,glossary.entries.length);equal(inv.termCount,ids.size);equal(inv.pages.length,131);
+ const e=env();equal(e.w.RESEARCH_TERMS,glossary);e.close();
+ for(const source of bank.sources){const pages=inv.pages.filter(p=>p.sourceId===source.id);equal(pages.length,source.pages);equal(new Set(pages.map(p=>p.page)).size,source.pages);}
+ for(const page of inv.pages){
+  ok(page.visualReview&&page.reason.length>10);ok(['covered','supporting material','repeated material','excluded'].includes(page.disposition));
+  for(const id of [...page.definitionIds,...page.detailIds])ok(ids.has(id));
+  if(page.disposition==='covered')ok(page.definitionIds.length>0);
+ }
+ for(const term of glossary.entries)for(const part of [...term.definitions,...term.details])for(const source of part.sources)for(const page of source.pages)ok(inv.pages.some(p=>p.sourceId===source.sourceId&&p.page===page&&[...p.definitionIds,...p.detailIds].includes(term.id)),'traced quotation '+term.id);
+ const term=id=>glossary.entries.find(e=>e.id===id);
+ // These catch tempting silent grammatical/spelling corrections and source conflicts.
+ ok(term('instruments-usability').definitions[0].text.endsWith('time, money and effect.'));
+ ok(term('frameworks-conceptual-definition').definitions.some(d=>d.text.includes('word or group of works.')));
+ ok(term('descriptive-comparative').definitions.some(d=>d.text.includes('periood of time')));
+ ok(term('reliability-split-half').definitions.some(d=>d.text.includes('administered twice')));
+ ok(term('reliability-split-half').definitions.some(d=>d.text.includes('A single test is split')));
+ ok(term('reliability-split-half').clarification.references.length>0);
+ ok(inv.pages.some(p=>p.page===103&&p.exception.includes('clipped')));
+});
+test('terms search, combined topic filters, exact rendering and empty state',()=>{
+ const e=env({hash:'#/terms'}),{$,w}=e,glossary=w.RESEARCH_TERMS;
+ equal(w.document.body.dataset.view,'terms');ok(!$('#study-tabs').hidden);equal($('#terms-tab').getAttribute('aria-current'),'page');
+ equal(w.document.querySelectorAll('.term-entry').length,glossary.entries.length);equal(w.document.querySelectorAll('.term-group').length,13);
+ equal($('#term-instruments-usability .term-quote').textContent,glossary.entries.find(t=>t.id==='instruments-usability').definitions[0].text);
+ ok(!$('#term-instruments-usability details').open);ok($('#term-instruments-usability a[download]'));
+ const search=value=>{const input=$('#terms-search');input.value=value;input.focus();input.dispatchEvent(new w.Event('input',{bubbles:true}));equal(w.document.activeElement,input);};
+ search('sPeArMaN');ok($('#term-reliability-test-retest'));ok($('#term-reliability-split-half'));
+ e.change('#terms-topic','variables');equal(w.document.querySelectorAll('.term-entry').length,0);ok($('#clear-term-filters'));
+ $('#clear-term-filters').click();equal($('#terms-search').value,'');equal($('#terms-topic').value,'all');equal(w.document.querySelectorAll('.term-entry').length,glossary.entries.length);
+ search('research instrument be satisfactorily');ok($('#term-instruments-usability'));
+ search('<img src=x>');ok(!$('#terms-results img'));ok($('#clear-term-filters'));e.close();
+});
+test('glossary session state, practice resume and storage failure independence',()=>{
+ const e=env({hash:'#/practice/variables'}),{$,w}=e;
+ $('#next').click();e.select('answer');const before=e.state();
+ function visit(hash){w.history.replaceState(null,'',hash);w.dispatchEvent(new w.HashChangeEvent('hashchange'));}
+ visit('#/terms');equal(e.state(),before);equal($('#practice-tab').getAttribute('href'),'#/practice/variables');
+ e.change('#terms-topic','instruments');const input=$('#terms-search');input.value='validity';input.dispatchEvent(new w.Event('input',{bubbles:true}));
+ const details=$('.term-details'),id=details.dataset.termId;details.open=true;details.dispatchEvent(new w.Event('toggle'));
+ visit('#/');visit('#/terms');equal($('#terms-topic').value,'instruments');equal($('#terms-search').value,'validity');ok($(`[data-term-id="${id}"]`).open);
+ e.route('variables');equal($('input:checked').value,'answer');equal(e.state().positions.variables,before.positions.variables);ok($('#study-tabs').hidden);e.close();
+ const blocked=env({hash:'#/terms',blocked:true});ok(blocked.$('.term-entry'));ok(blocked.$('#save-status').textContent.includes('could not be saved'));blocked.close();
 });
 console.log(`\n${checks} checks passed across ${suites.length} suites.`);
 fs.mkdirSync(path.join(root,'.cache'),{recursive:true});

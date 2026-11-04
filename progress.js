@@ -22,6 +22,10 @@
         if(q&&(collection==='all'||q.topic===collection))result.positions[collection]=id;
       }
     }
+    const collections=['all',...bank.topics.map(t=>t.id)];
+    if(collections.includes(saved.lastCollection))result.lastCollection=saved.lastCollection;
+    else if(result.positions.all)result.lastCollection='all';
+    else result.lastCollection=collections.find(id=>result.positions[id]);
     return result;
   }
   function stats(items,saved){
