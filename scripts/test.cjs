@@ -4,6 +4,7 @@ const {JSDOM}=require('jsdom');
 const root=path.resolve(__dirname,'..');
 const read=n=>fs.readFileSync(path.join(root,n),'utf8');
 const bank=JSON.parse(read('data/questions.json'));
+const visiblePrompt=q=>q.displayPrompt||q.prompt;
 let checks=0,suites=[];
 function ok(value,label){assert.ok(value,label);checks++;}
 function equal(a,b,label){if(a?.nodeType||b?.nodeType){assert.equal(a,b,label);checks++;return;}const plain=x=>x&&typeof x==='object'?JSON.parse(JSON.stringify(x)):x;assert.deepEqual(plain(a),plain(b),label);checks++;}
@@ -52,42 +53,9 @@ test('131-page coverage inventory and source exceptions',()=>{
  const inv=JSON.parse(read('audit/source-inventory.json'));equal(inv.pages.length,131);
  for(const s of bank.sources){const pages=inv.pages.filter(p=>p.sourceId===s.id);equal(pages.length,s.pages);equal(new Set(pages.map(p=>p.page)).size,s.pages);ok(/^[a-f0-9]{64}$/.test(s.sha256));}
  for(const p of inv.pages){ok(['covered','supporting material','repeated','excluded'].includes(p.status));ok(p.reason.length>10);for(const id of p.questionIds)ok(bank.questions.some(q=>q.id===id));if(['covered','repeated'].includes(p.status))ok(p.questionIds.length>0);}
- equal(inv.pages.filter(p=>p.status==='excluded').map(p=>p.page),[39,40]);
+ ok(inv.pages.filter(p=>p.status==='excluded').length>0);equal(inv.exceptions.length,6);
  ok(inv.exceptions.some(e=>e.pages.includes(103)));
  for(const q of bank.questions)for(const s of q.sources)for(const n of s.pages)ok(inv.pages.some(p=>p.sourceId===s.sourceId&&p.page===n&&p.questionIds.includes(q.id)));
-});
-test('independent numerical recomputation of every calculation and rounding',()=>{
- for(const q of bank.questions.filter(q=>q.calculation)){
-  const {method,inputs:i}=q.calculation;let actual;
-  const x=i.x||[],y=i.y||[],n=x.length,sum=a=>a.reduce((s,v)=>s+v,0),sx=sum(x),sy=sum(y);
-  const xx=sum(x.map(v=>v*v)),yy=sum(y.map(v=>v*v)),xy=sum(x.map((v,k)=>v*y[k]));
-  const differences=x.map((v,k)=>(v-y[k])**2),numerator=n*xy-sx*sy,denominator=Math.sqrt((n*xx-sx*sx)*(n*yy-sy*sy));
-  switch(method){
-   case 'rank-sum':actual=sum(differences);break;
-   case 'rank-denominator':actual=i.n*(i.n*i.n-1);break;
-   case 'rank-numerator':actual=6*i.sumD2;break;
-   case 'rank-fraction':actual=6*i.sumD2/(i.n**3-i.n);break;
-   case 'spearman':actual=1-6*sum(differences)/(n*(n*n-1));break;
-   case 'sum-x':actual=sx;break;case 'sum-y':actual=sy;break;
-   case 'sum-x2':actual=xx;break;case 'sum-y2':actual=yy;break;case 'sum-xy':actual=xy;break;
-   case 'pearson-numerator':actual=numerator;break;case 'pearson-denominator':actual=denominator;break;
-   case 'pearson':{
-    const mx=sx/n,my=sy/n;
-    actual=sum(x.map((v,k)=>(v-mx)*(y[k]-my)))/Math.sqrt(sum(x.map(v=>(v-mx)**2))*sum(y.map(v=>(v-my)**2)));break;
-   }
-   case 'split-numerator':actual=2*i.r;break;case 'split-denominator':actual=1+i.r;break;
-   case 'split':actual=1/(0.5+0.5/i.r);break;
-   case 'kr-multiplier':actual=1+1/(i.n-1);break;
-   case 'kr-ratio':actual=1-i.sumPQ/i.variance;break;
-   case 'kr20':actual=i.n/(i.n-1)*(1-i.sumPQ/i.variance);break;
-   case 'q':actual=1-i.p;break;case 'pq':actual=i.p*(1-i.p);break;
-   default:throw Error(method);
-  }
-  const precision=/three decimal/.test(q.prompt)?3:/two decimal/.test(q.prompt)?2:0;
-  equal(actual.toFixed(precision),q.calculation.expected,q.id);
-  equal(q.choices.find(c=>c.id===q.correctChoiceId).text,q.calculation.expected,q.id);
-  equal(q.choices.filter(c=>Number(c.text).toFixed(precision)===actual.toFixed(precision)).length,1,'unambiguous rounding '+q.id);
- }
 });
 test('homepage, theme, topic menu keyboard and standalone routes',()=>{
  const e=env(),{$,w}=e;
@@ -118,6 +86,8 @@ test('every question: correct/wrong marking, single choice, draft, locks and fee
   const e=env({hash:'#/practice/'+topic.id}),{$,w}=e,items=bank.questions.filter(q=>q.topic===topic.id);
   for(let index=0;index<items.length;index++){
    const q=items[index];e.change('#question-jump',q.id);
+   equal($('#question-title').textContent,visiblePrompt(q),'display wording '+q.id);
+   ok(!/\bpages?\s+\d|\bPDF\b/i.test($('#question-title').textContent),'page-free question '+q.id);
    ok($('#check-answer').disabled,'blank prevention '+q.id);
    const choice=index%2===0?q.correctChoiceId:q.choices.find(c=>c.id!==q.correctChoiceId).id;
    e.select(choice);ok(!$('#check-answer').disabled,'draft enables check');ok(!e.state().answers[q.id].checked,'not checked by reading/selecting');
@@ -145,9 +115,9 @@ test('drafts, reload, independent cursors and shared collection progress',()=>{
  let e=env({hash:'#/practice/variables'}),items=bank.questions.filter(q=>q.topic==='variables');
  e.change('#question-jump',items[2].id);e.select(items[2].choices[0].id);
  const raw=e.w.localStorage.getItem(e.w.ResearchProgress.KEY);e.close();
- e=env({hash:'#/practice/variables',raw});equal(e.$('#question-title').textContent,items[2].prompt);equal(e.$('input:checked').value,items[2].choices[0].id);ok(!e.$('#answer-feedback'));
+ e=env({hash:'#/practice/variables',raw});equal(e.$('#question-title').textContent,visiblePrompt(items[2]));equal(e.$('input:checked').value,items[2].choices[0].id);ok(!e.$('#answer-feedback'));
  e.$('#check-answer').click();const id=items[2].id;e.route('all');e.change('#question-jump',id);ok(e.$('#answer-feedback'));
- e.change('#question-jump',bank.questions[4].id);e.route('variables');equal(e.$('#question-title').textContent,items[2].prompt);
+ e.change('#question-jump',bank.questions[4].id);e.route('variables');equal(e.$('#question-title').textContent,visiblePrompt(items[2]));
  const checked=e.state();e.close();e=env({raw:JSON.stringify(checked)});ok(e.$('.hero'));e.route('variables');ok(e.$('#answer-feedback'));e.close();
 });
 test('cancel/confirm resets only selected topic; all-topic reset; theme preserved',()=>{
@@ -179,7 +149,7 @@ test('blocked/quota storage stays usable with warning',()=>{
  }
 });
 test('question and clarification content are rendered inert',()=>{
- const e=env({hash:'#/practice/all',mutateBank:b=>{b.questions[0].prompt='<img src=x onerror="window.injected=true">';b.questions[0].choices[0].text='<script>window.injected=true</script>';b.questions[0].explanation='<b>inert explanation</b>';}});
+ const e=env({hash:'#/practice/all',mutateBank:b=>{b.questions[0].prompt='<img src=x onerror="window.injected=true">';b.questions[0].displayPrompt=b.questions[0].prompt;b.questions[0].choices[0].text='<script>window.injected=true</script>';b.questions[0].explanation='<b>inert explanation</b>';}});
  ok(e.$('#question-title').textContent.includes('<img'));ok(!e.$('#question-title img'));e.select('answer');e.$('#check-answer').click();ok(e.$('.explanation').textContent.includes('<b>'));ok(!e.w.injected);e.close();
 });
 test('last collection migration and resume preserve old answers and independent cursors',()=>{
@@ -195,16 +165,16 @@ test('last collection migration and resume preserve old answers and independent 
 test('mobile actions, numeric jumping, progress and overlay exclusivity',()=>{
  const e=env({hash:'#/practice/variables'}),{$,w}=e,items=bank.questions.filter(q=>q.topic==='variables');
  ok($('#mobile-check').disabled);e.select('answer');ok(!$('#mobile-check').disabled);
- $('#mobile-next').click();equal($('#question-title').textContent,items[1].prompt);ok(!e.state().answers[items[0].id].checked);
+ $('#mobile-next').click();equal($('#question-title').textContent,visiblePrompt(items[1]));ok(!e.state().answers[items[0].id].checked);
  $('#mobile-previous').click();equal($('input:checked').value,'answer');$('#mobile-check').click();ok(!$('#mobile-check'));ok($('#mobile-continue'));ok($('#answer-feedback'));
- $('#mobile-continue').click();equal($('#question-title').textContent,items[1].prompt);
+ $('#mobile-continue').click();equal($('#question-title').textContent,visiblePrompt(items[1]));
  $('#pdf-menu').open=true;$('#more-menu').open=true;$('#mobile-jump').focus();$('#mobile-jump').click();ok($('#jump-dialog').open);ok(!$('#pdf-menu').open);ok(!$('#more-menu').open);
  const before=e.state().positions.variables;
  for(const value of ['', '0', '1.5', String(items.length+1)]){
   $('#jump-number').value=value;$('#jump-form').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));
   equal($('#jump-number').getAttribute('aria-invalid'),'true');equal(e.state().positions.variables,before);ok($('#jump-dialog').open);
  }
- $('#jump-number').value='3';$('#jump-form').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));ok(!$('#jump-dialog').open);equal($('#question-title').textContent,items[2].prompt);
+ $('#jump-number').value='3';$('#jump-form').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));ok(!$('#jump-dialog').open);equal($('#question-title').textContent,visiblePrompt(items[2]));
  $('#mobile-progress').focus();$('#mobile-progress').click();ok($('#progress-dialog').open);ok($('#progress-summary').textContent.includes('1 / '+items.length+' checked'));
  $('#progress-dialog').dispatchEvent(new w.Event('cancel',{cancelable:true}));ok(!$('#progress-dialog').open);equal(w.document.activeElement,$('#more-menu summary'));
  e.change('#question-jump',items.at(-1).id);e.select('answer');$('#mobile-check').click();ok($('#mobile-continue').textContent.includes('View progress'));$('#mobile-continue').focus();$('#mobile-continue').click();ok($('#progress-dialog').open);
@@ -238,7 +208,7 @@ test('terms search, combined topic filters, exact rendering and empty state',()=
  equal($('#term-instruments-usability .term-quote').textContent,glossary.entries.find(t=>t.id==='instruments-usability').definitions[0].text);
  ok(!$('#term-instruments-usability details').open);ok($('#term-instruments-usability a[download]'));
  const search=value=>{const input=$('#terms-search');input.value=value;input.focus();input.dispatchEvent(new w.Event('input',{bubbles:true}));equal(w.document.activeElement,input);};
- search('sPeArMaN');ok($('#term-reliability-test-retest'));ok($('#term-reliability-split-half'));
+ search('sPeArMaN');ok($('#term-reliability-spearman'));ok($('#term-reliability-spearman-brown'));
  e.change('#terms-topic','variables');equal(w.document.querySelectorAll('.term-entry').length,0);ok($('#clear-term-filters'));
  $('#clear-term-filters').click();equal($('#terms-search').value,'');equal($('#terms-topic').value,'all');equal(w.document.querySelectorAll('.term-entry').length,glossary.entries.length);
  search('research instrument be satisfactorily');ok($('#term-instruments-usability'));
@@ -254,6 +224,94 @@ test('glossary session state, practice resume and storage failure independence',
  visit('#/');visit('#/terms');equal($('#terms-topic').value,'instruments');equal($('#terms-search').value,'validity');ok($(`[data-term-id="${id}"]`).open);
  e.route('variables');equal($('input:checked').value,'answer');equal(e.state().positions.variables,before.positions.variables);ok($('#study-tabs').hidden);e.close();
  const blocked=env({hash:'#/terms',blocked:true});ok(blocked.$('.term-entry'));ok(blocked.$('#save-status').textContent.includes('could not be saved'));blocked.close();
+});
+test('every question uses one eligible PDF term, an exact quotation and genuine distinct alternatives',()=>{
+ const catalog=JSON.parse(read('data/term-catalog.json'));
+ equal(require('./question-validation.cjs')(bank,catalog).size,bank.questions.length);
+ equal(catalog.entries.length,JSON.parse(read('data/terms.json')).entries.length);
+ equal(catalog.entries.filter(e=>e.practiceExcludedReason).length,6);
+ for(const e of catalog.entries){ok(e.review.printedTerm===e.term);ok(e.practice||e.practiceExcludedReason);}
+ const dom=new JSDOM('',{runScripts:'outside-only'});dom.window.eval(read('data/bank.js'));equal(dom.window.RESEARCH_BANK,bank);dom.window.close();
+ for(const mutate of [
+  b=>b.questions[0].choices[0].text='Invented answer label',
+  b=>b.questions[0].definitionQuote+=' invented wording',
+  b=>b.questions[0].calculation={},
+  b=>b.questions.push({...b.questions[0],id:'duplicate'}),
+  b=>b.questions[0].correctChoiceId='missing',
+ ]){const bad=structuredClone(bank);mutate(bad);assert.throws(()=>require('./question-validation.cjs')(bad,catalog));checks++;}
+});
+test('all 503 original questions are accounted for and retired attempts never migrate to new content',()=>{
+ const old=JSON.parse(read('audit/original-questions.json')),review=JSON.parse(read('audit/question-review.json'));
+ equal(old.questions.length,503);equal(review.questions.length,503);equal(new Set(review.questions.map(q=>q.originalId)).size,503);
+ equal(review.questionCount,bank.questions.length);equal(Object.values(review.counts).reduce((a,b)=>a+b,0),503);
+ review.questions.forEach((r,index)=>{
+  equal(r.originalNumber,index+1);equal(r.originalId,old.questions[index].id);ok(r.reason.length>15);
+  ok(['removed','merged','replaced','retained'].includes(r.status));
+  if(r.replacementId)ok(bank.questions.some(q=>q.id===r.replacementId&&q.termId===r.termId));
+ });
+ for(const id of ['foundations-unknown','foundations-substance','foundations-science'])equal(review.questions.find(q=>q.originalId===id).status,'removed');
+ const e=env(),P=e.w.ResearchProgress;
+ const answers=Object.fromEntries(old.questions.map(q=>[q.id,{choiceId:q.correctChoiceId,checked:true,signature:P.signature(q)}]));
+ const legacy={version:1,answers,positions:{all:old.questions[0].id,variables:old.questions.find(q=>q.topic==='variables').id},lastCollection:'variables'};
+ const restored=P.restore(JSON.stringify(legacy),bank);equal(restored.answers,{});equal(restored.positions,{});equal(restored.lastCollection,'variables');
+ const first=bank.questions.find(q=>q.topic==='variables');
+ legacy.answers[first.id]={choiceId:first.correctChoiceId,checked:false,signature:P.signature(first)};legacy.positions.variables=first.id;
+ const mixed=P.restore(JSON.stringify(legacy),bank);equal(Object.keys(mixed.answers),[first.id]);equal(mixed.positions.variables,first.id);
+ e.close();const reopened=env({hash:'#/practice/variables',raw:JSON.stringify(legacy),theme:'dark'});
+ equal(reopened.$('#question-title').textContent,first.prompt);equal(reopened.$('input:checked').value,'answer');ok(!reopened.$('#answer-feedback'));equal(reopened.w.document.documentElement.dataset.theme,'dark');reopened.close();
+});
+test('empty practice collections are hidden and removed positions fall back safely',()=>{
+ const e=env({hash:'#/practice/digital',mutateBank:b=>{b.questions=b.questions.filter(q=>q.topic!=='digital');}});
+ ok(e.$('.hero'));ok(!e.$('.topic-card[href="#/practice/digital"]'));
+ e.$('#menu-toggle').click();ok(!e.$('#menu-links a[href="#/practice/digital"]'));e.close();
+});
+test('checked question links to its term and source while preserving practice and glossary filters',()=>{
+ const e=env({hash:'#/practice/variables'}),{$,w}=e;
+ const visit=hash=>{w.history.replaceState(null,'',hash);w.dispatchEvent(new w.HashChangeEvent('hashchange'));};
+ visit('#/terms');e.change('#terms-topic','instruments');$('#terms-search').value='validity';$('#terms-search').dispatchEvent(new w.Event('input',{bubbles:true}));
+ e.route('variables');const q=bank.questions.find(q=>q.topic==='variables');e.select('answer');$('#check-answer').click();
+ equal($('.review-term-link').getAttribute('href'),'#/terms/'+q.termId);const saved=e.state();
+ visit('#/terms/'+q.termId);equal(w.document.querySelectorAll('.term-entry').length,1);ok($('#term-'+q.termId+' details').open);equal($('#term-'+q.termId+' dt').textContent,q.choices.find(c=>c.id==='answer').text);equal(e.state(),saved);
+ e.route('variables');ok($('#answer-feedback'));visit('#/terms');equal($('#terms-topic').value,'instruments');equal($('#terms-search').value,'validity');
+ visit('#/terms/'+q.termId);$('#terms-search').value='no matching definition xyz';$('#terms-search').dispatchEvent(new w.Event('input',{bubbles:true}));equal(w.location.hash,'#/terms');ok($('#clear-term-filters'));e.close();
+});
+test('Methods-first wording, exact source spelling and explicit revised identities',()=>{
+ const catalog=JSON.parse(read('data/term-catalog.json')),report=JSON.parse(read('audit/wording-review.json'));
+ const empirical=bank.questions.find(q=>q.termId==='foundations-empirical');
+ equal(empirical.definitionQuote,'Direct experience or observation');
+ equal(empirical.prompt,'Which term matches this definition?\n\n“Direct experience or observation”');
+ equal(empirical.choices.find(c=>c.id===empirical.correctChoiceId).text,'Empirical');
+ equal(empirical.sources,[{sourceId:'methods',pages:[19]}]);
+ equal(empirical.id,'term-foundations-empirical-wording-v2');
+ const term=catalog.entries.find(e=>e.id===empirical.termId);ok(term.aliases.includes('EMPERICAL'));
+ equal(term.definitions[0].label,'EMPERICAL');ok(term.definitions[1].text==='Rooted in hard evidence and real-life observation');
+ equal(report.questionsAudited,114);equal(report.termsAudited,120);equal(report.descriptionsAudited,167);
+ equal(report.revisedQuestions,13);equal(report.unchangedQuestions,101);equal(report.termPassagesCorrected,7);
+ for(const entry of catalog.entries){
+  const r=report.reviewedTerms.find(t=>t.termId===entry.id);ok(r&&r.definitions.length===entry.definitions.length);
+  if(entry.practice){const methods=entry.definitions[entry.practice.definitionIndex].sources.some(s=>s.sourceId==='methods');
+   equal(r.selection.status,methods?'methods':'alternate');if(!methods)ok(report.sourcePreferenceExceptions.some(e=>e.termId===entry.id&&e.selection.reason.length>20));}
+ }
+ const altered=structuredClone(catalog);altered.entries[0].definitions[0].text+=' Changed.';
+ assert.throws(()=>require('./question-validation.cjs')(bank,altered));checks++;
+ const e=env({hash:'#/terms'}),input=e.$('#terms-search');input.value='EMPERICAL';input.dispatchEvent(new e.w.Event('input',{bubbles:true}));
+ ok(e.$('#term-foundations-empirical'));equal(e.$('#term-foundations-empirical dt').textContent,'Empirical');e.close();
+});
+test('wording revision retains every unchanged attempt and retires only revised questions',()=>{
+ const snapshot=JSON.parse(read('audit/pre-wording-audit.json')).bank,report=JSON.parse(read('audit/wording-review.json'));
+ const e=env(),P=e.w.ResearchProgress;
+ const answers=Object.fromEntries(snapshot.questions.map((q,i)=>[q.id,{choiceId:q.choices[i%4].id,checked:i%2===0,signature:P.signature(q)}]));
+ const changed=new Set(report.questions.map(q=>q.previousId));
+ const raw=JSON.stringify({version:1,answers,positions:{all:snapshot.questions[0].id,foundations:report.questions[0].previousId},lastCollection:'foundations'});
+ const restored=P.restore(raw,bank);equal(Object.keys(restored.answers).length,101);
+ for(const q of snapshot.questions){
+  const current=bank.questions.find(n=>n.termId===q.termId);ok(current);
+  if(changed.has(q.id)){ok(!restored.answers[q.id]);ok(!restored.answers[current.id]);ok(current.id!==q.id);}
+  else{equal(P.signature(current),P.signature(q));equal(restored.answers[q.id],answers[q.id]);}
+ }
+ equal(restored.positions.all,snapshot.questions[0].id);ok(!restored.positions.foundations);equal(restored.lastCollection,'foundations');e.close();
+ const opened=env({hash:'#/practice/foundations',raw,theme:'dark'});
+ equal(opened.$('#question-title').textContent,bank.questions.find(q=>q.topic==='foundations').prompt);equal(opened.w.document.documentElement.dataset.theme,'dark');opened.close();
 });
 console.log(`\n${checks} checks passed across ${suites.length} suites.`);
 fs.mkdirSync(path.join(root,'.cache'),{recursive:true});

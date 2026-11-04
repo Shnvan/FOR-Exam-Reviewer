@@ -1,0 +1,4705 @@
+{
+  "date": "2026-11-04",
+  "questionsAudited": 114,
+  "termsAudited": 120,
+  "descriptionsAudited": 167,
+  "revisedQuestions": 13,
+  "unchangedQuestions": 101,
+  "termPassagesCorrected": 7,
+  "questions": [
+    {
+      "termId": "foundations-empirical",
+      "previousId": "term-foundations-empirical",
+      "replacementId": "term-foundations-empirical-wording-v2",
+      "previousWording": "Rooted in hard evidence and real-life observation",
+      "replacementWording": "Direct experience or observation",
+      "previousPrompt": "Which term matches this definition?\n\n“Rooted in hard evidence and real-life observation”",
+      "replacementPrompt": "Which term matches this definition?\n\n“Direct experience or observation”",
+      "previousSources": [
+        {
+          "sourceId": "architecture",
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "replacementSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            19
+          ]
+        }
+      ],
+      "reason": "Prefer a complete Methods of Research description."
+    },
+    {
+      "termId": "designs-hypothesis-testing",
+      "previousId": "term-designs-hypothesis-testing",
+      "replacementId": "term-designs-hypothesis-testing-wording-v2",
+      "previousWording": "When the purpose of research is to test a research hypothesis",
+      "replacementWording": "When the purpose of research is to test a research hypothesis, it us termed as hypothesis testing research .It can be experimental or non-experimental",
+      "previousPrompt": "Which term matches this definition?\n\n“When the purpose of research is to test a research hypothesis”",
+      "replacementPrompt": "Which term completes this description?\n\n“When the purpose of research is to test a research hypothesis, it us termed as _____ .It can be experimental or non-experimental”",
+      "previousSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            75
+          ]
+        }
+      ],
+      "replacementSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            75
+          ]
+        }
+      ],
+      "reason": "Use the complete defining passage instead of ending at its first comma; blank only the printed term name."
+    },
+    {
+      "termId": "designs-exploratory",
+      "previousId": "term-designs-exploratory",
+      "replacementId": "term-designs-exploratory-wording-v2",
+      "previousWording": "Formulating precise questions; navigating the unknown.",
+      "replacementWording": "The main purpose is that of formulate the research problem .",
+      "previousPrompt": "Which term matches this definition?\n\n“Formulating precise questions; navigating the unknown.”",
+      "replacementPrompt": "Which term matches this definition?\n\n“The main purpose is that of formulate the research problem .”",
+      "previousSources": [
+        {
+          "sourceId": "architecture",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "replacementSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            76
+          ]
+        }
+      ],
+      "reason": "Prefer a complete Methods of Research description."
+    },
+    {
+      "termId": "designs-explanatory",
+      "previousId": "term-designs-explanatory",
+      "replacementId": "term-designs-explanatory-wording-v2",
+      "previousWording": "Identifying underlying causes and reasons (the ‘Why’).",
+      "replacementWording": "Identifying underlying causes and reasons (the 'Why').",
+      "previousPrompt": "Which term matches this definition?\n\n“Identifying underlying causes and reasons (the ‘Why’).”",
+      "replacementPrompt": "Which term matches this definition?\n\n“Identifying underlying causes and reasons (the 'Why').”",
+      "previousSources": [
+        {
+          "sourceId": "architecture",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "replacementSources": [
+        {
+          "sourceId": "architecture",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "reason": "Transcribe the straight quotation marks visible around Why rather than substituting directional quotation marks."
+    },
+    {
+      "termId": "descriptive-trend",
+      "previousId": "term-descriptive-trend",
+      "replacementId": "term-descriptive-trend-wording-v2",
+      "previousWording": "This descriptive research based upon longitudinal consideration of recorded data, indicating what has been happening in the past, what the present situation reveals, and on the basis of these data it projects what is likely to happen in the future.",
+      "replacementWording": "This descriptive research id based upon longitudinal consideration of recorded data, indicating what has been happening in the past, what the present situation reveals, and on the basis of these data it projects what is likely to happen in the future.",
+      "previousPrompt": "Which term matches this definition?\n\n“This descriptive research based upon longitudinal consideration of recorded data, indicating what has been happening in the past, what the present situation reveals, and on the basis of these data it projects what is likely to happen in the future.”",
+      "replacementPrompt": "Which term matches this definition?\n\n“This descriptive research id based upon longitudinal consideration of recorded data, indicating what has been happening in the past, what the present situation reveals, and on the basis of these data it projects what is likely to happen in the future.”",
+      "previousSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            93
+          ]
+        }
+      ],
+      "replacementSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            93
+          ]
+        }
+      ],
+      "reason": "Restore the printed word “id”, omitted in the previous transcription. Do not silently correct it to “is”."
+    },
+    {
+      "termId": "experimental-experimental-design",
+      "previousId": "term-experimental-experimental-design",
+      "replacementId": "term-experimental-experimental-design-wording-v2",
+      "previousWording": "Guided strictly by hypotheses; involves direct manipulation and control of variables to prove or disprove statements.",
+      "replacementWording": "problem solving approach that the study is described in the future on what will be when variables are carefully controlled or manipulated",
+      "previousPrompt": "Which term matches this definition?\n\n“Guided strictly by hypotheses; involves direct manipulation and control of variables to prove or disprove statements.”",
+      "replacementPrompt": "Which term matches this definition?\n\n“problem solving approach that the study is described in the future on what will be when variables are carefully controlled or manipulated”",
+      "previousSources": [
+        {
+          "sourceId": "architecture",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "replacementSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            96
+          ]
+        }
+      ],
+      "reason": "Prefer a complete Methods of Research description."
+    },
+    {
+      "termId": "approaches-evaluation",
+      "previousId": "term-approaches-evaluation",
+      "replacementId": "term-approaches-evaluation-wording-v2",
+      "previousWording": "Establishing value judgments (Formative = ongoing monitoring; Summative = final outcomes).",
+      "replacementWording": "This study judges the goodness of an existing program. It is directed to whether or not a particular program achieved its goal or not. Value judgement in terms of effectiveness, desirability, or social validity.",
+      "previousPrompt": "Which term matches this definition?\n\n“Establishing value judgments (Formative = ongoing monitoring; Summative = final outcomes).”",
+      "replacementPrompt": "Which term matches this definition?\n\n“This study judges the goodness of an existing program. It is directed to whether or not a particular program achieved its goal or not. Value judgement in terms of effectiveness, desirability, or social validity.”",
+      "previousSources": [
+        {
+          "sourceId": "architecture",
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "replacementSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            92
+          ]
+        }
+      ],
+      "reason": "Prefer a complete Methods of Research description."
+    },
+    {
+      "termId": "approaches-survey",
+      "previousId": "term-approaches-survey",
+      "replacementId": "term-approaches-survey-wording-v2",
+      "previousWording": "Uses interviews and questionnaires to judge behavior with intense precision across one or multiple groups.",
+      "replacementWording": "Assess opinions or characteristics that exist at a given time.",
+      "previousPrompt": "Which term matches this definition?\n\n“Uses interviews and questionnaires to judge behavior with intense precision across one or multiple groups.”",
+      "replacementPrompt": "Which term matches this definition?\n\n“Assess opinions or characteristics that exist at a given time.”",
+      "previousSources": [
+        {
+          "sourceId": "architecture",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "replacementSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            79
+          ]
+        }
+      ],
+      "reason": "Prefer a complete Methods of Research description."
+    },
+    {
+      "termId": "approaches-correlational",
+      "previousId": "term-approaches-correlational",
+      "replacementId": "term-approaches-correlational-wording-v2",
+      "previousWording": "Tests relationships between 2+ variables to predict future conditions (Note: Correlation does not equate to causation).",
+      "replacementWording": "Used to determine whether or not there is a relationship that exist between two or more quantifiable variables, and if there is, to what extent or degree the relationship is determined, the researcher must identify whether such relationship is positive (+) or negative (-) and the degree or extent (strength) of relationship.",
+      "previousPrompt": "Which term matches this definition?\n\n“Tests relationships between 2+ variables to predict future conditions (Note: Correlation does not equate to causation).”",
+      "replacementPrompt": "Which term matches this definition?\n\n“Used to determine whether or not there is a relationship that exist between two or more quantifiable variables, and if there is, to what extent or degree the relationship is determined, the researcher must identify whether such relationship is positive (+) or negative (-) and the degree or extent (strength) of relationship.”",
+      "previousSources": [
+        {
+          "sourceId": "architecture",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "replacementSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            92
+          ]
+        }
+      ],
+      "reason": "Prefer a complete Methods of Research description."
+    },
+    {
+      "termId": "approaches-causal-comparative",
+      "previousId": "term-approaches-causal-comparative",
+      "replacementId": "term-approaches-causal-comparative-wording-v2",
+      "previousWording": "Identifies how different groups are affected by the same circumstance without manipulating variables.",
+      "replacementWording": "Examine the effect of past event on current functioning.",
+      "previousPrompt": "Which term matches this definition?\n\n“Identifies how different groups are affected by the same circumstance without manipulating variables.”",
+      "replacementPrompt": "Which term matches this definition?\n\n“Examine the effect of past event on current functioning.”",
+      "previousSources": [
+        {
+          "sourceId": "architecture",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "replacementSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            78
+          ]
+        }
+      ],
+      "reason": "Prefer a complete Methods of Research description."
+    },
+    {
+      "termId": "approaches-case-study",
+      "previousId": "term-approaches-case-study",
+      "replacementId": "term-approaches-case-study-wording-v2",
+      "previousWording": "An in-depth observation of a specific person, group, or event over time. Utilizes interviews, field notes, and direct observation.",
+      "replacementWording": "an intensive and descriptive analyss of a single subject.",
+      "previousPrompt": "Which term matches this definition?\n\n“An in-depth observation of a specific person, group, or event over time. Utilizes interviews, field notes, and direct observation.”",
+      "replacementPrompt": "Which term matches this definition?\n\n“an intensive and descriptive analyss of a single subject.”",
+      "previousSources": [
+        {
+          "sourceId": "architecture",
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "replacementSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            93
+          ]
+        }
+      ],
+      "reason": "Prefer a complete Methods of Research description."
+    },
+    {
+      "termId": "reliability-test-retest",
+      "previousId": "term-reliability-test-retest",
+      "replacementId": "term-reliability-test-retest-wording-v2",
+      "previousWording": "The identical assessment instrument is administered twice to the same cohort over a predetermined time interval.",
+      "replacementWording": "In this method, the same instrument is administered twice to the same group of subjects and the correlation coefficient is determined.",
+      "previousPrompt": "Which term matches this definition?\n\n“The identical assessment instrument is administered twice to the same cohort over a predetermined time interval.”",
+      "replacementPrompt": "Which term matches this definition?\n\n“In this method, the same instrument is administered twice to the same group of subjects and the correlation coefficient is determined.”",
+      "previousSources": [
+        {
+          "sourceId": "reliability",
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "replacementSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            28
+          ]
+        }
+      ],
+      "reason": "Prefer a complete Methods of Research description."
+    },
+    {
+      "termId": "reliability-parallel-forms",
+      "previousId": "term-reliability-parallel-forms",
+      "replacementId": "term-reliability-parallel-forms-wording-v2",
+      "previousWording": "Two equivalent test forms with identical blueprints are administered to the same group to gauge form equivalence.",
+      "replacementWording": "Parallel or equivalent forms of a test may be administered of the group of subjects, and the paired observations correlated",
+      "previousPrompt": "Which term matches this definition?\n\n“Two equivalent test forms with identical blueprints are administered to the same group to gauge form equivalence.”",
+      "replacementPrompt": "Which term completes this description?\n\n“_____ of a test may be administered of the group of subjects, and the paired observations correlated”",
+      "previousSources": [
+        {
+          "sourceId": "reliability",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "replacementSources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            28
+          ]
+        }
+      ],
+      "reason": "Prefer a complete Methods of Research description."
+    }
+  ],
+  "termChanges": [
+    {
+      "termId": "literature-related-literature",
+      "section": "details",
+      "index": 3,
+      "previousWording": "Example: Murray’s (1998) article on nurse executives’ leadership roles stated that chief nursing officers (CNO) leave their position due to lack of power conflict with chief executive officer (CEO), and inadequate nursing personnel. [Related literature by Bruce P. Murray. 1998. “Nurse Executives’ Leadership Roles.” Journal of Nursing Administration. 28(6):48. (June 1998)]. The article of Murray has bearing to the present study because staff nurses’ performance would be affected if the middle managers or chief nursing officers have conflict with the chief executive officer or top manager and with problems met related to their job, for instance, inadequate nursing personnel. (EXPLANATION OF THE RELATED LITERATURE)",
+      "replacementWording": "Example:\n\nMurray’s (1998) article on nurse executives’ leadership roles stated that chief nursing officers (CNO) leave their position due to lack of power conflict with chief executive officer (CEO), and inadequate nursing personnel. [Related literature by Bruce P. Murray. 1998. “Nurse Executives’ Leadership Roles.” Journal of Nursing Administration. 28(6):48. (June 1998)].\n\nThe article of Murray has bearing to the present study because staff nurses’ performance would be affected if the middle managers or chief nursing officers have conflict with the chief executive officer or top manager and with problems met related to their job, for instance, inadequate nursing personnel. (EXPLANATION OF THE RELATED LITERATURE)",
+      "sources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            64
+          ]
+        }
+      ],
+      "reason": "Restore the PDF paragraph/bullet boundaries; retain the complete original wording."
+    },
+    {
+      "termId": "literature-legal",
+      "section": "details",
+      "index": 0,
+      "previousWording": "Example: Republic Act No. 7164 known as the “Philippine Nursing Act of 1991” defines professional nursing as the performance for a fee, salary, or other reward or compensation… toward the promotion of health, and alleviation of suffering through utilization of nursing process. (LEGAL BASIS). The foregoing professional nursing definition explicitly expressed that nurses practice their profession for a fee or salary commensurate with their work in order to satisfy their needs and wants to cope with the fast changing world. In other words, the performance of a particular job affects nurses’ values especially if nurses meet the problems related to their job in the hospital, hence, promotion of health services cannot be attained. (EXPLANATION OF THE LEGAL BASIS)",
+      "replacementWording": "Example:\n\nRepublic Act No. 7164 known as the “Philippine Nursing Act of 1991” defines professional nursing as the performance for a fee, salary, or other reward or compensation… toward the promotion of health, and alleviation of suffering through utilization of nursing process. (LEGAL BASIS).\n\nThe foregoing professional nursing definition explicitly expressed that nurses practice their profession for a fee or salary commensurate with their work in order to satisfy their needs and wants to cope with the fast changing world. In other words, the performance of a particular job affects nurses’ values especially if nurses meet the problems related to their job in the hospital, hence, promotion of health services cannot be attained. (EXPLANATION OF THE LEGAL BASIS)",
+      "sources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            62
+          ]
+        }
+      ],
+      "reason": "Restore the PDF paragraph/bullet boundaries; retain the complete original wording."
+    },
+    {
+      "termId": "literature-related-studies",
+      "section": "details",
+      "index": 0,
+      "previousWording": "Example of LOCAL STUDY: In 1999, Sultan in her study on perceived sources of stress among staff nurses at a tertiary hospital in Quezon City, found out that lack of administrative support and no rewards were perceived by staff nurses as the most stressing… (Related local study by Vilma Sultan. 1999. “Perceived Sources of Stress Among Staff Nurses at Tertiary Hospital in Quezon City.” MA Thesis in Nursing. Central Philippine University, Iloilo City, Philippines.) Sultan’s study has bearing to the present study because lack of administrative support, no rewards, and no opportunities for career development are among the job-related problems met by staff nurses in private and government hospitals in Iloilo City which block their way to perform effectively and efficiently. (EXPLANATION OF THE RELATED STUDY)",
+      "replacementWording": "Example of LOCAL STUDY:\n\nIn 1999, Sultan in her study on perceived sources of stress among staff nurses at a tertiary hospital in Quezon City, found out that lack of administrative support and no rewards were perceived by staff nurses as the most stressing… (Related local study by Vilma Sultan. 1999. “Perceived Sources of Stress Among Staff Nurses at Tertiary Hospital in Quezon City.” MA Thesis in Nursing. Central Philippine University, Iloilo City, Philippines.)\n\nSultan’s study has bearing to the present study because lack of administrative support, no rewards, and no opportunities for career development are among the job-related problems met by staff nurses in private and government hospitals in Iloilo City which block their way to perform effectively and efficiently. (EXPLANATION OF THE RELATED STUDY)",
+      "sources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            66
+          ]
+        }
+      ],
+      "reason": "Restore the PDF paragraph/bullet boundaries; retain the complete original wording."
+    },
+    {
+      "termId": "designs-research-design",
+      "section": "definitions",
+      "index": 0,
+      "previousWording": "Task of defining the research problem is the preparation of the research project, popularly known as the “research design”.\nDecisions regarding what, where, when, how much, by what means concerning an inquiry or a research study constitute a research design.",
+      "replacementWording": "Task of defining the research problem is the preparation of the research project, popularly known as the “research design\".\nDecisions regarding what, where, when, how much, by what means concerning an inquiry or a research study constitute a research design.",
+      "sources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            70
+          ]
+        }
+      ],
+      "reason": "Rendered-source transcription correction."
+    },
+    {
+      "termId": "designs-operational",
+      "section": "definitions",
+      "index": 0,
+      "previousWording": "Which deals with techniques by which the procedures satisfied in sampling .",
+      "replacementWording": "Which deals techniques by which the procedures satisfied in sampling .",
+      "sources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            72
+          ]
+        }
+      ],
+      "reason": "Rendered-source transcription correction."
+    },
+    {
+      "termId": "designs-explanatory",
+      "section": "definitions",
+      "index": 0,
+      "previousWording": "Identifying underlying causes and reasons (the ‘Why’).",
+      "replacementWording": "Identifying underlying causes and reasons (the 'Why').",
+      "sources": [
+        {
+          "sourceId": "architecture",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "reason": "Rendered-source transcription correction."
+    },
+    {
+      "termId": "descriptive-trend",
+      "section": "definitions",
+      "index": 0,
+      "previousWording": "This descriptive research based upon longitudinal consideration of recorded data, indicating what has been happening in the past, what the present situation reveals, and on the basis of these data it projects what is likely to happen in the future.",
+      "replacementWording": "This descriptive research id based upon longitudinal consideration of recorded data, indicating what has been happening in the past, what the present situation reveals, and on the basis of these data it projects what is likely to happen in the future.",
+      "sources": [
+        {
+          "sourceId": "methods",
+          "pages": [
+            93
+          ]
+        }
+      ],
+      "reason": "Rendered-source transcription correction."
+    }
+  ],
+  "reviewedTerms": [
+    {
+      "termId": "foundations-research",
+      "term": "Research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "e7401efdd0edec09afc5e8b955b7135f2db4c4581ad645eee07b0669e3cf7307",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                17
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "cc95432e6c25d6ebb5c548a80d9e54775f4b7f743a363ae14f8bb1377977cbbc",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                17
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "5053a04f797ea8beac83ecbc8121a709a1975eda889812181b9617cbe5ad054f",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                17
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "bf335e6f97e00df3867b2e04e95e5b98a22e7761ae6204de5ac60b77aa125a0e",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                17
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "407fa5326165315d91486e0f9035b7c15b1eb89609fbae9707075153ce8dc922",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                17
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "0b1fa569ddc2915f921204d4cb4eab81f868020d28f3964051c484b690e3e375",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                2
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "foundations-empirical",
+      "term": "Empirical",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "c185db9982fd349d7f4e464f611f01b109bed833bde0696a402dc80e69a61622",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                19
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "2cabb01f1e15a64460e1d476571e373aa927559d3bc9af84f11e0bc849294304",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "foundations-logical",
+      "term": "Logical",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "9e5edad160cd2f7e8a032bb661e538353f2cb077cff4890fbad0d09c73018b51",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                19
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "foundations-cyclical",
+      "term": "Cyclical",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "a6197308f919561b3a47087c2b6b08136f367ec2d245cf2920181c5bd6b910b7",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                19
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "foundations-analytical",
+      "term": "Analytical",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "63c998cc22d17dbc3ee97ee033f3a2f3249321b191cf9693b887a66eb7768d1c",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                19
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "foundations-critical",
+      "term": "Critical",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "2291f274066a7dccea40fa60909d47f8d4b7bc9369db6d1d1154a1c44a93d6ab",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                19
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "d205de089408ed532758b4d49735d105e4540ec515b42a256ebe2fae38fff2a4",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "foundations-methodical",
+      "term": "Methodical",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "ed10517c0444680bd95e604caa320e09b06932c6839ce2ab33372557aba8e0d1",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                19
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "foundations-replicability",
+      "term": "Replicability",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "79ae7c2fe50b3c29cf870166b3e24a81d32ab4340e6746379a80b751dcdee359",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                19
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "foundations-controlled",
+      "term": "Controlled",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "c5fba9d2e2c5d714b24a25372861df12ec4b3731cdfc76fa46ab536050777daa",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "foundations-transparent",
+      "term": "Transparent",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "764fb310cdf560228b2fc0414f91d2dc348a9b60730540de762f422856b95be4",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "foundations-rigorous",
+      "term": "Rigorous",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "f248066359fe3f29124829e3a9be84efac5b17550f6a01e54161bb9b9fa0efba",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "foundations-systematic",
+      "term": "Systematic",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "6855eacfe551e4349b1b7748f2623c8eebc815ce7b1629c44fedc6c95f936e04",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "foundations-valid-verifiable",
+      "term": "Valid & Verifiable",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "e45863c5d6ca3af4c44faa4cc17cd14435a7254f454efffd2f0867aa32760dc4",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "variables-variable",
+      "term": "Variable",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "be9737ebaa5f95b63a16440d8a346015c33bd9949516db429607cdfaccf63984",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                22
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "ba81690511814350fd20046abccaafa1453aa5364ddc4b7feb7a64a64bdb6a3e",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                22
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "variables-independent",
+      "term": "Independent Variable",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "72fb0f8cc2b406d8e08fbd0dcd06a3809f6d6aa2ff33e3807dff9fa9257e02ad",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                23
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "variables-dependent",
+      "term": "Dependent Variable",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "220e549e4ab0665dc9362f8055dc3199096c6437f575dd52201fd7d4058ee4a6",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                23
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "variables-intervening",
+      "term": "Intervening Variable",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "a5c5618b3a1e75038a6a5d270fddbd889015820788d887eeb720fa6e1d6b4505",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                23
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "variables-control",
+      "term": "Control Variable",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "0fc8fc7b7cbfae17e0875e3e4717ef5825daae9ec5ae1a59616cbf9947d69f87",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                23
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "variables-moderator",
+      "term": "Moderator Variable",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "27d0508eb73a6c75e2368f6c562f746b84b892f00a5b7e1e2ac987836535558f",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                23
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "problems-research-problem",
+      "term": "Research Problem",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "545a7195324011151a3b8671008d211a193341911fe18f2a7e31657caeadf47f",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                31,
+                32
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "641d9802f5f4c79784456a66b54ade234041e59553776c4e52f56db1ed76229a",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                31,
+                32
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "frameworks-hypothesis",
+      "term": "Hypothesis",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "63d851343984c09a9d7094fe1e7c61f93ed5d05f0a3a16e731dd612377dd3e34",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                42
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "561b534e9870987f148259c85c5c506cdd9f0e7e3335cc96b3f1763a2df16e44",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                75
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "frameworks-null",
+      "term": "Null Hypothesis",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "3ee2cfc916ad9f884cb8e56842b23e96efe90e80a46ef704469ae0d5ee1dc65d",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                42
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "frameworks-alternative",
+      "term": "Alternative Hypothesis",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "6c9846118f16ddbd9fc984a0bf541844ce05ebe4694db8fb696d3c4af07a3150",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                42
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "frameworks-theoretical",
+      "term": "Theoretical Framework",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "7a6537be840ac19b46d777839f47e49846793e02998a493be8f8a939e0512e28",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                43
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "not-scored",
+        "reason": "The only supplied definition conflates theoretical grounding with a legal basis. Retain the source quotation and verified clarification; do not score this misconception."
+      }
+    },
+    {
+      "termId": "frameworks-conceptual-framework",
+      "term": "Conceptual Framework",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "00866edec80bd9b709303aa9481e70cc4474085ea257f8c1331fd5bbcd98d911",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                44
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "frameworks-assumptions",
+      "term": "Assumptions",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "9808f2223d0c4e27586ded212c2023c861ca2e73b0620aae9aea91bb921ee019",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                45
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "frameworks-significance",
+      "term": "Significance of the Study",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "ba9a4845c4c24f696042c11970e1433b8e0ac5efa64774d645e0fdc10f2a3eb1",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                46
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "frameworks-scope",
+      "term": "Scope and Limitations of the Study",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "1c3d842a74806a5895e0b76a26df65cd19ff31ee4b85df72494eadd523209adb",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                47,
+                49
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "frameworks-conceptual-definition",
+      "term": "Conceptual Definition",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "f941dd5b8592c2382d0c398ed53e7dae427bea08b568579acb30953235fbdc22",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                48
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "1fe2fc75d72c0ae1555cc454d4572481faa0d7874602a93091e113084e7dac83",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                67
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "frameworks-operational-definition",
+      "term": "Operational Definition",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "308525fe0769ed27857953f9d01315fabf359860d4de6bb10e622a397e902acb",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                48
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "46d49e29d1222e422f5883a8c89c7a510e151656dc0aff8b0da5c9a59768367a",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                68
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "instruments-validity",
+      "term": "Validity",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "694c5c12adb6b8bbb1aae6ae3d006e71e0d173f205cc1adb63737e89e2d23c80",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                27
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "instruments-content-validity",
+      "term": "Content validity",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "3e1cf33d023468ee03fce1951aece2500522614c3c4e9908ea21bd71fcecec3c",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                27
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "instruments-concurrent-validity",
+      "term": "Concurrent validity",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "9c6c7bc25a4d41c0478b83622921ed88f910a59ff22d2026ef13f327de14ccc9",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                27
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "instruments-predictive-validity",
+      "term": "Predictive validity",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "efe89f6e86153f84f942fedc6bdc22971cc4249fbb1b5240d65eca51e1327843",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                27
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "instruments-construct-validity",
+      "term": "Construct validity",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "404cff3f48af5451f37dc16aa4cd2dc4a02d3d4121d1ecf5e843a3400ce4a74d",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                27
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "instruments-reliability",
+      "term": "Reliability",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "b6038af77ba09c256b9be3e9a2a674a8d729a302913df347148c39e5a0f39697",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                28
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "instruments-usability",
+      "term": "Usability",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "0c8986febbee85467ce4101d96146e6f7598b2109e134d7ab2943332a273603d",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                29
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "literature-related-literature",
+      "term": "Related Literature",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "702856e09a20ae6763d878eb968bc877d5f55f25d818580618d3ae6f7e890e30",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                51
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "3983cb815f908699fef334f56f8cf14c1320788a8cf15006a2496506cc6873ad",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                63
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "literature-primary",
+      "term": "Primary sources",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "02bf71b1583a69e453b1dd2a41b03dcef9bf0eae85ff035fa02f78f2678771eb",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                58
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "217878d9d04c3c927dd463aaeec9bb9b16166823ace18faeae6d56d38d635236",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                84
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "literature-secondary",
+      "term": "Secondary sources",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "ce7b8003a46b562bc11803ae225d550a72d54d65be0d084cff0fa9c8d0439495",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                59
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "65f73efdd98100354f27e55c0973bafb14a6b1484c3ce40d952a483584f2302e",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                84
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "literature-legal",
+      "term": "Related Legal Bases",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "4a7f3a9b8560c2ad08298f350cea6156290e1b8358eaf0e1710445d53070084d",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                61
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "literature-related-studies",
+      "term": "Related Studies (Local or Foreign)",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "7e76afad573bbdaf6c6a9c9dfedc39611727727a1f78393590e33c4e0bd63cb0",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                65
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "designs-research-design",
+      "term": "Research Design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "289a19533d3335ffb905620f81b4dae0c26be106c1146284e017c3151cb2f14f",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                70
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "46a616130aae6769b1ef903d366d43c6441a447ee65c253d6353d4e881f4e489",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                71
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "74520533d54f552f7b6749f424c292d6eec0f350d89703b04bf777cfd68c737b",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                71
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "10248eb40b52b6b64380b75c72b0800cdebb05b001ae16e4b6a8ee76bcae2cfb",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                71
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "designs-sampling",
+      "term": "Sampling Design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "901d46b030e98a17e889758b7b1de8b63b6bf2881a62ffa510201805397a5c39",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                72
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "designs-observational",
+      "term": "Observational design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "b724946ffd08f3c79d9fcdb03cf2edf4fa0d2e0e650a22a2d9e537b8a38db195",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                72
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "designs-statistical",
+      "term": "Statistical Design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "2ee8d1d735b03223331a2772d6c64b177045a1b57225fd2041459f7f29261e76",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                72
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "designs-operational",
+      "term": "Operational design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "07b4a58696685d4c7157917c520f34dffa95e68d66100154b7d3445ab1913f3d",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                72
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "not-scored",
+        "reason": "The supplied description is fragmentary and does not unambiguously explain operational design."
+      }
+    },
+    {
+      "termId": "designs-hypothesis-testing",
+      "term": "Hypothesis-testing research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "3545616f98c413ae747a847c47181871eff2f011364245eee15dbfcafe626514",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                75
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "10056f4ff14376ac04d478b7f1e17d7b0e9e6076379bb01e1dc10c8f9c5e2b4f",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                76
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "designs-control-group",
+      "term": "Control group",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "aecf9daf7951bd37a12e1abe13dcd54122f43f9b1d55151a6493500d9e063fbb",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                75
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "designs-experimental-group",
+      "term": "Experimental group",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "a00d6dcb13d263df6949ea7e902c4ca0f793db5925ebf1d71195906eab8378f7",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                75
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "designs-treatments",
+      "term": "Treatments",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "496720ccb4be9c740752a946fc784dd7f03d34b5ab3b7fda8d034b38b3956dc8",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                75
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "designs-experiment",
+      "term": "Experiment",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "7c0864ba87778849ba1e15e8f48234a9a27b50837ec60acf0ec7ad0ddc67b70a",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                75
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "designs-exploratory",
+      "term": "Exploratory research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "0646fdc6dcaa1d3467c0f3cff507f37a35612157435d5b120554ca788eefdb68",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                76
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "4fad6e74a9e2e222e609ebd4d8e6f20a3a2c37ce9d5e617a199886562951b964",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                4
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "designs-diagnostic",
+      "term": "Diagnostic research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "01b5a41417300ad0f42d4fe377f1ef9f4646156e31f7b230dfbb97153b80ebb3",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                76
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "designs-explanatory",
+      "term": "Explanatory",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "60227929e0e5c02d032e45628734a2b2a90c448a9ab61801e8feb155d866cf9f",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                4
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "designs-quasi-experimental",
+      "term": "Quasi-experimental",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "4b14bc99de92f560b85d0d2c54642b5f47ede852c14d660125740de8b69c5fb2",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                78
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "d92078301c960bc4f8ecb4adb1c028dcefa4efc89b97b8e66c4a97bf773b7223",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                9
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "designs-non-experimental",
+      "term": "Non-Experimental",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "9884b95bd0bc2e803b0820c5707b13b4b928d8de91256d8c07b082f5e748c7dc",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                9
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "designs-cohort-sequential",
+      "term": "Cohort-sequential",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "3a45539f51c796ec5da172f783013fbb18b160d0de2f72a2a18f8f5b156e8b76",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                79
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "not-scored",
+        "reason": "The purpose description ends at “overlapping”; no missing completion is invented."
+      }
+    },
+    {
+      "termId": "historical-historical-research",
+      "term": "Historical Research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "b11b411e07ca0a4b47814ac445866415eb0492bb8bf57ef7355a1facbfa06b7f",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                81
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "b3f832ec936333cc0c41d37716bc070bccefd0cd86471f747e5b1102c2ecd4ed",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                11
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "historical-documents",
+      "term": "Documents",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "718e19ad39f5659b1569f2ddb842477862f1bd22a5ec0f2decfb0622971ad738",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                83
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "historical-numerical",
+      "term": "Numerical records",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "b6f45c3d3657dc53facc621a73a2b3aa7f3ebddaca5d6282343a16b125f21bd9",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                83
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "historical-oral",
+      "term": "Oral statements",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "f9457a97f74642dd902c1defb4426cf8a18ccefa3c82ed0be8f6544454ef96a4",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                84
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "historical-relics",
+      "term": "Relics",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "92d6252f5b2c0b01ac4bdfbde06afba64eadc44cfd0fe0fc89025981b19f77b9",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                84
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "historical-external-criticism",
+      "term": "External Criticism",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "488c4652c2a2664bf66b97bb8cf7600f6f7dbcadcaa1ad03fe1661e0bb9d046a",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                86
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "historical-internal-criticism",
+      "term": "Internal Criticism",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "a0e9544c88a4f17ac1c77d09e68039fb62c38fc6b178bf19255a3c8777fa3869",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                87
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "descriptive-descriptive-research",
+      "term": "Descriptive Research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "df0c114c6ce867081207ff39bcc1e98a5a99f88425a96014f847b4ff5d1aa478",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                89
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "ce60bc6e311398b4309a2e1dc09f7c25a5d2e4bcd0bfa0a362149628b18af3d2",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                89
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "283fa0ff93dbdec07f0698ad94decd38174d1a3b6ce501c75e9124bd3d61522e",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                89
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "bc4c5badcbad8a0f799420e6888273429b5abc4e065e95b232430ede724df5d9",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                76
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "8602d30cc5268e117469511d4a8a052eb2792baf0fde29e771f1ebddf662239f",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                4
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "descriptive-normative",
+      "term": "Descriptive Normative Method",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "4a7df52e24896335e63ea5b587ebacc537f67a0fd8a3073fdb05844c5927e97a",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                92
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "descriptive-assessment",
+      "term": "Descriptive Assessment Method",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "c2971372aabb0d709bd3c14b1525659d3c50d25271dc3ccec4bac8afcb5ecf95",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                93
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "descriptive-trend",
+      "term": "Descriptive Trend and Perspective Method",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "c1217a47e922634c27fec5ca82ddc4c2868ec6e4cd2b01f84fa354c47fbc9e42",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                93
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "descriptive-comparative",
+      "term": "Descriptive Comparative Method",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "c7c4276ee07d246e67f7e2dfb2ba40297761b9d1d5cc358ae09faf8803e9dc05",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                94
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "294ed4c7b41fbfac002d895664b2598137034faae9f796592cb056ca312859dc",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                94
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "experimental-experimental-design",
+      "term": "Experimental Design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "37b319f171e04a93889be00bec26e70c298b13ebd03ce7f8e3d649ba55c7cf92",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                96
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "bd8d58f6dea7041390e459b0cf32f8bdefe3765aef50298b580ecd9dfcd274e6",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                78
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "2894d14acab174c729a7651c1e90feb1b69731d1826c77a5f4e9b14cd846561c",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                8
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "experimental-posttest-only",
+      "term": "Posttest only design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "95fda82c504ff22761a9055a151e209525223b82242e11b20ce63b375ecf8afd",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                100
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "experimental-one-group-pretest-posttest",
+      "term": "The one-group pretest-posttest design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "932766d84d63942b2532623d2a5e88961e3388c1577e5428df82a2ef91fd62d7",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                100
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "experimental-static-group",
+      "term": "The static-group comparison design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "4e20970b18e763adb22dcaab40291ff72feecb83853de4712601b56f69bd1db9",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                101
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "experimental-pretest-posttest-control",
+      "term": "The pretest-posttest control group design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "a379a13cbf6a6b95dc1c16aa19f70cdf8b4826ab1a8742eb80a772de53ad65b7",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                101
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "experimental-posttest-control",
+      "term": "The posttest-only control group design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "9d6f342a73029372df6cb121e2bdf89bc7ec69c17849922ee95ed3851e4aff0d",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                102
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "not-scored",
+        "reason": "The source description ends at “or”; retain the text as notes, without scoring an incomplete definition."
+      }
+    },
+    {
+      "termId": "experimental-solomon",
+      "term": "The Solomon four-group design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "4601cfe595f2c3a3865712f1248a413bd19de715eba83db14ed1fab17f0bafe4",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                102
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "experimental-non-equivalent",
+      "term": "The non-equivalent control group design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "5d1b2634ec60fbc905a8744f55b24c0474505638fa880a643b57d2b19a57c9c1",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                103
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "not-scored",
+        "reason": "The defining assignment sentence is clipped and its diagram also contains a treatment-symbol error. Retain the quotation and clarification without reconstructing the definition."
+      }
+    },
+    {
+      "termId": "experimental-separate-sample",
+      "term": "Separate Sample pretest-posttest group design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "a179b7d58830da6103e9632f8e522bf2cde1616ea3cad2859d894b3322198925",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                103
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "experimental-time-series",
+      "term": "The time-series design",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "df5862ba8efc9e159ec25e1451ed0fce9caa7a6a5f94b5789e9eb8912e2fe744",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                104
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "experimental-internal-validity",
+      "term": "Internal validity",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "97138eb30529e20560569cc48a0d52a73a20c9a6b6792d36f203c245f6b9e624",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                9
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods names validity threats without independently defining internal validity. Architecture page 9 explicitly describes this concept."
+      }
+    },
+    {
+      "termId": "experimental-external-validity",
+      "term": "External validity",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "e55c90eb99b40649cc50fa59d54106d34c008916af1f2b4cc9cdbb2ab511f5ae",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                9
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "not-scored",
+        "reason": "The source describes extraneous variables rather than generalizability; retain the quotation and correction without scoring the erroneous definition."
+      }
+    },
+    {
+      "termId": "approaches-basic",
+      "term": "Basic Research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "998b9000985f9dd2ee6e2e9cf4459bc89c9f3cb4405a39c4911b317f11535a48",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                5
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-applied",
+      "term": "Applied Research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "70caaa7c5f881f985d00e3c8953b7a44cfd28d436defa0d8c1b175eacb217963",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                5
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-action",
+      "term": "Action Research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "d4a4f6a423e3283655009c044a9b057fcf2a1b31085babf061ba95b513fc162c",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-impact",
+      "term": "Impact Assessment",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "36b2fc1cc408165c800926f89901299427490a9e703004e7c4bca8b2b35a7a9f",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-evaluation",
+      "term": "Evaluation",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "50c11f92e8189dd1c411a23bacd96e9a2da4eb8da33b97e320e16754caed1736",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "9a4b793d4f1c90220241053e65db33b8b7591321ad4495239beacc5e797285b2",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                92
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "approaches-cross-sectional",
+      "term": "Cross-Sectional",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "1acb2d33b797c0d4b368fc0f50364f3ac99debb4d2eb778208c9735ac0b0df31",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-longitudinal",
+      "term": "Longitudinal",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "d2ce75e38ff586887ec6517dd44caa37f9a86de10559d7224d5b57b4b3a53440",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-quantitative",
+      "term": "Quantitative",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "89fcedf5cf097d723ec461006273ba70a60bca0551fb4636d9ad405bb84d2d60",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                7
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-qualitative",
+      "term": "Qualitative",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "940c8c64973ca432cd8cb1f02f5029e40d2ab1b586d291a65890a1c820f69b45",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                7
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "0ab59372fc28158769050cb464b787357612f464988833a41881c60c581c2202",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                79
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "0c54b443e3433b9c4b96f6bb5f387f73e52a0e1bde75449ceae28f26865c1de6",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                10
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods page 79 gives only the broad purpose “Discover potential relationships; descriptive.” It does not distinguish qualitative research unambiguously from the other approaches. Retain the complete definition on Architecture page 7."
+      }
+    },
+    {
+      "termId": "approaches-mixed",
+      "term": "Mixed Methods",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "806b0c5723cdbf98d2cb8c7ace4ce21c54dbace354558b157d5385a8b68ab44e",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                7
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-survey",
+      "term": "Survey",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "f849c4935bf15f09b51bb24642dfd48398e43afd5d16375c04263968ad807853",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                8
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "759b160571b526f9edd25a16b3a9e22018222285ace1694ed693cd57de44429f",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                79
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "6c8cc61fb226912fff31c44302c1505cd37a57fa3ddfd52831e22e2369b3cd57",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                92
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "approaches-correlational",
+      "term": "Correlational",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "5bee05b71233411ec5871e61d4a86c0c722cc4bbf10406d9111b69eec0ecc466",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                8
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "018f71eea0cc213271ab89afaf75453057b1bb8e8f292674882d40026449741e",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                78
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "658f1ad6ce0f60570662ec3239ef8e375a00a589f044b7a0bc96c0223531d28f",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                79
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "d44b9212579bf5029e30fb6c5bb4e06ab23254b070e5e7414a73e84303d193db",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                92
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "approaches-causal-comparative",
+      "term": "Causal-Comparative",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "0f38ebfb3e2d59dbeee0ba43a97cd42e7d967a7fb54b3abba92dc20b7b340c5e",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                8
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "234097c3e249d9f19bb477250727ea9a81e97eb5d91037455e3b59359b8ac5eb",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                78
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "a7be2096043f25aaaabec63596914eaa276cb0669531da7c661dfd39fa2bc056",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                93
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "approaches-phenomenology",
+      "term": "Phenomenology",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "f5f37ccb6366fa4e4a086465c268e5fa2e52d1b38a43ebd8edf22abe174b8f9e",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                11
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-ethnography",
+      "term": "Ethnography",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "9343e9d8314e9afd51fcab569a1b82c06b48f86a43505ad3304752470134f345",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                11
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-case-study",
+      "term": "Case Study",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "851a664f0e6d3afc9adeaae2875069ed31d81d40930091c6582c10d225b1273d",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                11
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "34672a6d26089ce54d8a339b41dd74a70a5e178a6b3da275ac79e5e8d5b19919",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                93
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "approaches-triangulation",
+      "term": "Triangulation",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "1c0d85b5d693f291c3d3703e95e1cd31ddcb749fa9ecb2ddedb5a6706bb7fa5a",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-expansion",
+      "term": "Expansion",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "addcec1ab48718c83e93531a9e27ccd698be3f7425213799876d49a634712326",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-development",
+      "term": "Development",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "aae9de33c387bb20d2477b9bf38742328bf1d898c9d5ef4d8349e66ce9cbfda8",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-complementarity",
+      "term": "Complementarity",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "a4eb3fb6fd3a126473a64ad0203182b5a6a5deb275d5853246785e8ff805340e",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-initiation",
+      "term": "Initiation",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "85f10ee14e51e5347ca98a6a8a6b312d0cd7ba717613ce52f97c638e6918df53",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-mixed-method",
+      "term": "Mixed Method",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "8d15a5237d84ff97cb6b197d9410d545c5565ef0858a89cae35eca6b5e469464",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-mixed-model",
+      "term": "Mixed Model",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "9c6caca4fa41cd4d0b10bd317dc07d1afb9b3a8a2f9c15321f70b955e6da46b2",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "digital-e-research",
+      "term": "e-Research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "7dfa5f1c5c6204a09230eed1fb2c6397bda2fd3a1d35c9729f693667357e2104",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                13
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "digital-middleware",
+      "term": "Middleware",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "5c224ee83ffa1c9ffd289a370110fd6b2101fc44ab8739eb3e833df3723c8bdc",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                13
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "digital-grid",
+      "term": "Grid",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "9e4b40dfb49a4aa534384a4bf964d4afbc474300467ac6baf1cf7daba9fc7961",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                13
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "digital-cyberinfrastructure",
+      "term": "Cyberinfrastructure",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "22058d9a09b17fab07800d93d4fe7f941a1ad082faa84a27f3a0619cb7d07347",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                13
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "reliability-test-retest",
+      "term": "Test-retest method",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "3aaa4a5eb765069041ce25ea2e1b9be571ab0afa9a47eebca467913eee8a0da2",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                28
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "d8e12df61da0c3706924ceb8e3b77b172d754ad8dcaa3aa5c6db6a379fc0d010",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                2
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "688547e155d857d3ae0dfd3ae1a8afce506647bbc830f70818ef0d0a50d0d421",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "reliability-parallel-forms",
+      "term": "Parallel-forms method",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "1443f962d977342a636ffcad583ac50cbdb4e100deb8e1c3e85464b59306e1c8",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                28
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "5cff5357ae64492566e40a4c59b45c5cc77633c95c0b602dd9f0954332089221",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                2
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "bb6b4f675c6a2bf8c47b20070ec74deef02754d1ea793f48c56ab951abe1620d",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                5
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "reliability-split-half",
+      "term": "Split-half method",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "46f00b287655434eb98e20829d08f6b751ed13a3c64d86235c4cac06c9ce8fa5",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                28
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "65ed5d822e46f7a485b1f7ff549fb286f739eca1632f3d32c38a7ca4abd06058",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                2
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "065d30f8f227449a4717bbf3b383cd3193785b36db9e54d9c3f08e0e7db2f9c9",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                7
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods page 28 incorrectly says the test may be administered twice and describes two values. Retain the single-test split definition on Reliability page 7; preserve both quoted versions and the existing correction in Terms."
+      }
+    },
+    {
+      "termId": "reliability-internal-consistency",
+      "term": "Internal-consistency method",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "c0eb4d69e548ca3e32581e66fbe5843d7e5365c44379b9f20a7fdf33ded0df9e",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                28
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "frameworks-construct",
+      "term": "constructs",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "ed1db3e20f4ab6350f7fb7422dd4880a6f9d7556bb293108519ffed1400bb1a0",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                44
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "methods",
+        "reason": "A complete, usable Methods of Research definition or chart description is available and selected."
+      }
+    },
+    {
+      "termId": "approaches-formative",
+      "term": "Formative",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "cc142be45c734641545a3b806dcc64499c5eb494eb76be499e20f4fd23994f89",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-summative",
+      "term": "Summative",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "947066094f4121510c2d15ea7c0a2647cf849d0d60e6e361e7256099d34d3805",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "reliability-spearman",
+      "term": "Spearman's rank correlation coefficient",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "1f518cec55846532d21f64fcc2d8df861290706da76ea1cde6ae004bad83289b",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods page 28 does not provide a complete, usable named-purpose description for this coefficient/formula. Use the explicit description in the reliability PDF."
+      }
+    },
+    {
+      "termId": "reliability-pearson",
+      "term": "Pearson product-moment correlation",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "bb6b4f675c6a2bf8c47b20070ec74deef02754d1ea793f48c56ab951abe1620d",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                5
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods page 28 does not provide a complete, usable named-purpose description for this coefficient/formula. Use the explicit description in the reliability PDF."
+      }
+    },
+    {
+      "termId": "reliability-spearman-brown",
+      "term": "Spearman-Brown prophecy formula",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "d34e1811cd7d936c3a48d00d7907379ed9d7a6f4fab8c3bf07cb03026300d7bb",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                7
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods page 28 does not provide a complete, usable named-purpose description for this coefficient/formula. Use the explicit description in the reliability PDF."
+      }
+    },
+    {
+      "termId": "reliability-kr20",
+      "term": "KR-20",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "92bba59e818baab2aba06fea7b6b9576a600577e7df5f9ecff7bb16ce2aa9977",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                2
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "9bca33f216c2efca31df6babedba38dff4133b6e1e4a1bd9b375519af3cb69c8",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                9
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods page 28 does not provide a complete, usable named-purpose description for this coefficient/formula. Use the explicit description in the reliability PDF."
+      }
+    }
+  ],
+  "sourcePreferenceExceptions": [
+    {
+      "termId": "foundations-controlled",
+      "term": "Controlled",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "c5fba9d2e2c5d714b24a25372861df12ec4b3731cdfc76fa46ab536050777daa",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "foundations-transparent",
+      "term": "Transparent",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "764fb310cdf560228b2fc0414f91d2dc348a9b60730540de762f422856b95be4",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "foundations-rigorous",
+      "term": "Rigorous",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "f248066359fe3f29124829e3a9be84efac5b17550f6a01e54161bb9b9fa0efba",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "foundations-systematic",
+      "term": "Systematic",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "6855eacfe551e4349b1b7748f2623c8eebc815ce7b1629c44fedc6c95f936e04",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "foundations-valid-verifiable",
+      "term": "Valid & Verifiable",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "e45863c5d6ca3af4c44faa4cc17cd14435a7254f454efffd2f0867aa32760dc4",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "designs-explanatory",
+      "term": "Explanatory",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "60227929e0e5c02d032e45628734a2b2a90c448a9ab61801e8feb155d866cf9f",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                4
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "designs-non-experimental",
+      "term": "Non-Experimental",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "9884b95bd0bc2e803b0820c5707b13b4b928d8de91256d8c07b082f5e748c7dc",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                9
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "experimental-internal-validity",
+      "term": "Internal validity",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "97138eb30529e20560569cc48a0d52a73a20c9a6b6792d36f203c245f6b9e624",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                9
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods names validity threats without independently defining internal validity. Architecture page 9 explicitly describes this concept."
+      }
+    },
+    {
+      "termId": "approaches-basic",
+      "term": "Basic Research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "998b9000985f9dd2ee6e2e9cf4459bc89c9f3cb4405a39c4911b317f11535a48",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                5
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-applied",
+      "term": "Applied Research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "70caaa7c5f881f985d00e3c8953b7a44cfd28d436defa0d8c1b175eacb217963",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                5
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-action",
+      "term": "Action Research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "d4a4f6a423e3283655009c044a9b057fcf2a1b31085babf061ba95b513fc162c",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-impact",
+      "term": "Impact Assessment",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "36b2fc1cc408165c800926f89901299427490a9e703004e7c4bca8b2b35a7a9f",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-cross-sectional",
+      "term": "Cross-Sectional",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "1acb2d33b797c0d4b368fc0f50364f3ac99debb4d2eb778208c9735ac0b0df31",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-longitudinal",
+      "term": "Longitudinal",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "d2ce75e38ff586887ec6517dd44caa37f9a86de10559d7224d5b57b4b3a53440",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-quantitative",
+      "term": "Quantitative",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "89fcedf5cf097d723ec461006273ba70a60bca0551fb4636d9ad405bb84d2d60",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                7
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-qualitative",
+      "term": "Qualitative",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "940c8c64973ca432cd8cb1f02f5029e40d2ab1b586d291a65890a1c820f69b45",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                7
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "0ab59372fc28158769050cb464b787357612f464988833a41881c60c581c2202",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                79
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        },
+        {
+          "textSha256": "0c54b443e3433b9c4b96f6bb5f387f73e52a0e1bde75449ceae28f26865c1de6",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                10
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods page 79 gives only the broad purpose “Discover potential relationships; descriptive.” It does not distinguish qualitative research unambiguously from the other approaches. Retain the complete definition on Architecture page 7."
+      }
+    },
+    {
+      "termId": "approaches-mixed",
+      "term": "Mixed Methods",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "806b0c5723cdbf98d2cb8c7ace4ce21c54dbace354558b157d5385a8b68ab44e",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                7
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-phenomenology",
+      "term": "Phenomenology",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "f5f37ccb6366fa4e4a086465c268e5fa2e52d1b38a43ebd8edf22abe174b8f9e",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                11
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-ethnography",
+      "term": "Ethnography",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "9343e9d8314e9afd51fcab569a1b82c06b48f86a43505ad3304752470134f345",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                11
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-triangulation",
+      "term": "Triangulation",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "1c0d85b5d693f291c3d3703e95e1cd31ddcb749fa9ecb2ddedb5a6706bb7fa5a",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-expansion",
+      "term": "Expansion",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "addcec1ab48718c83e93531a9e27ccd698be3f7425213799876d49a634712326",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-development",
+      "term": "Development",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "aae9de33c387bb20d2477b9bf38742328bf1d898c9d5ef4d8349e66ce9cbfda8",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-complementarity",
+      "term": "Complementarity",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "a4eb3fb6fd3a126473a64ad0203182b5a6a5deb275d5853246785e8ff805340e",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-initiation",
+      "term": "Initiation",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "85f10ee14e51e5347ca98a6a8a6b312d0cd7ba717613ce52f97c638e6918df53",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-mixed-method",
+      "term": "Mixed Method",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "8d15a5237d84ff97cb6b197d9410d545c5565ef0858a89cae35eca6b5e469464",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-mixed-model",
+      "term": "Mixed Model",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "9c6caca4fa41cd4d0b10bd317dc07d1afb9b3a8a2f9c15321f70b955e6da46b2",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                12
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "digital-e-research",
+      "term": "e-Research",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "7dfa5f1c5c6204a09230eed1fb2c6397bda2fd3a1d35c9729f693667357e2104",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                13
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "digital-middleware",
+      "term": "Middleware",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "5c224ee83ffa1c9ffd289a370110fd6b2101fc44ab8739eb3e833df3723c8bdc",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                13
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "digital-grid",
+      "term": "Grid",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "9e4b40dfb49a4aa534384a4bf964d4afbc474300467ac6baf1cf7daba9fc7961",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                13
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "digital-cyberinfrastructure",
+      "term": "Cyberinfrastructure",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "22058d9a09b17fab07800d93d4fe7f941a1ad082faa84a27f3a0619cb7d07347",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                13
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "reliability-split-half",
+      "term": "Split-half method",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "46f00b287655434eb98e20829d08f6b751ed13a3c64d86235c4cac06c9ce8fa5",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                28
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "65ed5d822e46f7a485b1f7ff549fb286f739eca1632f3d32c38a7ca4abd06058",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                2
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "065d30f8f227449a4717bbf3b383cd3193785b36db9e54d9c3f08e0e7db2f9c9",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                7
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods page 28 incorrectly says the test may be administered twice and describes two values. Retain the single-test split definition on Reliability page 7; preserve both quoted versions and the existing correction in Terms."
+      }
+    },
+    {
+      "termId": "approaches-formative",
+      "term": "Formative",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "cc142be45c734641545a3b806dcc64499c5eb494eb76be499e20f4fd23994f89",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "approaches-summative",
+      "term": "Summative",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "947066094f4121510c2d15ea7c0a2647cf849d0d60e6e361e7256099d34d3805",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ],
+          "verification": "visual comparison with rendered PDF page"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods of Research does not explicitly define this term; outline/classification-only mentions are insufficient. Retain its explicit definition in the currently selected supplied PDF."
+      }
+    },
+    {
+      "termId": "reliability-spearman",
+      "term": "Spearman's rank correlation coefficient",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "1f518cec55846532d21f64fcc2d8df861290706da76ea1cde6ae004bad83289b",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                3
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods page 28 does not provide a complete, usable named-purpose description for this coefficient/formula. Use the explicit description in the reliability PDF."
+      }
+    },
+    {
+      "termId": "reliability-pearson",
+      "term": "Pearson product-moment correlation",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "bb6b4f675c6a2bf8c47b20070ec74deef02754d1ea793f48c56ab951abe1620d",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                5
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods page 28 does not provide a complete, usable named-purpose description for this coefficient/formula. Use the explicit description in the reliability PDF."
+      }
+    },
+    {
+      "termId": "reliability-spearman-brown",
+      "term": "Spearman-Brown prophecy formula",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "d34e1811cd7d936c3a48d00d7907379ed9d7a6f4fab8c3bf07cb03026300d7bb",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                7
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods page 28 does not provide a complete, usable named-purpose description for this coefficient/formula. Use the explicit description in the reliability PDF."
+      }
+    },
+    {
+      "termId": "reliability-kr20",
+      "term": "KR-20",
+      "date": "2026-11-04",
+      "definitions": [
+        {
+          "textSha256": "92bba59e818baab2aba06fea7b6b9576a600577e7df5f9ecff7bb16ce2aa9977",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                2
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        },
+        {
+          "textSha256": "9bca33f216c2efca31df6babedba38dff4133b6e1e4a1bd9b375519af3cb69c8",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                9
+              ]
+            }
+          ],
+          "verification": "selectable-text check"
+        }
+      ],
+      "selection": {
+        "status": "alternate",
+        "reason": "Methods page 28 does not provide a complete, usable named-purpose description for this coefficient/formula. Use the explicit description in the reliability PDF."
+      }
+    }
+  ]
+}

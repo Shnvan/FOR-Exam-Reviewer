@@ -17,12 +17,12 @@
       }
     }
     if(saved.positions&&typeof saved.positions==='object'&&!Array.isArray(saved.positions)){
-      for(const collection of ['all',...bank.topics.map(t=>t.id)]){
+      for(const collection of ['all',...bank.topics.filter(t=>bank.questions.some(q=>q.topic===t.id)).map(t=>t.id)]){
         const id=saved.positions[collection],q=ids.get(id);
         if(q&&(collection==='all'||q.topic===collection))result.positions[collection]=id;
       }
     }
-    const collections=['all',...bank.topics.map(t=>t.id)];
+    const collections=['all',...bank.topics.filter(t=>bank.questions.some(q=>q.topic===t.id)).map(t=>t.id)];
     if(collections.includes(saved.lastCollection))result.lastCollection=saved.lastCollection;
     else if(result.positions.all)result.lastCollection='all';
     else result.lastCollection=collections.find(id=>result.positions[id]);

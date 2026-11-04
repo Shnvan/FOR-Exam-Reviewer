@@ -5,6 +5,7 @@ let playwright;try{playwright=require('playwright');}catch{playwright=require('C
 const root=path.resolve(__dirname,'..'),publicRoot=path.join(root,'public'),out=path.join(root,'.cache/browser');
 fs.mkdirSync(out,{recursive:true});
 const bank=JSON.parse(fs.readFileSync(path.join(root,'data/questions.json'),'utf8'));
+const longestQuestion=bank.questions.reduce((a,b)=>a.prompt.length>b.prompt.length?a:b);
 const termCount=JSON.parse(fs.readFileSync(path.join(root,'data/terms.json'),'utf8')).entries.length;
 let checks=0;const errors=[],layoutMetrics=[];function ok(v,msg){assert.ok(v,msg);checks++;}
 const server=http.createServer((req,res)=>{
@@ -30,6 +31,43 @@ const server=http.createServer((req,res)=>{
    await page.locator('#jump-number').fill(String(n));await page.locator('#jump-form button[type=submit]').click();
   }
   const checkAnswer=()=>page.locator(page.viewportSize().width<=850?'#mobile-check':'#check-answer').click();
+
+  // Exercise the exact wording change using real pre-audit saved responses.
+  const wordingCtx=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
+  const wording=await wordingCtx.newPage();wording.on('pageerror',e=>errors.push(e.message));
+  const oldBank=JSON.parse(fs.readFileSync(path.join(root,'audit/pre-wording-audit.json'),'utf8')).bank;
+  const oldAnswers=Object.fromEntries(oldBank.questions.map(q=>[q.id,{choiceId:q.correctChoiceId,checked:true,signature:JSON.stringify([q.prompt,q.choices,q.correctChoiceId])}]));
+  await wording.addInitScript(({answers,firstId})=>{
+   if(!localStorage.getItem('fundamentals-research-progress-v1')){
+    localStorage.setItem('fundamentals-research-progress-v1',JSON.stringify({version:1,answers,lastCollection:'foundations',positions:{all:firstId,foundations:'term-foundations-empirical'}}));
+    localStorage.setItem('research-study-room-theme','dark');
+   }
+  },{answers:oldAnswers,firstId:oldBank.questions[0].id});
+  await wording.goto(url+'/#/practice/foundations');
+  ok(await wording.evaluate(()=>Object.keys(JSON.parse(localStorage.getItem('fundamentals-research-progress-v1')).answers).length)===101,'101 unchanged attempts survive wording revision');
+  ok(await wording.locator('#question-title').textContent()===bank.questions[0].prompt,'retired cursor falls back to first question');
+  ok(await wording.evaluate(()=>document.documentElement.dataset.theme)==='dark','wording migration preserves theme');
+  const empirical=bank.questions.find(q=>q.termId==='foundations-empirical');
+  await wording.locator('#question-jump').selectOption(empirical.id);
+  ok(await wording.locator('#question-title').textContent()==='Which term matches this definition?\n\n“Direct experience or observation”','exact Methods Empirical wording');
+  ok(await wording.locator('#answer-feedback').count()===0&&await wording.locator('input:checked').count()===0,'revised question has no transferred checked answer');
+  await wording.setViewportSize({width:390,height:844});await wording.evaluate(()=>scrollTo(0,0));
+  await wording.screenshot({path:path.join(out,'wording-empirical-390-dark.png')});
+  await wording.locator('input[value=answer]').check();await wording.locator('#mobile-check').click();
+  ok((await wording.locator('.explanation').textContent()).includes('Direct experience or observation'),'feedback uses selected wording');
+  ok(!(await wording.locator('.explanation').textContent()).includes('Rooted in hard evidence'),'feedback does not blend source versions');
+  await wording.locator('.source-details summary').click();
+  ok((await wording.locator('.source-details').textContent()).includes('PDF page 19'),'exact selected source page');
+  ok(await wording.locator('.source-details a').getAttribute('download')==='methodsofresearch1.pptx.pdf','selected PDF download');
+  await wording.reload();ok(await wording.locator('#answer-feedback').isVisible(),'revised answer persists after refresh');
+  await wording.locator('.review-term-link').click();
+  ok(await wording.locator('#term-foundations-empirical dt').textContent()==='Empirical','standard spelling retained');
+  const versions=await wording.locator('#term-foundations-empirical .term-quote').allTextContents();
+  ok(versions.includes('Direct experience or observation')&&versions.includes('Rooted in hard evidence and real-life observation'),'separate exact source versions retained');
+  ok((await wording.locator('#term-foundations-empirical .term-version-label').first().textContent()).includes('EMPERICAL'),'printed spelling preserved in source label');
+  await wording.locator('#terms-search').fill('EMPERICAL');ok(await wording.locator('#term-foundations-empirical').count()===1,'printed spelling searchable');
+  await wording.locator('#practice-tab').click();ok(await wording.locator('#answer-feedback').isVisible(),'glossary returns to revised checked question');
+  await wordingCtx.close();
 
   await page.goto(url);
   ok(await page.title()==='Fundamentals of Research Exam Reviewer','title');
@@ -74,15 +112,15 @@ const server=http.createServer((req,res)=>{
   ok(await page.evaluate(()=>document.activeElement===document.querySelector('#menu-links a:last-child')),'menu wraps backward');
   await page.keyboard.press('Tab');ok(await page.evaluate(()=>document.activeElement.id)==='menu-close','menu wraps forward');
   await page.keyboard.press('Escape');ok(await page.evaluate(()=>document.activeElement.id)==='menu-toggle','menu Escape restores focus');
-  // Long content + calculations + diagrams + clarifications at every width/theme.
+  // Main-term questions, long source quotations and supporting formulas at every width/theme.
   const views=[
    {name:'home',hash:'#/'},
    {name:'practice',hash:'#/practice/all'},
-   {name:'calculation',hash:'#/practice/reliability',id:'reliability-pearson-result'},
-   {name:'diagram',hash:'#/practice/experimental',id:'experimental-diagram-solomon'},
-   {name:'clarification',hash:'#/practice/literature',id:'literature-secondary-examples-slide'},
+   {name:'long-definition',hash:'#/practice/'+longestQuestion.topic,id:longestQuestion.id},
+   {name:'term-question',hash:'#/practice/reliability',id:'term-reliability-spearman'},
+   {name:'feedback',hash:'#/practice/reliability',id:'term-reliability-pearson'},
    {name:'terms',hash:'#/terms'},
-   {name:'term-formula',hash:'#/terms',term:'reliability-internal-consistency'},
+   {name:'term-formula',hash:'#/terms',term:'reliability-kr20'},
   ];
   for(const width of [320,360,390,430,768,850,1024,1440])for(const theme of ['light','dark'])for(const view of views){
    await page.setViewportSize({width,height:width===320?568:width===390?844:1000});
@@ -97,6 +135,7 @@ const server=http.createServer((req,res)=>{
    if(view.name==='terms'||view.term){await page.locator('#terms-search').fill('');await page.locator('#terms-topic').selectOption('all');}
    if(view.term){await page.locator('#terms-search').fill('KR-20');if(await page.locator(`#term-${view.term} details`).getAttribute('open')===null)await page.locator(`#term-${view.term} .term-details summary`).click();}
    if(view.name==='terms')await page.evaluate(()=>scrollTo(0,0));
+   if(view.name==='practice'||view.id)ok(!/\bpages?\s+\d|\bPDF\b/i.test(await page.locator('#question-title').textContent()),'question wording has no page references');
    const metrics=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,text:document.body.innerText.length}));
    ok(metrics.scroll<=metrics.width,`${view.name} ${width} ${theme}: no page overflow (${metrics.scroll})`);
    ok(metrics.text>300,'content rendered');
@@ -122,7 +161,7 @@ const server=http.createServer((req,res)=>{
    }
 
    const text=await page.locator('body').innerText();
-   ok(!/A little curiosity|From the first research question|A SMALL ROUTINE|Give it a try\.|Understand the why\.|Come back clearer\.|Built from your three course presentations|First responses stay locked after checking|Small steps\.|Steady understanding\./.test(text),'removed text absent');
+   ok(!/Every question leads|back to your slides|A little curiosity|From the first research question|A SMALL ROUTINE|Give it a try\.|Understand the why\.|Come back clearer\.|Built from your three course presentations|First responses stay locked after checking|Small steps\.|Steady understanding\./.test(text),'removed text absent');
    const visibleButtons=await page.locator('button:visible,a.button:visible').evaluateAll(els=>els.map(e=>({text:e.textContent.trim(),height:e.getBoundingClientRect().height})));
    ok(visibleButtons.every(b=>b.height>=43),`touch targets ${view.name} ${width}`);
    if(view.name==='home'){
@@ -136,7 +175,7 @@ const server=http.createServer((req,res)=>{
     ok(await page.evaluate(()=>document.activeElement===document.querySelector('#pdf-menu summary')),'PDF opener focus restored');
    }
    // Use actual mobile viewports; full-page captures place fixed controls in the middle of tall pages.
-   if((width===1440&&(view.name==='home'||view.name==='diagram'))||(width===360&&theme==='light'&&view.name==='home')||(width===320&&view.name==='calculation')||(width===768&&theme==='dark'&&view.name==='clarification')){
+   if((width===1440&&(view.name==='home'||view.name==='term-question'))||(width===360&&theme==='light'&&view.name==='home')||(width===320&&view.name==='long-definition')||(width===768&&theme==='dark'&&view.name==='feedback')){
     if(width>850)await page.evaluate(()=>scrollTo(0,0));
     await page.screenshot({path:path.join(out,`${view.name}-${width}-${theme}.png`),fullPage:width>850});
    }
@@ -147,13 +186,13 @@ const server=http.createServer((req,res)=>{
   const answers=Object.fromEntries(bank.questions.map(q=>[q.id,{choiceId:q.correctChoiceId,checked:true,signature:JSON.stringify([q.prompt,q.choices,q.correctChoiceId])}]));
   await complete.addInitScript(({answers})=>localStorage.setItem('fundamentals-research-progress-v1',JSON.stringify({version:1,answers,positions:{}})),{answers});
   await complete.goto(url+'/#/practice/all');
-  ok((await complete.locator('.completion').textContent()).includes('503 / 503'),'all-topic completion');
+  ok((await complete.locator('.completion').textContent()).includes(`${bank.questions.length} / ${bank.questions.length}`),'all-topic completion');
   await complete.locator('#question-jump').selectOption(bank.questions.at(-1).id);
   ok(await complete.locator('#next').isDisabled(),'last-question boundary');
   await complete.setViewportSize({width:390,height:844});
   ok(await complete.locator('#mobile-continue').textContent()==='View progress →','mobile last checked action');
   await complete.locator('#mobile-continue').click();
-  ok((await complete.locator('#progress-summary').innerText()).includes('503 / 503 checked'),'mobile completed progress');
+  ok((await complete.locator('#progress-summary').innerText()).includes(`${bank.questions.length} / ${bank.questions.length} checked`),'mobile completed progress');
   await complete.keyboard.press('Escape');
   ok(await complete.evaluate(()=>document.activeElement.id)==='mobile-continue','completion restores action focus');
   await completeCtx.close();
@@ -164,16 +203,16 @@ const server=http.createServer((req,res)=>{
   ok((await page.locator('.hero-actions').innerText()).includes('Start practice'),'new mobile start action');
   await page.locator('.hero-actions a').click();
   await page.screenshot({path:path.join(out,'after-question-390.png')});
-  ok(await page.locator('#question-jump').count()===0,'no 503-option mobile selector');
+  ok(await page.locator('#question-jump').count()===0,'no long mobile selector');
   ok(await page.locator('#mobile-check').isDisabled(),'mobile blank prevention');
   const first=bank.questions[0],wrong=first.choices.find(c=>c.id!==first.correctChoiceId).id;
   await page.locator(`input[value="${wrong}"]`).check();
   await page.locator('#mobile-next').click();
-  ok((await page.locator('.context-count').innerText()).includes('2 of 503'),'skip advances without checking');
+  ok((await page.locator('.context-count').innerText()).includes('2 of '+bank.questions.length),'skip advances without checking');
   await page.locator('#mobile-previous').click();
   ok(await page.locator(`input[value="${wrong}"]`).isChecked(),'draft survives skipping');
   await page.locator('#mobile-check').click();
-  ok((await page.locator('.context-count').innerText()).includes('1 of 503'),'check does not advance');
+  ok((await page.locator('.context-count').innerText()).includes('1 of '+bank.questions.length),'check does not advance');
   ok(await page.locator('.feedback.is-incorrect').isVisible(),'incorrect mobile feedback visible');
   ok(await page.locator('input:disabled').count()===4,'mobile checked answer locked');
   ok(await page.locator('#mobile-next').count()===0,'no duplicate next after checking');
@@ -182,6 +221,14 @@ const server=http.createServer((req,res)=>{
   ok(feedbackBox.y>=headerBox.y+headerBox.height&&feedbackBox.y<actionBox.y,'feedback focus below header and above actions');
   await page.screenshot({path:path.join(out,'after-feedback-390.png')});
   await page.reload();ok(await page.locator('#answer-feedback').isVisible(),'mobile checked reload');
+  const checkedState=await page.evaluate(()=>localStorage.getItem('fundamentals-research-progress-v1'));
+  await page.locator('.review-term-link').click();
+  ok(new URL(page.url()).hash==='#/terms/'+first.termId,'checked answer links to its glossary entry');
+  ok(await page.locator('.term-entry').count()===1,'linked term is focused');
+  ok(await page.locator('#term-'+first.termId+' details').getAttribute('open')!==null,'linked details are expanded');
+  await page.locator('#practice-tab').click();
+  ok(await page.locator('#answer-feedback').isVisible(),'term review returns to checked question');
+  ok(await page.evaluate(()=>localStorage.getItem('fundamentals-research-progress-v1'))===checkedState,'term review preserves attempt');
   await page.locator('#mobile-continue').click();
   const promptBox=await page.locator('#question-title').boundingBox();
   ok(promptBox.y>=57&&promptBox.y<180,'next focuses an unobscured prompt');
@@ -195,16 +242,16 @@ const server=http.createServer((req,res)=>{
   await page.keyboard.press('Escape');
   ok(await page.evaluate(()=>document.activeElement===document.querySelector('#more-menu summary')),'progress restores More focus');
   await page.locator('#more-menu summary').click();await page.locator('#mobile-jump').click();
-  for(const bad of ['', '0', '1.5', '504']){
+  for(const bad of ['', '0', '1.5', String(bank.questions.length+1)]){
    await page.locator('#jump-number').fill(bad);await page.locator('#jump-form button').click();
    ok(await page.locator('#jump-number').getAttribute('aria-invalid')==='true','invalid jump '+bad);
    ok(await page.locator('#jump-error').isVisible(),'range error visible');
   }
   await page.locator('#jump-number').fill('3');await page.keyboard.press('Enter');
-  ok((await page.locator('.context-count').innerText()).includes('3 of 503'),'numeric Go works');
+  ok((await page.locator('.context-count').innerText()).includes('3 of '+bank.questions.length),'numeric Go works');
   await page.locator('#more-menu summary').click();await page.locator('#mobile-reset').click();
   await page.locator('#reset-cancel').click();
-  ok((await page.locator('.context-count').innerText()).includes('3 of 503'),'reset cancel preserves position');
+  ok((await page.locator('.context-count').innerText()).includes('3 of '+bank.questions.length),'reset cancel preserves position');
   await page.locator('#change-topic').click();
   ok(await page.locator('#menu-links a[aria-current=page]').getAttribute('href')==='#/practice/all','sheet current collection');
   await page.keyboard.press('Shift+Tab');
@@ -212,30 +259,30 @@ const server=http.createServer((req,res)=>{
   await page.keyboard.press('Escape');
   ok(await page.evaluate(()=>document.activeElement.id)==='change-topic','topic sheet restores focus');
   await page.locator('#change-topic').click();await page.locator('#menu-links a[href="#/practice/reliability"]').click();
-  await jumpTo('reliability-pearson-result');
-  const calculationPrompt=await page.locator('#question-title').textContent();
+  await jumpTo('term-reliability-pearson');
+  const termPrompt=await page.locator('#question-title').textContent();
   await page.evaluate(()=>scrollTo(0,0));
-  await page.screenshot({path:path.join(out,'after-calculation-question-390.png')});
+  await page.screenshot({path:path.join(out,'after-term-question-390.png')});
   await page.locator('input[value="answer"]').check();await checkAnswer();
-  await page.screenshot({path:path.join(out,'after-calculation-390.png')});
+  await page.screenshot({path:path.join(out,'after-term-feedback-390.png')});
   await page.locator('.source-details summary').click();
   ok(await page.locator('.source-entry a[download]').count()>0,'question download remains in expandable Source');
   await page.locator('.brand').click();
   ok((await page.locator('.hero-actions').innerText()).includes('Continue practice'),'continue action after practice');
   ok(await page.locator('.hero-actions a').getAttribute('href')==='#/practice/reliability','continue uses last collection');
   await page.reload();await page.locator('.hero-actions a').click();
-  ok(await page.locator('#question-title').textContent()===calculationPrompt,'last collection position restored');
+  ok(await page.locator('#question-title').textContent()===termPrompt,'last collection position restored');
   await page.locator('#more-menu summary').click();await page.locator('#mobile-reset').click();await page.locator('#reset-confirm').click();
   ok(await page.locator('input:checked').count()===0,'mobile topic fresh attempt');
   await page.locator('#change-topic').click();await page.locator('#menu-links a[href="#/practice/all"]').click();
   await jumpTo(first.id);ok(await page.locator('#answer-feedback').isVisible(),'reset leaves other topic answer intact');
   // Both themes, enlarged text and short landscape; tables/notation may scroll locally only.
   const largest=bank.questions.reduce((a,b)=>a.choices.reduce((n,c)=>n+c.text.length,0)>b.choices.reduce((n,c)=>n+c.text.length,0)?a:b);
-  const longestPrompt=bank.questions.reduce((a,b)=>a.prompt.length>b.prompt.length?a:b);
+  const longestPrompt=longestQuestion;
   for(const theme of ['light','dark'])for(const dimensions of [{width:320,height:568,large:true},{width:390,height:844,large:true},{width:850,height:390,large:false}]){
    await page.setViewportSize({width:dimensions.width,height:dimensions.height});
    await page.evaluate(({theme,large})=>{document.documentElement.dataset.theme=theme;document.documentElement.style.fontSize=large?'200%':'';dispatchEvent(new Event('resize'));},{theme,large:dimensions.large});
-   for(const view of [{name:'home',hash:'#/'},{name:'long-choices',hash:'#/practice/'+largest.topic,id:largest.id},{name:'long-prompt',hash:'#/practice/'+longestPrompt.topic,id:longestPrompt.id},{name:'calculation',hash:'#/practice/reliability',id:'reliability-pearson-result'},{name:'diagram',hash:'#/practice/experimental',id:'experimental-diagram-solomon'},{name:'correction',hash:'#/practice/literature',id:'literature-secondary-examples-slide'}]){
+   for(const view of [{name:'home',hash:'#/'},{name:'long-choices',hash:'#/practice/'+largest.topic,id:largest.id},{name:'long-prompt',hash:'#/practice/'+longestPrompt.topic,id:longestPrompt.id},{name:'long-definition',hash:'#/practice/'+longestQuestion.topic,id:longestQuestion.id},{name:'term-question',hash:'#/practice/reliability',id:'term-reliability-spearman'},{name:'quoted-term',hash:'#/practice/literature',id:'term-literature-related-literature'}]){
     await page.evaluate(hash=>{location.hash=hash;},view.hash);await page.waitForTimeout(40);
     if(view.id)await jumpTo(view.id);
     ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${view.name} ${dimensions.width} ${theme} ${dimensions.large?'200% text':'landscape'} reflow`);
@@ -281,7 +328,7 @@ const server=http.createServer((req,res)=>{
   ok(await page.locator('#terms-title').isVisible(),'Review terms opens glossary');
   ok(await page.evaluate(()=>localStorage.getItem('fundamentals-research-progress-v1'))===beforeTerms,'terms does not write practice storage');
   await page.locator('#terms-search').fill('sPeArMaN');
-  ok(await page.locator('#term-reliability-test-retest').count()===1,'abbreviation/name search');
+  ok(await page.locator('#term-reliability-spearman').count()===1,'abbreviation/name search');
   ok(await page.evaluate(()=>document.activeElement.id)==='terms-search','search typing retains focus');
   await page.locator('#terms-topic').selectOption('variables');
   ok(await page.locator('.term-entry').count()===0,'combined topic and text search');
@@ -303,7 +350,7 @@ const server=http.createServer((req,res)=>{
    await page.setViewportSize({width:320,height:568});
    await page.evaluate(theme=>{document.documentElement.dataset.theme=theme;document.documentElement.style.fontSize='200%';dispatchEvent(new Event('resize'));},theme);
    await page.locator('#terms-search').fill('KR-20');
-   if(await page.locator('#term-reliability-internal-consistency details').getAttribute('open')===null)await page.locator('#term-reliability-internal-consistency summary').click();
+   if(await page.locator('#term-reliability-kr20 details').getAttribute('open')===null)await page.locator('#term-reliability-kr20 summary').click();
    ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'200% glossary reflow');
    ok(await page.locator('.term-quote').first().evaluate(e=>parseFloat(getComputedStyle(e).fontSize))>=32,'enlarged glossary text');
    await page.locator('#terms-search').fill('periood');

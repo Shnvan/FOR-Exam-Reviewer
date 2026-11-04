@@ -27,128 +27,128 @@
       "sourceId": "methods",
       "page": 1,
       "title": "Title",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 2,
       "title": "Course description",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 3,
       "title": "Course objectives",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 4,
       "title": "Course content overview",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 5,
       "title": "Introduction outline",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 6,
       "title": "Problems and objectives outline",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 7,
       "title": "Literature outline",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 8,
       "title": "Designs outline",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 9,
       "title": "Sampling outline",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 10,
       "title": "Data collection outline",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 11,
       "title": "Data processing outline",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 12,
       "title": "Statistics outline",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 13,
       "title": "Analysis and presentation outline",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 14,
       "title": "Conclusions outline",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 15,
       "title": "Proposal writing outline",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 16,
       "title": "Course references",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
@@ -156,102 +156,59 @@
       "page": 17,
       "title": "Definitions of research",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "foundations-definition",
-        "foundations-good-definition",
-        "foundations-manuel-definition",
-        "foundations-sanchez-definition",
-        "foundations-treece-definition"
+        "term-foundations-research"
       ]
     },
     {
       "sourceId": "methods",
       "page": 18,
       "title": "Importance of research",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "foundations-service",
-        "foundations-unknown",
-        "foundations-existing",
-        "foundations-innovation",
-        "foundations-substance",
-        "foundations-action",
-        "foundations-science",
-        "foundations-decisions",
-        "foundations-curiosity",
-        "foundations-queries",
-        "foundations-understanding",
-        "foundations-knowledge",
-        "foundations-efficiency",
-        "foundations-exports",
-        "foundations-economy"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 19,
       "title": "Characteristics of research",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "foundations-empirical",
-        "foundations-logical",
-        "foundations-cyclical",
-        "foundations-analytical",
-        "foundations-critical",
-        "foundations-methodical",
-        "foundations-replicable"
+        "term-foundations-empirical-wording-v2",
+        "term-foundations-logical",
+        "term-foundations-cyclical",
+        "term-foundations-analytical",
+        "term-foundations-critical",
+        "term-foundations-methodical",
+        "term-foundations-replicability"
       ]
     },
     {
       "sourceId": "methods",
       "page": 20,
       "title": "Researcher mnemonic",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "foundations-oriented",
-        "foundations-efficient",
-        "foundations-scientific",
-        "foundations-effective",
-        "foundations-active",
-        "foundations-resourceful",
-        "foundations-creative",
-        "foundations-honest",
-        "foundations-economical",
-        "foundations-religious",
-        "foundations-researcher-outcome"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 21,
       "title": "Classifications",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "foundations-purpose",
-        "foundations-goal",
-        "foundations-level",
-        "foundations-analysis",
-        "foundations-scope",
-        "foundations-choice",
-        "foundations-statistics",
-        "foundations-time",
-        "approaches-basic",
-        "approaches-applied"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 22,
       "title": "Variable definition",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "variables-definition"
+        "term-variables-variable"
       ]
     },
     {
@@ -259,84 +216,51 @@
       "page": 23,
       "title": "Variable types",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "variables-independent",
-        "variables-dependent",
-        "variables-intervening",
-        "variables-control",
-        "variables-moderator"
+        "term-variables-independent",
+        "term-variables-dependent",
+        "term-variables-intervening",
+        "term-variables-control",
+        "term-variables-moderator"
       ]
     },
     {
       "sourceId": "methods",
       "page": 24,
       "title": "Variable diagrams",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "variables-study-hours",
-        "variables-study-output",
-        "variables-study-middle",
-        "variables-fish-input",
-        "variables-fish-output",
-        "variables-fish-middle"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 25,
       "title": "Numbered research process",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "variables-process-1",
-        "variables-process-2",
-        "variables-process-3",
-        "variables-process-4",
-        "variables-process-5",
-        "variables-process-6",
-        "variables-process-7",
-        "variables-process-8",
-        "variables-process-9",
-        "variables-process-10",
-        "variables-process-11"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 26,
       "title": "Detailed research process",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "variables-flow-start",
-        "variables-flow-hypothesis",
-        "variables-flow-design",
-        "variables-flow-population",
-        "variables-flow-instrument",
-        "variables-flow-validation",
-        "variables-flow-methods",
-        "variables-flow-quality",
-        "variables-flow-processing",
-        "variables-flow-analysis",
-        "variables-flow-final"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 27,
       "title": "Validity types",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "instruments-validity",
-        "instruments-content",
-        "instruments-concurrent",
-        "instruments-predictive",
-        "instruments-construct",
-        "instruments-validity-scenario",
-        "instruments-concurrent-scenario"
+        "term-instruments-validity",
+        "term-instruments-content-validity",
+        "term-instruments-concurrent-validity",
+        "term-instruments-predictive-validity",
+        "term-instruments-construct-validity"
       ]
     },
     {
@@ -344,15 +268,12 @@
       "page": 28,
       "title": "Reliability methods and malformed formulas",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "instruments-reliability",
-        "reliability-retest",
-        "reliability-parallel",
-        "reliability-split",
-        "reliability-kr",
-        "reliability-split-single",
-        "reliability-split-conflict"
+        "term-instruments-reliability",
+        "term-reliability-test-retest-wording-v2",
+        "term-reliability-parallel-forms-wording-v2",
+        "term-reliability-internal-consistency"
       ]
     },
     {
@@ -360,25 +281,17 @@
       "page": 29,
       "title": "Usability",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "instruments-usability",
-        "instruments-administration",
-        "instruments-scoring",
-        "instruments-interpretation",
-        "instruments-cost",
-        "instruments-makeup",
-        "instruments-scoring-objective",
-        "instruments-scoring-keys",
-        "instruments-scoring-directions"
+        "term-instruments-usability"
       ]
     },
     {
       "sourceId": "methods",
       "page": 30,
       "title": "Lesson 2 title",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
@@ -386,120 +299,75 @@
       "page": 31,
       "title": "Research problem",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "problems-definition"
+        "term-problems-research-problem"
       ]
     },
     {
       "sourceId": "methods",
       "page": 32,
       "title": "Repeated problem definition",
-      "status": "repeated",
-      "reason": "Repeated teaching content links to the same questions.",
+      "status": "covered",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "problems-definition"
+        "term-problems-research-problem"
       ]
     },
     {
       "sourceId": "methods",
       "page": 33,
       "title": "5W elements",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "problems-why",
-        "problems-what",
-        "problems-where",
-        "problems-when",
-        "problems-who"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 34,
       "title": "Problem characteristics",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "problems-novelty",
-        "problems-interesting",
-        "problems-relevant",
-        "problems-feasible",
-        "problems-researchable",
-        "problems-ethical",
-        "problems-systematic"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 35,
       "title": "Sources of problems",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "problems-source-specialization",
-        "problems-source-past",
-        "problems-source-recommendations",
-        "problems-source-local"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 36,
       "title": "Selection guidelines",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "problems-selection-self",
-        "problems-selection-interest",
-        "problems-selection-specialization",
-        "problems-selection-competence",
-        "problems-selection-finance",
-        "problems-selection-manage"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 37,
       "title": "Formulating problems",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "problems-formulation-before",
-        "problems-formulation-interrogative",
-        "problems-formulation-clear",
-        "problems-formulation-independent",
-        "problems-formulation-known",
-        "problems-formulation-separate-answers",
-        "problems-formulation-contribute",
-        "problems-formulation-sufficient",
-        "problems-formulation-combined",
-        "problems-formulation-general"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 38,
       "title": "Title-writing tips",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "problems-title-attention",
-        "problems-title-thought",
-        "problems-title-five-w",
-        "problems-title-length",
-        "problems-title-format",
-        "problems-title-avoid",
-        "problems-title-institution"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 39,
       "title": "Blank enrichment worksheet",
       "status": "excluded",
-      "reason": "Blank personal-response activity; no fixed source-supported answer.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
@@ -507,49 +375,46 @@
       "page": 40,
       "title": "Blank enrichment worksheets",
       "status": "excluded",
-      "reason": "Blank personal-response activity; no fixed source-supported answer.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 41,
       "title": "Problems versus objectives",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "problems-objectives-form"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 42,
       "title": "Hypotheses",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "frameworks-hypothesis",
-        "frameworks-null",
-        "frameworks-alternative"
+        "term-frameworks-hypothesis",
+        "term-frameworks-null",
+        "term-frameworks-alternative"
       ]
     },
     {
       "sourceId": "methods",
       "page": 43,
       "title": "Theoretical framework",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "frameworks-theoretical"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 44,
       "title": "Conceptual framework",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "frameworks-conceptual-framework"
+        "term-frameworks-conceptual-framework",
+        "term-frameworks-construct"
       ]
     },
     {
@@ -557,9 +422,9 @@
       "page": 45,
       "title": "Assumptions",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "frameworks-assumption"
+        "term-frameworks-assumptions"
       ]
     },
     {
@@ -567,9 +432,9 @@
       "page": 46,
       "title": "Significance",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "frameworks-significance"
+        "term-frameworks-significance"
       ]
     },
     {
@@ -577,13 +442,9 @@
       "page": 47,
       "title": "Scope and limitations",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "frameworks-scope",
-        "frameworks-scope-subjects",
-        "frameworks-scope-tools",
-        "frameworks-scope-time",
-        "frameworks-scope-constraints"
+        "term-frameworks-scope"
       ]
     },
     {
@@ -591,33 +452,28 @@
       "page": 48,
       "title": "Definition types",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "frameworks-conceptual-definition",
-        "frameworks-operational-definition",
-        "frameworks-operational-scenario"
+        "term-frameworks-conceptual-definition",
+        "term-frameworks-operational-definition"
       ]
     },
     {
       "sourceId": "methods",
       "page": 49,
       "title": "Repeated scope definition",
-      "status": "repeated",
-      "reason": "Repeated teaching content links to the same questions.",
+      "status": "covered",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "frameworks-scope",
-        "frameworks-scope-subjects",
-        "frameworks-scope-tools",
-        "frameworks-scope-time",
-        "frameworks-scope-constraints"
+        "term-frameworks-scope"
       ]
     },
     {
       "sourceId": "methods",
       "page": 50,
       "title": "Lesson 3 title",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
@@ -625,96 +481,67 @@
       "page": 51,
       "title": "Related literature",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "literature-definition"
+        "term-literature-related-literature"
       ]
     },
     {
       "sourceId": "methods",
       "page": 52,
       "title": "Review functions I",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "literature-function-select",
-        "literature-function-understand",
-        "literature-function-duplication"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 53,
       "title": "Review functions II",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "literature-function-locate",
-        "literature-function-questions",
-        "literature-function-hypotheses",
-        "literature-function-framework",
-        "literature-function-methods",
-        "literature-function-sampling",
-        "literature-function-instrument"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 54,
       "title": "Review functions III",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "literature-function-statistics",
-        "literature-function-analysis",
-        "literature-function-conclusions",
-        "literature-function-compare"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 55,
       "title": "Literature recency",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "literature-quality-recent",
-        "literature-quality-permanent",
-        "literature-quality-past-comparison"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 56,
       "title": "Literature characteristics",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "literature-quality-objective",
-        "literature-quality-relevant",
-        "literature-quality-facts",
-        "literature-quality-amount"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 57,
       "title": "Source categories",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "literature-source-locations"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 58,
       "title": "Primary-source definition and overbroad examples",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "literature-primary",
-        "literature-primary-examples-slide"
+        "term-literature-primary"
       ]
     },
     {
@@ -722,138 +549,111 @@
       "page": 59,
       "title": "Secondary-source definition and overbroad examples",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "literature-secondary",
-        "literature-secondary-examples-slide"
+        "term-literature-secondary"
       ]
     },
     {
       "sourceId": "methods",
       "page": 60,
       "title": "Where sources are located",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "literature-locate-libraries",
-        "literature-locate-offices",
-        "literature-locate-national",
-        "literature-locate-education"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 61,
       "title": "Related legal bases",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "literature-legal"
+        "term-literature-legal"
       ]
     },
     {
       "sourceId": "methods",
       "page": 62,
       "title": "Historical nursing-law illustration",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "literature-legal"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 63,
       "title": "Relevance and chronology",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "literature-definition",
-        "literature-literature-relevance",
-        "literature-chronology"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 64,
       "title": "Nursing-literature illustration",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "literature-literature-relevance"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 65,
       "title": "Local and foreign studies",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "literature-studies"
+        "term-literature-related-studies"
       ]
     },
     {
       "sourceId": "methods",
       "page": 66,
       "title": "Local-study illustration",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "literature-studies",
-        "literature-local-example"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 67,
       "title": "Conceptual definition",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "frameworks-conceptual-definition"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 68,
       "title": "Operational definitions",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "frameworks-operational-definition",
-        "frameworks-measured-operational",
-        "frameworks-experimental-operational",
-        "frameworks-operational-scenario"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 69,
       "title": "Lesson 4 title",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 70,
       "title": "Design definition",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "designs-definition",
-        "designs-decisions"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 71,
       "title": "Design meanings",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "designs-definition"
+        "term-designs-research-design"
       ]
     },
     {
@@ -861,54 +661,41 @@
       "page": 72,
       "title": "Parts of design",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "designs-sampling",
-        "designs-observational",
-        "designs-statistical",
-        "designs-operational"
+        "term-designs-sampling",
+        "term-designs-observational",
+        "term-designs-statistical"
       ]
     },
     {
       "sourceId": "methods",
       "page": 73,
       "title": "Good-design considerations",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "designs-feature-information",
-        "designs-feature-staff",
-        "designs-feature-objective",
-        "designs-feature-nature",
-        "designs-feature-resources"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 74,
       "title": "Important variables/concepts",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "variables-independent",
-        "variables-dependent",
-        "variables-control",
-        "designs-confounded"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 75,
       "title": "Experimental concepts",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "designs-hypothesis",
-        "designs-testing",
-        "experimental-control",
-        "experimental-experimental",
-        "experimental-treatment",
-        "experimental-experiment"
+        "term-designs-hypothesis-testing-wording-v2",
+        "term-designs-control-group",
+        "term-designs-experimental-group",
+        "term-designs-treatments",
+        "term-designs-experiment"
       ]
     },
     {
@@ -916,45 +703,29 @@
       "page": 76,
       "title": "Design categories and exploratory methods",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "designs-exploratory",
-        "designs-descriptive",
-        "designs-diagnostic",
-        "designs-hypothesis-testing",
-        "designs-explore-literature",
-        "designs-explore-experience",
-        "designs-explore-cases"
+        "term-designs-exploratory-wording-v2",
+        "term-designs-diagnostic"
       ]
     },
     {
       "sourceId": "methods",
       "page": 77,
       "title": "Formulative versus descriptive/diagnostic",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "designs-contrast-flexibility",
-        "designs-contrast-sampling-style",
-        "designs-contrast-analysis-planning",
-        "designs-contrast-operations"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 78,
       "title": "Design comparison table I",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "designs-experiment",
-        "designs-quasi",
-        "designs-cross-correlation",
-        "designs-expost",
-        "designs-experiment-example",
-        "designs-quasi-example",
-        "designs-study-grade",
-        "designs-abuse-example"
+        "term-designs-quasi-experimental",
+        "term-approaches-causal-comparative-wording-v2"
       ]
     },
     {
@@ -962,24 +733,17 @@
       "page": 79,
       "title": "Design comparison table II",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "designs-predictive",
-        "designs-cohort",
-        "designs-survey",
-        "designs-qualitative",
-        "designs-future-example",
-        "designs-cohort-example",
-        "designs-vote-example",
-        "designs-quit-example"
+        "term-approaches-survey-wording-v2"
       ]
     },
     {
       "sourceId": "methods",
       "page": 80,
       "title": "Historical section title",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
@@ -987,38 +751,28 @@
       "page": 81,
       "title": "Historical definition and limitations",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "historical-definition",
-        "historical-advantage-evidence",
-        "historical-advantage-range",
-        "historical-limitations"
+        "term-historical-historical-research"
       ]
     },
     {
       "sourceId": "methods",
       "page": 82,
       "title": "Historical uses",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "historical-learn",
-        "historical-apply",
-        "historical-predict",
-        "historical-trends"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 83,
       "title": "Historical steps and written/numerical sources",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "historical-step-1",
-        "historical-step-2",
-        "historical-documents",
-        "historical-numbers"
+        "term-historical-documents",
+        "term-historical-numerical"
       ]
     },
     {
@@ -1026,49 +780,28 @@
       "page": 84,
       "title": "Oral/relic sources and evidence classification",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "literature-primary",
-        "literature-secondary",
-        "historical-oral",
-        "historical-relics"
+        "term-historical-oral",
+        "term-historical-relics"
       ]
     },
     {
       "sourceId": "methods",
       "page": 85,
       "title": "Primary/secondary examples",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "literature-primary",
-        "literature-secondary",
-        "historical-primary-teacher",
-        "historical-primary-photo",
-        "historical-primary-essays",
-        "historical-primary-minutes",
-        "historical-primary-songs",
-        "historical-secondary-encyclopedia",
-        "historical-secondary-aristotle",
-        "historical-secondary-teacher-report",
-        "historical-secondary-colonies",
-        "historical-secondary-newspaper"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 86,
       "title": "Historical steps and external criticism",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "historical-step-3",
-        "historical-step-4",
-        "historical-external",
-        "historical-external-writer",
-        "historical-external-purpose",
-        "historical-external-date",
-        "historical-external-place"
+        "term-historical-external-criticism"
       ]
     },
     {
@@ -1076,23 +809,17 @@
       "page": 87,
       "title": "External/internal criticism",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "historical-external",
-        "historical-internal",
-        "historical-external-conditions",
-        "historical-external-versions",
-        "historical-internal-present",
-        "historical-internal-role",
-        "historical-internal-competent"
+        "term-historical-internal-criticism"
       ]
     },
     {
       "sourceId": "methods",
       "page": 88,
       "title": "Descriptive section title",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
@@ -1100,52 +827,37 @@
       "page": 89,
       "title": "Descriptive definitions",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "descriptive-definition"
+        "term-descriptive-descriptive-research"
       ]
     },
     {
       "sourceId": "methods",
       "page": 90,
       "title": "Quantitative/qualitative description",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "descriptive-definition",
-        "descriptive-forms",
-        "descriptive-visual",
-        "descriptive-areas"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 91,
       "title": "Descriptive values",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "descriptive-judgment",
-        "descriptive-insight",
-        "descriptive-hypotheses",
-        "descriptive-norms",
-        "descriptive-remedy",
-        "descriptive-prediction",
-        "descriptive-decision"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 92,
       "title": "Descriptive types I",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "descriptive-survey",
-        "descriptive-normative",
-        "descriptive-correlational",
-        "descriptive-evaluative",
-        "descriptive-correlation-direction"
+        "term-descriptive-normative",
+        "term-approaches-evaluation-wording-v2",
+        "term-approaches-correlational-wording-v2"
       ]
     },
     {
@@ -1153,13 +865,11 @@
       "page": 93,
       "title": "Descriptive types II",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "descriptive-assessment",
-        "descriptive-trend",
-        "descriptive-expost",
-        "descriptive-case",
-        "descriptive-expost-alias"
+        "term-descriptive-assessment",
+        "term-descriptive-trend-wording-v2",
+        "term-approaches-case-study-wording-v2"
       ]
     },
     {
@@ -1167,25 +877,17 @@
       "page": 94,
       "title": "Comparative types/advantages/limits; mismatched paragraph",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "descriptive-comparative",
-        "descriptive-genetic-heading",
-        "descriptive-comparative-adv-intervening",
-        "descriptive-comparative-adv-select",
-        "descriptive-comparative-adv-results",
-        "descriptive-comparative-adv-conduct",
-        "descriptive-comparative-limit-cause",
-        "descriptive-comparative-limit-vars",
-        "descriptive-comparative-limit-sample"
+        "term-descriptive-comparative"
       ]
     },
     {
       "sourceId": "methods",
       "page": 95,
       "title": "Experimental section title",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
@@ -1193,85 +895,44 @@
       "page": 96,
       "title": "Experimental definitions",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "experimental-definition",
-        "experimental-dependent-wording",
-        "experimental-purpose",
-        "experimental-uses"
+        "term-experimental-experimental-design-wording-v2"
       ]
     },
     {
       "sourceId": "methods",
       "page": 97,
       "title": "Distinguishing features",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "experimental-definition",
-        "experimental-control",
-        "experimental-experimental",
-        "experimental-treatment",
-        "experimental-experiment",
-        "experimental-lab-field",
-        "experimental-funding",
-        "experimental-harvest"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 98,
       "title": "Seven Ms",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "experimental-m-1",
-        "experimental-m-2",
-        "experimental-m-3",
-        "experimental-m-4",
-        "experimental-m-5",
-        "experimental-m-6",
-        "experimental-m-7"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 99,
       "title": "Experimental plan and threats",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "experimental-plan-1",
-        "experimental-plan-2",
-        "experimental-plan-3",
-        "experimental-plan-4",
-        "experimental-plan-5",
-        "experimental-plan-6",
-        "experimental-plan-7",
-        "experimental-plan-8",
-        "experimental-plan-9",
-        "experimental-plan-10",
-        "experimental-history",
-        "experimental-maturation",
-        "experimental-testing",
-        "experimental-selection",
-        "experimental-mortality",
-        "experimental-interaction"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "methods",
       "page": 100,
       "title": "One-shot and one-group designs",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "experimental-design-one-shot",
-        "experimental-diagram-one-shot",
-        "experimental-design-one-prepost",
-        "experimental-diagram-one-prepost",
-        "experimental-notation-x",
-        "experimental-notation-o"
+        "term-experimental-posttest-only",
+        "term-experimental-one-group-pretest-posttest"
       ]
     },
     {
@@ -1279,15 +940,10 @@
       "page": 101,
       "title": "Static and randomized pretest-posttest",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "experimental-design-static",
-        "experimental-diagram-static",
-        "experimental-design-random-prepost",
-        "experimental-diagram-random-prepost",
-        "experimental-notation-x",
-        "experimental-notation-o",
-        "experimental-notation-r"
+        "term-experimental-static-group",
+        "term-experimental-pretest-posttest-control"
       ]
     },
     {
@@ -1295,15 +951,9 @@
       "page": 102,
       "title": "Posttest-only control and Solomon four-group",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "experimental-design-random-post",
-        "experimental-diagram-random-post",
-        "experimental-design-solomon",
-        "experimental-diagram-solomon",
-        "experimental-notation-x",
-        "experimental-notation-o",
-        "experimental-notation-r"
+        "term-experimental-solomon"
       ]
     },
     {
@@ -1311,15 +961,9 @@
       "page": 103,
       "title": "Nonequivalent/separate-sample text and inconsistent diagrams",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "experimental-design-nonequivalent",
-        "experimental-diagram-nonequivalent",
-        "experimental-design-separate",
-        "experimental-notation-x",
-        "experimental-notation-o",
-        "experimental-nonequivalent-printed",
-        "experimental-separate-printed"
+        "term-experimental-separate-sample"
       ]
     },
     {
@@ -1327,50 +971,39 @@
       "page": 104,
       "title": "Time-series design",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "experimental-design-time-series",
-        "experimental-diagram-time-series",
-        "experimental-notation-x",
-        "experimental-notation-o",
-        "experimental-time-count"
+        "term-experimental-time-series"
       ]
     },
     {
       "sourceId": "architecture",
       "page": 1,
       "title": "Title",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "architecture",
       "page": 2,
       "title": "Method-action-output",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "approaches-architecture-equation",
-        "approaches-method",
-        "approaches-action",
-        "approaches-output"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "architecture",
       "page": 3,
       "title": "Seven pillars",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "approaches-controlled",
-        "approaches-rigorous",
-        "approaches-systematic",
-        "approaches-valid",
-        "approaches-empirical",
-        "approaches-critical",
-        "approaches-transparent"
+        "term-foundations-controlled",
+        "term-foundations-transparent",
+        "term-foundations-rigorous",
+        "term-foundations-systematic",
+        "term-foundations-valid-verifiable"
       ]
     },
     {
@@ -1378,15 +1011,9 @@
       "page": 4,
       "title": "Professional and investigative purposes",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "approaches-evidence",
-        "approaches-credibility",
-        "approaches-accountability",
-        "approaches-cost",
-        "approaches-purpose-exploratory",
-        "approaches-purpose-descriptive",
-        "approaches-purpose-explanatory"
+        "term-designs-explanatory-wording-v2"
       ]
     },
     {
@@ -1394,13 +1021,10 @@
       "page": 5,
       "title": "Basic versus applied",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "approaches-basic",
-        "approaches-applied",
-        "approaches-basic-consumer",
-        "approaches-applied-consumer",
-        "approaches-same-methods"
+        "term-approaches-basic",
+        "term-approaches-applied"
       ]
     },
     {
@@ -1408,18 +1032,14 @@
       "page": 6,
       "title": "Applied research and time dimensions",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "approaches-action-research",
-        "approaches-impact",
-        "approaches-evaluation",
-        "approaches-formative",
-        "approaches-summative",
-        "approaches-cross",
-        "approaches-long",
-        "approaches-long-types",
-        "approaches-cross-limit",
-        "approaches-long-limit"
+        "term-approaches-action",
+        "term-approaches-impact",
+        "term-approaches-cross-sectional",
+        "term-approaches-longitudinal",
+        "term-approaches-formative",
+        "term-approaches-summative"
       ]
     },
     {
@@ -1427,72 +1047,49 @@
       "page": 7,
       "title": "Methodological domains",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "approaches-domain-quant",
-        "approaches-domain-qual",
-        "approaches-domain-mixed"
+        "term-approaches-quantitative",
+        "term-approaches-qualitative",
+        "term-approaches-mixed"
       ]
     },
     {
       "sourceId": "architecture",
       "page": 8,
       "title": "Quantitative approaches",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "approaches-quant-survey",
-        "approaches-quant-correlation",
-        "approaches-quant-causal-comparative",
-        "approaches-quant-experimental",
-        "approaches-correlation-caution"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "architecture",
       "page": 9,
       "title": "Quantitative classification and validity sidebar",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "approaches-classification-true",
-        "approaches-classification-quasi",
-        "approaches-classification-pre",
-        "approaches-classification-nonexperiment",
-        "approaches-classification-non-types",
-        "approaches-external-validity-slide",
-        "approaches-internal-validity-slide"
+        "term-designs-non-experimental",
+        "term-experimental-internal-validity"
       ]
     },
     {
       "sourceId": "architecture",
       "page": 10,
       "title": "Qualitative stages",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "approaches-naturalistic",
-        "approaches-qual-orientation",
-        "approaches-qual-focused",
-        "approaches-qual-closure",
-        "approaches-qual-salient",
-        "approaches-qual-scrutiny",
-        "approaches-qual-trust",
-        "approaches-qual-limitations"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "architecture",
       "page": 11,
       "title": "Qualitative approaches",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "approaches-phenomenology",
-        "approaches-ethnography",
-        "approaches-history",
-        "approaches-case-study",
-        "approaches-phenomenology-flexible"
+        "term-approaches-phenomenology",
+        "term-approaches-ethnography"
       ]
     },
     {
@@ -1500,14 +1097,15 @@
       "page": 12,
       "title": "Mixed-method purposes",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "approaches-triangulation",
-        "approaches-complementarity",
-        "approaches-expansion",
-        "approaches-initiation",
-        "approaches-development",
-        "approaches-mixed-method-model"
+        "term-approaches-triangulation",
+        "term-approaches-expansion",
+        "term-approaches-development",
+        "term-approaches-complementarity",
+        "term-approaches-initiation",
+        "term-approaches-mixed-method",
+        "term-approaches-mixed-model"
       ]
     },
     {
@@ -1515,272 +1113,185 @@
       "page": 13,
       "title": "Infrastructure pyramid",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "digital-cyber",
-        "digital-grid",
-        "digital-middleware",
-        "digital-practice",
-        "digital-layer-0",
-        "digital-layer-1",
-        "digital-layer-2",
-        "digital-layer-3"
+        "term-digital-e-research",
+        "term-digital-middleware",
+        "term-digital-grid",
+        "term-digital-cyberinfrastructure"
       ]
     },
     {
       "sourceId": "architecture",
       "page": 14,
       "title": "Traditional versus e-Research",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "digital-dimension-participants",
-        "digital-modern-participants",
-        "digital-dimension-data",
-        "digital-modern-data",
-        "digital-dimension-computation",
-        "digital-modern-computation",
-        "digital-dimension-networking",
-        "digital-modern-networking",
-        "digital-dimension-dissemination",
-        "digital-modern-dissemination"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "architecture",
       "page": 15,
       "title": "Ecosystem flow",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "digital-input",
-        "digital-engine",
-        "digital-infrastructure",
-        "digital-output",
-        "digital-ecosystem-sequence"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "reliability",
       "page": 1,
       "title": "Title",
-      "status": "supporting material",
-      "reason": "Title, course context, outline, or reference material; no substantive standalone assessment invented.",
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "questionIds": []
     },
     {
       "sourceId": "reliability",
       "page": 2,
       "title": "Four reliability methods",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "reliability-retest",
-        "reliability-parallel",
-        "reliability-split",
-        "reliability-kr"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "reliability",
       "page": 3,
       "title": "Test-retest formula",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "reliability-retest-conditions",
-        "reliability-spearman-use",
-        "reliability-spearman-formula",
-        "reliability-spearman-d",
-        "reliability-spearman-n"
+        "term-reliability-spearman"
       ]
     },
     {
       "sourceId": "reliability",
       "page": 4,
       "title": "Spearman rank example",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "reliability-spearman-d",
-        "reliability-spearman-n",
-        "reliability-spearman-sum",
-        "reliability-spearman-denominator",
-        "reliability-spearman-numerator",
-        "reliability-spearman-fraction",
-        "reliability-spearman-result",
-        "reliability-interpret-retest"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "reliability",
       "page": 5,
       "title": "Parallel-forms formula",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "reliability-parallel-conditions",
-        "reliability-pearson",
-        "reliability-pearson-xy"
+        "term-reliability-pearson"
       ]
     },
     {
       "sourceId": "reliability",
       "page": 6,
       "title": "Pearson example",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "reliability-pearson-xy",
-        "reliability-pearson-total-x",
-        "reliability-pearson-total-y",
-        "reliability-pearson-total-x2",
-        "reliability-pearson-total-y2",
-        "reliability-pearson-total-xy",
-        "reliability-pearson-numerator",
-        "reliability-pearson-denominator",
-        "reliability-pearson-result",
-        "reliability-interpret-parallel"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "reliability",
       "page": 7,
       "title": "Split-half formula",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "reliability-split-single",
-        "reliability-split-purpose",
-        "reliability-split-formula"
+        "term-reliability-split-half",
+        "term-reliability-spearman-brown"
       ]
     },
     {
       "sourceId": "reliability",
       "page": 8,
       "title": "Spearman-Brown example",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "reliability-split-purpose",
-        "reliability-split-numerator",
-        "reliability-split-denominator",
-        "reliability-split-result",
-        "reliability-interpret-split"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "reliability",
       "page": 9,
       "title": "KR-20 formula",
       "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
+      "reason": "Exact source definition assessed by linked question IDs.",
       "questionIds": [
-        "reliability-kr-items",
-        "reliability-kr-formula",
-        "reliability-kr-n",
-        "reliability-kr-p",
-        "reliability-kr-q",
-        "reliability-kr-variance",
-        "reliability-kr-pq",
-        "reliability-kr-calculate-q",
-        "reliability-kr-calculate-pq"
+        "term-reliability-kr20"
       ]
     },
     {
       "sourceId": "reliability",
       "page": 10,
       "title": "KR-20 example",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "reliability-kr-n",
-        "reliability-kr-p",
-        "reliability-kr-q",
-        "reliability-kr-variance",
-        "reliability-kr-pq",
-        "reliability-kr-multiplier",
-        "reliability-kr-ratio",
-        "reliability-kr-result",
-        "reliability-interpret-kr"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "reliability",
       "page": 11,
       "title": "Benchmarks",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "reliability-rating-excellent",
-        "reliability-rating-good",
-        "reliability-rating-acceptable",
-        "reliability-rating-questionable",
-        "reliability-excellent-use",
-        "reliability-good-use",
-        "reliability-acceptable-use",
-        "reliability-low-use",
-        "reliability-interpret-kr"
-      ]
+      "status": "supporting material",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
+      "questionIds": []
     },
     {
       "sourceId": "reliability",
       "page": 12,
       "title": "Summary",
-      "status": "covered",
-      "reason": "Question IDs below cover the substantive teaching content.",
-      "questionIds": [
-        "reliability-summary"
-      ]
+      "status": "excluded",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
+      "questionIds": []
     }
   ],
   "exceptions": [
     {
       "sourceId": "methods",
       "pages": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15
+        43
       ],
-      "reason": "Outline-only topics are contextual labels; no unsupported detailed sampling/statistics/proposal questions are invented."
+      "termId": "frameworks-theoretical",
+      "reason": "The only supplied definition conflates theoretical grounding with a legal basis. Retain the source quotation and verified clarification; do not score this misconception."
     },
     {
       "sourceId": "methods",
       "pages": [
-        39,
-        40
+        72
       ],
-      "reason": "Blank enrichment forms require personal/student input; no fixed answer key is supplied."
+      "termId": "designs-operational",
+      "reason": "The supplied description is fragmentary and does not unambiguously explain operational design."
     },
     {
       "sourceId": "methods",
       "pages": [
-        28
+        79
       ],
-      "reason": "Malformed formula glyphs are not scored as exact mathematics. The separate reliability deck supplies readable formulas; the split-half administration contradiction is explicitly tested with a clarification."
+      "termId": "designs-cohort-sequential",
+      "reason": "The purpose description ends at “overlapping”; no missing completion is invented."
     },
     {
       "sourceId": "methods",
       "pages": [
-        94
+        102
       ],
-      "reason": "The genetic-method paragraph conflicts with its heading. A source-specific heading question and comparison note cover it without inventing a reconciled definition."
+      "termId": "experimental-posttest-control",
+      "reason": "The source description ends at “or”; retain the text as notes, without scoring an incomplete definition."
     },
     {
       "sourceId": "methods",
       "pages": [
         103
       ],
-      "reason": "Exact reconstruction of the ambiguous separate-sample X layout is excluded; readable prose is tested. The extra X in the nonequivalent control row is explicitly identified and a corrected schematic is labeled."
+      "termId": "experimental-non-equivalent",
+      "reason": "The defining assignment sentence is clipped and its diagram also contains a treatment-symbol error. Retain the quotation and clarification without reconstructing the definition."
+    },
+    {
+      "sourceId": "architecture",
+      "pages": [
+        9
+      ],
+      "termId": "experimental-external-validity",
+      "reason": "The source describes extraneous variables rather than generalizability; retain the quotation and correction without scoring the erroneous definition."
     }
   ],
-  "reviewMethod": "Text extraction plus visual inspection of all 75 image-based pages and formula/diagram close-ups. Source text is paraphrased into authored questions; diagrams are transcribed and labeled."
+  "reviewMethod": "Methods-first wording audit: selectable-text comparison and visual review of image-based source descriptions; per-description hashes and source-selection exceptions are recorded in wording-review.json."
 }

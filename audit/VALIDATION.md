@@ -1,71 +1,48 @@
 # Verification record
 
-Reviewed on 2026-11-04 (Asia/Manila).
+Reviewed on 2026-11-04 (Asia/Manila), after the Methods-first exact-wording audit.
 
 ## Content
 
-- 503 four-choice questions in 13 topics; 21 numerical questions and 12 source-specific clarifications.
-- All 131 PDF pages have an inventory entry: 103 covered, 24 supporting material, two repeated, and two excluded blank worksheets.
-- Text extraction was combined with visual inspection of the 60 image-based pages in the first deck and all 15 visual slides in the architecture deck. Reliability formulas and worked-example tables received additional visual review. Original render overlap was transcribed into readable mathematical steps.
-- Every question records its source and PDF pages. Broad grouped citations were narrowed to the defining page where appropriate. Distinct worked-example column totals and calculation steps are tested separately; no arbitrary numerical question quota was imposed.
-- All 21 numerical answers were independently recomputed in the test suite. Pearson's final correlation is also calculated from centered paired scores, rather than merely repeating the authored raw-sum substitution. Whole-test split-half reliability is checked using an algebraically different expression.
-- Questions preserve slide-stated answers only when the source is explicitly named. Corrections explain the primary/secondary examples, framework/legal-basis confusion, split-half administration, external validity, dependent-variable manipulation wording, questionable design-table categorization, and inconsistent design illustrations.
-- The ambiguous separate-sample X layout is an explicit exception. The nonequivalent control row has a separately labeled corrected schematic; its original extra X is also covered by a source-specific question.
+- **114 definition questions, 120 terms, 167 quoted source descriptions, 13 topics.** Each question identifies one distinct term; all four options are genuine terms from the curated PDFs.
+- Full source versions and supporting notes remain in Terms. Scored questions use exact selected excerpts, removing only the term itself where necessary. Source pages are available in expandable Source, not in prompts.
+- There are no computations, scenarios, diagram interpretation, author-name trivia, numbered-step or mnemonic-letter quizzes, formula/symbol quizzes, synthetic benefit labels, or scored printing errors.
+- All 131 PDF pages have question and glossary inventory records. Question coverage: 55 assessed, 49 supporting, 27 excluded. Terms coverage: 64 with definitions, 40 supporting, 27 excluded.
+- Six incomplete/problematic definitions remain in Terms only. Their exact filenames/pages and reasons are in [the content review](CONTENT-REVIEW.md). Ten separate glossary clarifications retain their verified references.
+- All 503 original questions are accounted for: 101 replaced, 23 merged, 379 removed, zero unchanged questions. Every replacement has a new ID. No original checked answer can be applied to a replacement; valid collection preferences and theme are preserved.
+- The independent selectable-text audit verifies **41 description references** against the bundled PDFs, ignoring whitespace/typographic ligatures only. **126 image-based description references** were compared against rendered source pages in the wording audit, with enlarged crops for small letters. Another 26 selectable-text supporting passages pass the stricter whitespace/ligature-only audit; paragraph boundaries were restored in three examples.
+- Bundled and built/downloaded PDFs match the original Downloads files and recorded SHA-256 hashes. Sources remain unchanged.
 
-The source inventory is a human content review. Automated coverage checks confirm structural traceability; they do not independently prove that a question is substantively correct or predict an instructor's exam.
+The exact-wording pass keeps all 114 questions and 120 terms. Thirteen questions receive revised wording and new IDs; 101 retain their IDs and saved responses. Seven glossary passages receive transcription or paragraph-boundary corrections. All 167 description versions have frozen review hashes and precise sources; alternate-source selections have explicit reasons in [the wording report](WORDING-REVIEW.md).
+
+Structural tests confirm traceability and content contracts, not an instructor's exam coverage. Exact quotations may preserve a source's grammar errors. Methodological corrections are separate from quotations.
 
 ## Application checks
 
-`npm test`: **13,347 checks passed across 16 suites**, exercising:
+`npm test`: **7,311 checks across 21 suites**, covering:
 
-- Structural bank validation, unique IDs/choices, answer keys, page references, and clarification policy.
-- Every question with alternating correct and incorrect first attempts; marking, locks, explanations, diagrams, and tables.
-- All-topic and per-topic routes, drafts, independent cursors, refresh/reopening, completion, and review of checked answers.
-- Reset confirmation/cancellation and isolation of other topics, legacy reviewer keys, and themes.
-- Malformed storage, incompatible signatures, invalid choices, blocked/full storage, and inert HTML-like content.
-- Menu focus wrapping, cancellation, accessible radio groups, and focus restoration.
-- Legacy progress migration, last-collection resume, mobile check/skip controls, validated numeric jumps, overlay exclusivity, and mobile progress.
-- Glossary provenance, complete page inventory, exact-wording regressions, search/filter combinations, session restoration, and practice-storage isolation.
+- IDs, topics, four unique choices, answer keys, sources, full 131-page inventories, and every old question's recorded disposition.
+- One scored question per eligible term; exact selected quotation and cloze reconstruction; real term choices; no alias equivalent competing with the key; no obsolete calculation/diagram/scoring-error fields. Mutated content fixtures demonstrate validation failures.
+- Every current question with alternating correct/incorrect first responses, drafts, answer locks, feedback, completion, revisiting, source links and source-term links.
+- Previous/Next, numeric jumping/range checks, collection cursors, resume, refresh restoration, selected/all resets and cancellation, shared progress and topic isolation.
+- All 503 legacy answers rejected safely; mixed legacy/current saved values retain only valid current attempts; removed positions fall back safely; empty collections are hidden.
+- A pre-audit 114-answer fixture preserves all 101 unchanged checked/draft responses and rejects responses to all 13 revised questions. Source-label spelling, exact Empirical text/reference, documented answer blanks, review hashes and Methods-first exceptions are validated.
+- Malformed, unavailable and full storage, invalid signatures/choices, inert HTML-like content, theme and other reviewers' keys.
+- Terms search/topic filters, exact spelling regressions, empty state, expanded Details, session restoration, deep links and return to the same checked question.
 
-## Real Chrome checks
+## Browser checks
 
-Headless Chrome uses an isolated test profile and an ephemeral local server; it never drives or changes the user's existing browser profile.
+`npm run test:browser`: **1,210 real Chrome checks**, including **112 responsive combinations** (seven views at 320, 360, 390, 430, 768, 850, 1024 and 1440px in both themes).
 
-- **1,126 checks passed**, including **112 responsive combinations**: home, an unanswered question, a table-based computation, a research-design schematic, a clarification, the Terms list, and expanded glossary formulas at 320, 360, 390, 430, 768, 850, 1024, and 1440 CSS pixels in both themes.
-- The first question starts at 146px at every compact width; hidden desktop navigation, 16px answer/explanation text, and at least four visible home topic rows at 390 × 844 are required assertions. Six rows fit with the Practice/Terms tabs visible in the reviewed home capture.
-- Additional coverage includes the longest prompt, largest choice text, 200% root text at 320 × 568 and 390 × 844, and 850 × 390 landscape in both themes. The action bar/header enter normal flow where needed. No page-level horizontal overflow was detected; wide tables and notation have local keyboard-focusable scroll regions.
-- Real keyboard input selects radio options and checks answers. Focus stays clear of header/actions. Checked responses and drafts survive reload; blank answers are disabled and skipping does not submit a draft.
-- Mobile/desktop modal cancellation, confirmation, Tab/Shift+Tab wrapping, Escape, opener-focus restoration, exclusive popovers, range validation, reset isolation, completion, final-question View progress, theme restoration, last-collection resume, and directly opening the built HTML are checked.
-- Visible buttons retain generous touch targets (48px mobile design target, 44px nominal desktop controls). No JavaScript page errors were observed.
-- Desktop light/dark and mobile home, question, feedback, calculation, and large-text sheet screenshots were inspected visually. Before/after screenshots and exact scope/limits are documented in [the mobile redesign record](MOBILE-REDESIGN.md).
+- Mobile questions begin at **146px** at all tested compact widths; desktop topic navigation stays hidden. Answer and explanation text is at least 16px. At least four topic rows fit in the 390×844 home viewport.
+- Long definitions/choices, feedback, Terms and supplementary formulas/tables reflow without page-level horizontal overflow. Wide tables scroll locally with keyboard input.
+- 200% root-font enlargement is tested at 320×568 and 390×844; short landscape at 850×390. Actions/header enter document flow as appropriate.
+- Keyboard radio selection/checking, focus clear of header/actions, Escape, dialog focus loops/restoration, mutually exclusive overlays, checking/skipping/reset flows and completion pass.
+- Checked-answer term links open the precise entry with Details expanded; returning to practice preserves the response and position. Glossary search/history/filter/Details restoration does not write practice responses.
+- All three HTTP and browser downloads have their original filenames, full bytes and matching SHA-256 hashes. Direct-file HTML practice and Terms load without a server.
+- A real-browser pre-audit save verifies unchanged-answer restoration, retired-cursor fallback and theme preservation. Empirical’s revised question starts unanswered, shows the exact Methods description and page 19 download, persists a new checked response, and exposes both source versions and the printed-spelling alias in Terms.
+- No JavaScript page errors were observed. Static build and `git diff --check` pass.
 
-Screenshots and machine-readable test results are under `.cache/` and are deliberately excluded from the runtime build.
+Screenshots and machine-readable results are local QA artifacts under ignored `.cache/browser/`; application totals are in `.cache/test-results.json`; selectable-text results are in `.cache/glossary/native-quote-audit.json`. Reviewed captures include home, unanswered/checked questions, Terms, long definitions and desktop/mobile light/dark views. They are excluded from the static website.
 
-## Reference checks
-
-All seven referenced educational sources were retrieved and read through the web retrieval tool. The KPU link targets its actual nonequivalent-groups chapter rather than a contents page. The sources directly support the accompanying methodological clarifications, with diagram inconsistencies also established by comparison to the supplied slide itself.
-
-`reference-checks.json` records separate command-line HTTP availability. Some Pressbooks hosts return 403 to that client even though the same material is readable through web retrieval. Such results remain recorded as 403; they are not relabeled as successful HTTP checks. Link availability and manual semantic review are separate evidence.
-
-## Packaging and limits
-
-`npm run build` packages HTML/CSS/JavaScript, the generated question bank, glossary data/view, and the three source PDFs in `public/pdfs/`. PDF copies retain their original filenames and must match the inventory SHA-256 hashes. Extracted text, screenshots, authoring scripts, audits, dependencies, and test data are absent from `public/`.
-
-Browser progress is local to one origin and profile. Direct-file behavior varies by browser, so a stable local HTTP address is recommended for consistent progress. There is no backend, synchronization, timed mock-exam mode, or hosted deployment.
-
-
-## UI cleanup and PDF downloads
-
-The homepage now uses a compact Fundamentals of Research heading. The introductory slogan/paragraph, three-step routine, source-policy paragraph, sidebar motto, and progress lock reminder were removed along with their unused styles. The navbar PDFs dropdown has three download links, with additional links inside expanded question sources. The download cards were removed from the homepage. Question content and progress signatures are unchanged.
-
-Downloads are checked through actual browser download events and HTTP responses. For every PDF, the returned bytes and downloaded file SHA-256 must match the inventory; original suggested filenames and PDF content types are verified. Desktop/mobile checks also assert that all requested phrases are absent.
-
-Navbar PDF downloads were checked at all eight viewport widths in both themes, including keyboard opening, Escape dismissal, opener focus restoration, and no dropdown overflow. Actual download filenames and file hashes also pass.
-
-## Terms review
-
-The Terms tab contains 159 canonical entries and 203 source descriptions across the existing 13 topics. Each of the 131 source pages has a separate glossary inventory record: 74 covered, 28 supporting, two repeated, and 27 excluded administrative/outline/divider/worksheet/closing pages. Source versions, incomplete wording, and corrections remain visibly distinguishable. See [the Terms review record](TERMS.md) and [page inventory](terms-inventory.json).
-
-All 47 description references with usable selectable text match the PDFs in the independent `npm run audit:terms` check. The other 156 description references require the recorded visual review of rendered image slides. This check preserves spelling/punctuation and ignores whitespace and typographic ligature encoding; it does not certify the methodological correctness of slide text.
-
-Real-browser glossary tests verify search by name/abbreviation/description, combined filters, empty-state clearing, source PDF download hashes, Practice resume, browser Back restoration of filters and expanded Details, unavailable-storage usability, both themes, 200% root text at 320px, short landscape, keyboard scrolling of wide tables, and standalone-file loading. Practice still begins at 146px with desktop topic navigation hidden on compact screens. Only home/Terms show mode tabs; mobile practice uses More → Review terms.
+This uses isolated headless Chrome profiles, not physical iOS/Android devices or assistive-technology certification. The text enlargement test changes root font size; it does not claim every browser's zoom implementation. Original render review plus automated checks cannot guarantee the source slides' methodological correctness.

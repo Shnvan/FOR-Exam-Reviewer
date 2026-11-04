@@ -4,7 +4,7 @@
       "sourceId": "methods",
       "page": 1,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -13,7 +13,7 @@
       "sourceId": "methods",
       "page": 2,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -22,7 +22,7 @@
       "sourceId": "methods",
       "page": 3,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -31,7 +31,7 @@
       "sourceId": "methods",
       "page": 4,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -40,7 +40,7 @@
       "sourceId": "methods",
       "page": 5,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -49,7 +49,7 @@
       "sourceId": "methods",
       "page": 6,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -58,7 +58,7 @@
       "sourceId": "methods",
       "page": 7,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -67,7 +67,7 @@
       "sourceId": "methods",
       "page": 8,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -76,7 +76,7 @@
       "sourceId": "methods",
       "page": 9,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -85,7 +85,7 @@
       "sourceId": "methods",
       "page": 10,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -94,7 +94,7 @@
       "sourceId": "methods",
       "page": 11,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -103,7 +103,7 @@
       "sourceId": "methods",
       "page": 12,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -112,7 +112,7 @@
       "sourceId": "methods",
       "page": 13,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -121,7 +121,7 @@
       "sourceId": "methods",
       "page": 14,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -130,7 +130,7 @@
       "sourceId": "methods",
       "page": 15,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -139,7 +139,7 @@
       "sourceId": "methods",
       "page": 16,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -148,7 +148,7 @@
       "sourceId": "methods",
       "page": 17,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "foundations-research"
       ],
@@ -158,19 +158,19 @@
     {
       "sourceId": "methods",
       "page": 18,
-      "disposition": "covered",
-      "reason": "Exact description/list quotation.",
-      "definitionIds": [
-        "foundations-importance"
+      "disposition": "supporting material",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
+      "definitionIds": [],
+      "detailIds": [
+        "foundations-research"
       ],
-      "detailIds": [],
       "visualReview": true
     },
     {
       "sourceId": "methods",
       "page": 19,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "foundations-empirical",
         "foundations-logical",
@@ -186,24 +186,24 @@
     {
       "sourceId": "methods",
       "page": 20,
-      "disposition": "covered",
-      "reason": "Exact description/list quotation.",
-      "definitionIds": [
-        "foundations-researcher-qualities"
+      "disposition": "supporting material",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
+      "definitionIds": [],
+      "detailIds": [
+        "foundations-research"
       ],
-      "detailIds": [],
       "visualReview": true,
       "exception": "Researcher qualities are named, not individually defined; retained as one exact list."
     },
     {
       "sourceId": "methods",
       "page": 21,
-      "disposition": "covered",
-      "reason": "Exact description/list quotation.",
-      "definitionIds": [
-        "foundations-classification"
+      "disposition": "supporting material",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
+      "definitionIds": [],
+      "detailIds": [
+        "foundations-research"
       ],
-      "detailIds": [],
       "visualReview": true,
       "exception": "Classification chart retained as a list. Unexplained labels receive no invented individual definitions."
     },
@@ -211,7 +211,7 @@
       "sourceId": "methods",
       "page": 22,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "variables-variable"
       ],
@@ -222,7 +222,7 @@
       "sourceId": "methods",
       "page": 23,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "variables-independent",
         "variables-dependent",
@@ -237,7 +237,7 @@
       "sourceId": "methods",
       "page": 24,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "variables-independent"
@@ -247,22 +247,22 @@
     {
       "sourceId": "methods",
       "page": 25,
-      "disposition": "covered",
-      "reason": "Exact description/list quotation.",
-      "definitionIds": [
-        "variables-process"
+      "disposition": "supporting material",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
+      "definitionIds": [],
+      "detailIds": [
+        "foundations-research"
       ],
-      "detailIds": [],
       "visualReview": true
     },
     {
       "sourceId": "methods",
       "page": 26,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
-        "variables-process"
+        "foundations-research"
       ],
       "visualReview": true
     },
@@ -270,7 +270,7 @@
       "sourceId": "methods",
       "page": 27,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "instruments-validity",
         "instruments-content-validity",
@@ -285,7 +285,7 @@
       "sourceId": "methods",
       "page": 28,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "instruments-reliability",
         "reliability-test-retest",
@@ -301,23 +301,20 @@
       "sourceId": "methods",
       "page": 29,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
-        "instruments-usability",
-        "instruments-administration",
-        "instruments-scoring",
-        "instruments-interpretation",
-        "instruments-cost",
-        "instruments-mechanical"
+        "instruments-usability"
       ],
-      "detailIds": [],
+      "detailIds": [
+        "instruments-usability"
+      ],
       "visualReview": true
     },
     {
       "sourceId": "methods",
       "page": 30,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -326,7 +323,7 @@
       "sourceId": "methods",
       "page": 31,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "problems-research-problem"
       ],
@@ -336,8 +333,8 @@
     {
       "sourceId": "methods",
       "page": 32,
-      "disposition": "repeated material",
-      "reason": "Same research-problem wording as page 31; both citations retained.",
+      "disposition": "covered",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "problems-research-problem"
       ],
@@ -347,23 +344,19 @@
     {
       "sourceId": "methods",
       "page": 33,
-      "disposition": "covered",
-      "reason": "Exact description/list quotation.",
-      "definitionIds": [
-        "problems-why",
-        "problems-what",
-        "problems-where",
-        "problems-when",
-        "problems-who"
+      "disposition": "supporting material",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
+      "definitionIds": [],
+      "detailIds": [
+        "problems-research-problem"
       ],
-      "detailIds": [],
       "visualReview": true
     },
     {
       "sourceId": "methods",
       "page": 34,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "problems-research-problem"
@@ -375,7 +368,7 @@
       "sourceId": "methods",
       "page": 35,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "problems-research-problem"
@@ -386,7 +379,7 @@
       "sourceId": "methods",
       "page": 36,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "problems-research-problem"
@@ -398,29 +391,29 @@
       "sourceId": "methods",
       "page": 37,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
-        "problems-statement-objectives"
+        "problems-research-problem"
       ],
       "visualReview": true
     },
     {
       "sourceId": "methods",
       "page": 38,
-      "disposition": "covered",
-      "reason": "Exact description/list quotation.",
-      "definitionIds": [
-        "problems-research-title"
+      "disposition": "supporting material",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
+      "definitionIds": [],
+      "detailIds": [
+        "problems-research-problem"
       ],
-      "detailIds": [],
       "visualReview": true
     },
     {
       "sourceId": "methods",
       "page": 39,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -429,7 +422,7 @@
       "sourceId": "methods",
       "page": 40,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -437,19 +430,19 @@
     {
       "sourceId": "methods",
       "page": 41,
-      "disposition": "covered",
-      "reason": "Exact description/list quotation.",
-      "definitionIds": [
-        "problems-statement-objectives"
+      "disposition": "supporting material",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
+      "definitionIds": [],
+      "detailIds": [
+        "problems-research-problem"
       ],
-      "detailIds": [],
       "visualReview": true
     },
     {
       "sourceId": "methods",
       "page": 42,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "frameworks-hypothesis",
         "frameworks-null",
@@ -462,7 +455,7 @@
       "sourceId": "methods",
       "page": 43,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "frameworks-theoretical"
       ],
@@ -473,9 +466,10 @@
       "sourceId": "methods",
       "page": 44,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
-        "frameworks-conceptual-framework"
+        "frameworks-conceptual-framework",
+        "frameworks-construct"
       ],
       "detailIds": [],
       "visualReview": true
@@ -484,7 +478,7 @@
       "sourceId": "methods",
       "page": 45,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "frameworks-assumptions"
       ],
@@ -495,7 +489,7 @@
       "sourceId": "methods",
       "page": 46,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "frameworks-significance"
       ],
@@ -506,7 +500,7 @@
       "sourceId": "methods",
       "page": 47,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "frameworks-scope"
       ],
@@ -517,7 +511,7 @@
       "sourceId": "methods",
       "page": 48,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "frameworks-conceptual-definition",
         "frameworks-operational-definition"
@@ -528,8 +522,8 @@
     {
       "sourceId": "methods",
       "page": 49,
-      "disposition": "repeated material",
-      "reason": "Same scope/limitations wording as page 47; both citations retained.",
+      "disposition": "covered",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "frameworks-scope"
       ],
@@ -540,7 +534,7 @@
       "sourceId": "methods",
       "page": 50,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -549,7 +543,7 @@
       "sourceId": "methods",
       "page": 51,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "literature-related-literature"
       ],
@@ -560,7 +554,7 @@
       "sourceId": "methods",
       "page": 52,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "literature-related-literature"
@@ -571,7 +565,7 @@
       "sourceId": "methods",
       "page": 53,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "literature-related-literature"
@@ -582,7 +576,7 @@
       "sourceId": "methods",
       "page": 54,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "literature-related-literature"
@@ -593,7 +587,7 @@
       "sourceId": "methods",
       "page": 55,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "literature-related-literature"
@@ -604,7 +598,7 @@
       "sourceId": "methods",
       "page": 56,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "literature-related-literature"
@@ -615,7 +609,7 @@
       "sourceId": "methods",
       "page": 57,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "literature-related-literature"
@@ -626,7 +620,7 @@
       "sourceId": "methods",
       "page": 58,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "literature-primary"
       ],
@@ -639,7 +633,7 @@
       "sourceId": "methods",
       "page": 59,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "literature-secondary"
       ],
@@ -652,7 +646,7 @@
       "sourceId": "methods",
       "page": 60,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "literature-related-literature"
@@ -663,7 +657,7 @@
       "sourceId": "methods",
       "page": 61,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "literature-legal"
       ],
@@ -674,7 +668,7 @@
       "sourceId": "methods",
       "page": 62,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "literature-legal"
@@ -685,7 +679,7 @@
       "sourceId": "methods",
       "page": 63,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "literature-related-literature"
       ],
@@ -696,7 +690,7 @@
       "sourceId": "methods",
       "page": 64,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "literature-related-literature"
@@ -707,7 +701,7 @@
       "sourceId": "methods",
       "page": 65,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "literature-related-studies"
       ],
@@ -718,7 +712,7 @@
       "sourceId": "methods",
       "page": 66,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "literature-related-studies"
@@ -729,7 +723,7 @@
       "sourceId": "methods",
       "page": 67,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "frameworks-conceptual-definition"
       ],
@@ -740,7 +734,7 @@
       "sourceId": "methods",
       "page": 68,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "frameworks-operational-definition"
       ],
@@ -751,7 +745,7 @@
       "sourceId": "methods",
       "page": 69,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -760,7 +754,7 @@
       "sourceId": "methods",
       "page": 70,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "designs-research-design"
       ],
@@ -771,7 +765,7 @@
       "sourceId": "methods",
       "page": 71,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "designs-research-design"
       ],
@@ -782,7 +776,7 @@
       "sourceId": "methods",
       "page": 72,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "designs-sampling",
         "designs-observational",
@@ -796,7 +790,7 @@
       "sourceId": "methods",
       "page": 73,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "designs-research-design"
@@ -807,7 +801,7 @@
       "sourceId": "methods",
       "page": 74,
       "disposition": "supporting material",
-      "reason": "Supporting benefits, summary, or labels without a standalone definition.",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true,
@@ -817,9 +811,9 @@
       "sourceId": "methods",
       "page": 75,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
-        "designs-research-hypothesis",
+        "frameworks-hypothesis",
         "designs-hypothesis-testing",
         "designs-control-group",
         "designs-experimental-group",
@@ -833,7 +827,7 @@
       "sourceId": "methods",
       "page": 76,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "designs-hypothesis-testing",
         "designs-exploratory",
@@ -847,7 +841,7 @@
       "sourceId": "methods",
       "page": 77,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "designs-exploratory",
@@ -859,16 +853,16 @@
       "sourceId": "methods",
       "page": 78,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "designs-quasi-experimental",
-        "designs-non-experimental-correlational",
-        "designs-ex-post-facto",
-        "experimental-experimental-design"
+        "experimental-experimental-design",
+        "approaches-correlational",
+        "approaches-causal-comparative"
       ],
       "detailIds": [
         "designs-quasi-experimental",
-        "designs-non-experimental-correlational"
+        "approaches-correlational"
       ],
       "visualReview": true
     },
@@ -876,16 +870,16 @@
       "sourceId": "methods",
       "page": 79,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
-        "designs-non-experimental-correlational",
         "designs-cohort-sequential",
         "approaches-qualitative",
-        "approaches-survey"
+        "approaches-survey",
+        "approaches-correlational"
       ],
       "detailIds": [
-        "designs-non-experimental-correlational",
-        "designs-cohort-sequential"
+        "designs-cohort-sequential",
+        "approaches-correlational"
       ],
       "visualReview": true,
       "exception": "Cohort-sequential purpose ends at “overlapping”; its example is clipped. No missing wording supplied."
@@ -894,7 +888,7 @@
       "sourceId": "methods",
       "page": 80,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -903,7 +897,7 @@
       "sourceId": "methods",
       "page": 81,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "historical-historical-research"
       ],
@@ -916,7 +910,7 @@
       "sourceId": "methods",
       "page": 82,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "historical-historical-research"
@@ -927,7 +921,7 @@
       "sourceId": "methods",
       "page": 83,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "historical-documents",
         "historical-numerical"
@@ -941,7 +935,7 @@
       "sourceId": "methods",
       "page": 84,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "literature-primary",
         "literature-secondary",
@@ -955,7 +949,7 @@
       "sourceId": "methods",
       "page": 85,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "literature-primary",
@@ -967,7 +961,7 @@
       "sourceId": "methods",
       "page": 86,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "historical-external-criticism"
       ],
@@ -981,7 +975,7 @@
       "sourceId": "methods",
       "page": 87,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "historical-internal-criticism"
       ],
@@ -995,7 +989,7 @@
       "sourceId": "methods",
       "page": 88,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -1004,7 +998,7 @@
       "sourceId": "methods",
       "page": 89,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "descriptive-descriptive-research"
       ],
@@ -1016,7 +1010,7 @@
       "sourceId": "methods",
       "page": 90,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "descriptive-descriptive-research"
@@ -1028,7 +1022,7 @@
       "sourceId": "methods",
       "page": 91,
       "disposition": "supporting material",
-      "reason": "Supporting benefits, summary, or labels without a standalone definition.",
+      "reason": "Source descriptions, examples, procedures or notes retained for reading; not every source page needs a question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true,
@@ -1038,12 +1032,12 @@
       "sourceId": "methods",
       "page": 92,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
-        "descriptive-survey",
         "descriptive-normative",
-        "descriptive-correlational",
-        "descriptive-evaluative"
+        "approaches-evaluation",
+        "approaches-survey",
+        "approaches-correlational"
       ],
       "detailIds": [],
       "visualReview": true
@@ -1052,12 +1046,12 @@
       "sourceId": "methods",
       "page": 93,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "descriptive-assessment",
         "descriptive-trend",
-        "descriptive-ex-post-facto",
-        "descriptive-case-study"
+        "approaches-causal-comparative",
+        "approaches-case-study"
       ],
       "detailIds": [],
       "visualReview": true,
@@ -1067,7 +1061,7 @@
       "sourceId": "methods",
       "page": 94,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "descriptive-comparative"
       ],
@@ -1081,7 +1075,7 @@
       "sourceId": "methods",
       "page": 95,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -1090,7 +1084,7 @@
       "sourceId": "methods",
       "page": 96,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "experimental-experimental-design"
       ],
@@ -1101,7 +1095,7 @@
       "sourceId": "methods",
       "page": 97,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "experimental-experimental-design"
@@ -1111,24 +1105,24 @@
     {
       "sourceId": "methods",
       "page": 98,
-      "disposition": "covered",
-      "reason": "Exact description/list quotation.",
-      "definitionIds": [
-        "experimental-seven-ms"
+      "disposition": "supporting material",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
+      "definitionIds": [],
+      "detailIds": [
+        "experimental-experimental-design"
       ],
-      "detailIds": [],
       "visualReview": true,
       "exception": "7 Ms are an exact list; no individual meanings invented."
     },
     {
       "sourceId": "methods",
       "page": 99,
-      "disposition": "covered",
-      "reason": "Exact description/list quotation.",
-      "definitionIds": [
-        "experimental-plan"
+      "disposition": "supporting material",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
+      "definitionIds": [],
+      "detailIds": [
+        "experimental-experimental-design"
       ],
-      "detailIds": [],
       "visualReview": true,
       "exception": "Plan items retained together; History/Maturation/etc. are named but not defined."
     },
@@ -1136,7 +1130,7 @@
       "sourceId": "methods",
       "page": 100,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "experimental-posttest-only",
         "experimental-one-group-pretest-posttest"
@@ -1152,7 +1146,7 @@
       "sourceId": "methods",
       "page": 101,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "experimental-static-group",
         "experimental-pretest-posttest-control"
@@ -1167,7 +1161,7 @@
       "sourceId": "methods",
       "page": 102,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "experimental-posttest-control",
         "experimental-solomon"
@@ -1183,7 +1177,7 @@
       "sourceId": "methods",
       "page": 103,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "experimental-non-equivalent",
         "experimental-separate-sample"
@@ -1198,7 +1192,7 @@
       "sourceId": "methods",
       "page": 104,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "experimental-time-series"
       ],
@@ -1211,7 +1205,7 @@
       "sourceId": "architecture",
       "page": 1,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -1220,7 +1214,7 @@
       "sourceId": "architecture",
       "page": 2,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "foundations-research"
       ],
@@ -1233,7 +1227,7 @@
       "sourceId": "architecture",
       "page": 3,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "foundations-empirical",
         "foundations-critical",
@@ -1250,21 +1244,22 @@
       "sourceId": "architecture",
       "page": 4,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
-        "foundations-professional-goals",
         "designs-exploratory",
         "designs-explanatory",
         "descriptive-descriptive-research"
       ],
-      "detailIds": [],
+      "detailIds": [
+        "foundations-research"
+      ],
       "visualReview": true
     },
     {
       "sourceId": "architecture",
       "page": 5,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "approaches-basic",
         "approaches-applied"
@@ -1276,13 +1271,15 @@
       "sourceId": "architecture",
       "page": 6,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "approaches-action",
         "approaches-impact",
         "approaches-evaluation",
         "approaches-cross-sectional",
-        "approaches-longitudinal"
+        "approaches-longitudinal",
+        "approaches-formative",
+        "approaches-summative"
       ],
       "detailIds": [],
       "visualReview": true
@@ -1291,7 +1288,7 @@
       "sourceId": "architecture",
       "page": 7,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "approaches-quantitative",
         "approaches-qualitative",
@@ -1304,7 +1301,7 @@
       "sourceId": "architecture",
       "page": 8,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "experimental-experimental-design",
         "approaches-survey",
@@ -1318,16 +1315,16 @@
       "sourceId": "architecture",
       "page": 9,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "designs-quasi-experimental",
         "designs-non-experimental",
-        "experimental-true-experimental",
-        "experimental-pre-experimental",
         "experimental-internal-validity",
         "experimental-external-validity"
       ],
-      "detailIds": [],
+      "detailIds": [
+        "experimental-experimental-design"
+      ],
       "visualReview": true,
       "exception": "Design categories list examples rather than definitions; source wording and external-validity clarification retained."
     },
@@ -1335,15 +1332,12 @@
       "sourceId": "architecture",
       "page": 10,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
-        "approaches-naturalistic",
-        "approaches-orientation",
-        "approaches-focused-exploration",
-        "approaches-confirmation"
+        "approaches-qualitative"
       ],
       "detailIds": [
-        "approaches-naturalistic"
+        "approaches-qualitative"
       ],
       "visualReview": true
     },
@@ -1351,7 +1345,7 @@
       "sourceId": "architecture",
       "page": 11,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "historical-historical-research",
         "approaches-phenomenology",
@@ -1365,7 +1359,7 @@
       "sourceId": "architecture",
       "page": 12,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "approaches-triangulation",
         "approaches-expansion",
@@ -1382,7 +1376,7 @@
       "sourceId": "architecture",
       "page": 13,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "digital-e-research",
         "digital-middleware",
@@ -1395,37 +1389,30 @@
     {
       "sourceId": "architecture",
       "page": 14,
-      "disposition": "covered",
-      "reason": "Exact description/list quotation.",
-      "definitionIds": [
-        "digital-participants",
-        "digital-data",
-        "digital-computation",
-        "digital-networking",
-        "digital-dissemination"
+      "disposition": "supporting material",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
+      "definitionIds": [],
+      "detailIds": [
+        "digital-e-research"
       ],
-      "detailIds": [],
       "visualReview": true
     },
     {
       "sourceId": "architecture",
       "page": 15,
-      "disposition": "covered",
-      "reason": "Exact description/list quotation.",
-      "definitionIds": [
-        "digital-input",
-        "digital-engine",
-        "digital-infrastructure",
-        "digital-output"
+      "disposition": "supporting material",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
+      "definitionIds": [],
+      "detailIds": [
+        "digital-e-research"
       ],
-      "detailIds": [],
       "visualReview": true
     },
     {
       "sourceId": "reliability",
       "page": 1,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
@@ -1434,12 +1421,12 @@
       "sourceId": "reliability",
       "page": 2,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
         "reliability-test-retest",
         "reliability-parallel-forms",
         "reliability-split-half",
-        "reliability-internal-consistency"
+        "reliability-kr20"
       ],
       "detailIds": [],
       "visualReview": true
@@ -1448,9 +1435,10 @@
       "sourceId": "reliability",
       "page": 3,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
-        "reliability-test-retest"
+        "reliability-test-retest",
+        "reliability-spearman"
       ],
       "detailIds": [
         "reliability-test-retest"
@@ -1461,7 +1449,7 @@
       "sourceId": "reliability",
       "page": 4,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "reliability-test-retest"
@@ -1473,9 +1461,10 @@
       "sourceId": "reliability",
       "page": 5,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
-        "reliability-parallel-forms"
+        "reliability-parallel-forms",
+        "reliability-pearson"
       ],
       "detailIds": [
         "reliability-parallel-forms"
@@ -1486,7 +1475,7 @@
       "sourceId": "reliability",
       "page": 6,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "reliability-parallel-forms"
@@ -1497,9 +1486,10 @@
       "sourceId": "reliability",
       "page": 7,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
-        "reliability-split-half"
+        "reliability-split-half",
+        "reliability-spearman-brown"
       ],
       "detailIds": [
         "reliability-split-half"
@@ -1511,7 +1501,7 @@
       "sourceId": "reliability",
       "page": 8,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
         "reliability-split-half"
@@ -1522,12 +1512,12 @@
       "sourceId": "reliability",
       "page": 9,
       "disposition": "covered",
-      "reason": "Exact description/list quotation.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [
-        "reliability-internal-consistency"
+        "reliability-kr20"
       ],
       "detailIds": [
-        "reliability-internal-consistency"
+        "reliability-kr20"
       ],
       "visualReview": true
     },
@@ -1535,10 +1525,10 @@
       "sourceId": "reliability",
       "page": 10,
       "disposition": "supporting material",
-      "reason": "Supporting quotation in entry details.",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
       "definitionIds": [],
       "detailIds": [
-        "reliability-internal-consistency"
+        "reliability-kr20"
       ],
       "visualReview": true,
       "exception": "Overlapping labels/calculations were read visually and laid out in reading order."
@@ -1546,27 +1536,24 @@
     {
       "sourceId": "reliability",
       "page": 11,
-      "disposition": "covered",
-      "reason": "Exact description/list quotation.",
-      "definitionIds": [
-        "reliability-excellent",
-        "reliability-good",
-        "reliability-acceptable",
-        "reliability-questionable"
+      "disposition": "supporting material",
+      "reason": "Printed definitions and/or supporting quotations linked below.",
+      "definitionIds": [],
+      "detailIds": [
+        "instruments-reliability"
       ],
-      "detailIds": [],
       "visualReview": true
     },
     {
       "sourceId": "reliability",
       "page": 12,
       "disposition": "excluded",
-      "reason": "Title, administrative/course outline, references, section divider, blank worksheet, or closing summary; no glossary definition.",
+      "reason": "Title, outline, references, divider, worksheet, or closing material; no definition question.",
       "definitionIds": [],
       "detailIds": [],
       "visualReview": true
     }
   ],
-  "termCount": 159,
+  "termCount": 120,
   "reviewDate": "2026-11-04"
 }

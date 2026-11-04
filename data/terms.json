@@ -1,6 +1,7 @@
 {
   "version": 1,
   "title": "Terms",
+  "policy": "main-terms-only",
   "entries": [
     {
       "id": "foundations-research",
@@ -91,16 +92,9 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "foundations-importance",
-      "topic": "foundations",
-      "term": "Importance of Research",
-      "aliases": [],
-      "definitions": [
+        },
         {
+          "label": "Importance of Research",
           "text": "To serve man and provide a good life\nDiscover more facts about unknown phenomena\nFind answer to the problems by existing methods and information\nImprove existing techniques and develop new instruments or products\nDiscover unrecognized substance\nDiscover pathways of action\nOrder related, valid generalization into systematized science\nProvide basis for decision making\nTo satisfy researcher’s curiosity\nTo find answers to queries\nAcquire better and deeper understanding\nTo expand and verify existing knowledge\nImproves efficiency, efficacy and quality\nImproves exportations of goods\nRespond to economic recovery & austerity",
           "sources": [
             {
@@ -110,9 +104,68 @@
               ]
             }
           ]
+        },
+        {
+          "label": "Qualities of Good Researcher",
+          "text": "Research oriented\nEfficient\nScientific\nEffective\nActive\nResourceful\nCreative\nHonest\nEconomical\nReligious",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Classification of Research",
+          "text": "PURPOSE\nPredictive Research\nDirective Research\nIlluminative Research\n\nGOAL\nBasic or Pure Research\nApplied Research\n\nLEVELS OF INVESTIGATION\nExploratory\nDescriptive\nExperimental\n\nTYPE OF ANALYSIS\nAnalytic\nHolistic\n\nSCOPE\nAction Research\n\nCHOICE OF ANSWER\nEvaluation\nDevelopmental\n\nSTATISTICAL CONTENT\nQuantitative\nNon-Quantitative\n\nTIME ELEMENT\nHistorical\nDescriptive\nExperimental",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Professional Goals",
+          "text": "Produce evidence-based practice\nEstablish professional credibility\nObserve accountability for actions\nPromote cost-effectiveness via documentation",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Research Process",
+          "text": "1 PROBLEM/OBJECTIVES\n2 THEORITICAL/CONCEPTUAL FRAMEWORK\n3 ASSUMPTIONS\n4 HYPOTHESIS\n5 REVIEW OF RELATED LITERATURE\n6 RESEARCH DESIGN\n7 DATA COLLECTION\n8 DATA PROCESSING\n9 STATISTICAL TREATMENT\n10 ANALYSIS & INTERPRETATION\n11 SUMMARY/CONCLUSION/RECOMMENDATION",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "label": "The Research Process — flowchart labels",
+          "text": "Identification and Definition of a Research Problem\nStatement of Research Problem/Objectives\nTheoretical/Conceptual Framework Formulation\nOperational Definition of Variables\nHypothesis Formulation\nChoosing Appropriate Research Design\nIdentification of Target Population and Sampling\nData Collection\nPreparation of Research Instrument\nReliability Testing and Validation\nQ Administration, Interview, Testing & Observation\nQuality Control\nData Processing\n(Editing, Coding, Encoding, Creation of Data Files Tabulation)\nData Analysis and Interpretation\n(Statistical Analysis, Interpretation, Generalization)\nReport Preparation and Information Dissemination",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                26
+              ]
+            }
+          ]
         }
-      ],
-      "details": []
+      ]
     },
     {
       "id": "foundations-empirical",
@@ -380,68 +433,6 @@
       "details": []
     },
     {
-      "id": "foundations-researcher-qualities",
-      "topic": "foundations",
-      "term": "Qualities of Good Researcher",
-      "aliases": [
-        "RESEARCHER"
-      ],
-      "definitions": [
-        {
-          "text": "Research oriented\nEfficient\nScientific\nEffective\nActive\nResourceful\nCreative\nHonest\nEconomical\nReligious",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                20
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "foundations-classification",
-      "topic": "foundations",
-      "term": "Classification of Research",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "PURPOSE\nPredictive Research\nDirective Research\nIlluminative Research\n\nGOAL\nBasic or Pure Research\nApplied Research\n\nLEVELS OF INVESTIGATION\nExploratory\nDescriptive\nExperimental\n\nTYPE OF ANALYSIS\nAnalytic\nHolistic\n\nSCOPE\nAction Research\n\nCHOICE OF ANSWER\nEvaluation\nDevelopmental\n\nSTATISTICAL CONTENT\nQuantitative\nNon-Quantitative\n\nTIME ELEMENT\nHistorical\nDescriptive\nExperimental",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                21
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "foundations-professional-goals",
-      "topic": "foundations",
-      "term": "Professional Goals",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Produce evidence-based practice\nEstablish professional credibility\nObserve accountability for actions\nPromote cost-effectiveness via documentation",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                4
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
       "id": "variables-variable",
       "topic": "variables",
       "term": "Variable",
@@ -590,39 +581,6 @@
       "details": []
     },
     {
-      "id": "variables-process",
-      "topic": "variables",
-      "term": "Research Process",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "1 PROBLEM/OBJECTIVES\n2 THEORITICAL/CONCEPTUAL FRAMEWORK\n3 ASSUMPTIONS\n4 HYPOTHESIS\n5 REVIEW OF RELATED LITERATURE\n6 RESEARCH DESIGN\n7 DATA COLLECTION\n8 DATA PROCESSING\n9 STATISTICAL TREATMENT\n10 ANALYSIS & INTERPRETATION\n11 SUMMARY/CONCLUSION/RECOMMENDATION",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                25
-              ]
-            }
-          ]
-        }
-      ],
-      "details": [
-        {
-          "label": "The Research Process — flowchart labels",
-          "text": "Identification and Definition of a Research Problem\nStatement of Research Problem/Objectives\nTheoretical/Conceptual Framework Formulation\nOperational Definition of Variables\nHypothesis Formulation\nChoosing Appropriate Research Design\nIdentification of Target Population and Sampling\nData Collection\nPreparation of Research Instrument\nReliability Testing and Validation\nQ Administration, Interview, Testing & Observation\nQuality Control\nData Processing\n(Editing, Coding, Encoding, Creation of Data Files Tabulation)\nData Analysis and Interpretation\n(Statistical Analysis, Interpretation, Generalization)\nReport Preparation and Information Dissemination",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                26
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "problems-research-problem",
       "topic": "problems",
       "term": "Research Problem",
@@ -689,16 +647,9 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "problems-why",
-      "topic": "problems",
-      "term": "WHY?",
-      "aliases": [],
-      "definitions": [
+        },
         {
+          "label": "WHY?",
           "text": "Aim or purpose of the problem for investigation",
           "sources": [
             {
@@ -708,17 +659,9 @@
               ]
             }
           ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "problems-what",
-      "topic": "problems",
-      "term": "WHAT?",
-      "aliases": [],
-      "definitions": [
+        },
         {
+          "label": "WHAT?",
           "text": "The subject matter or topic to be investigated.",
           "sources": [
             {
@@ -728,17 +671,9 @@
               ]
             }
           ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "problems-where",
-      "topic": "problems",
-      "term": "WHERE?",
-      "aliases": [],
-      "definitions": [
+        },
         {
+          "label": "WHERE?",
           "text": "The place or locale where the research is to be conducted.",
           "sources": [
             {
@@ -748,17 +683,9 @@
               ]
             }
           ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "problems-when",
-      "topic": "problems",
-      "term": "WHEN?",
-      "aliases": [],
-      "definitions": [
+        },
         {
+          "label": "WHEN?",
           "text": "The period or time of the study during the data are to be gathered.",
           "sources": [
             {
@@ -768,17 +695,9 @@
               ]
             }
           ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "problems-who",
-      "topic": "problems",
-      "term": "WHO?",
-      "aliases": [],
-      "definitions": [
+        },
         {
+          "label": "WHO?",
           "text": "Population or universe from whom the data are to be collected",
           "sources": [
             {
@@ -788,20 +707,9 @@
               ]
             }
           ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "problems-statement-objectives",
-      "topic": "problems",
-      "term": "Statement of Research Problem/Objectives",
-      "aliases": [
-        "research objectives",
-        "statement of the problem"
-      ],
-      "definitions": [
+        },
         {
+          "label": "Statement of Research Problem/Objectives",
           "text": "Research problem and research objectives have the same characteristics but they differ in form because the former is stated in interrogative or question form and the latter, in declarative form.",
           "sources": [
             {
@@ -811,9 +719,7 @@
               ]
             }
           ]
-        }
-      ],
-      "details": [
+        },
         {
           "label": "Formulating research problem",
           "text": "The general statement of the problem and the specific sub-problems or questions should be formulated first before conducting the research.\nIt is customary to state specific sub-problems (specific questions) in the interrogative form.\nEach specific questions must be clear and unequivocal (one meaning)\nEach specific question is researchable apart from the other questions, which are answers to specific questions can be found even without considering the other questions.\nEach question must be based upon known facts and phenomena.\nAnswers to each specific question can be interpreted apart from the answers to other specific questions.\nAnswers to each specific question must contribute to the development of the whole research problem or topic.\nSumming up the answers to all specific questions will give a complete development of the entire study\nThe number of specific questions should be enough to cover the development of the whole research problem or study.\nThere should be a general statement of the problem and then should be broken up into as many sub-problems or specific questions as necessary",
@@ -825,16 +731,9 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "problems-research-title",
-      "topic": "problems",
-      "term": "Research Title",
-      "aliases": [],
-      "definitions": [
+        },
         {
+          "label": "Research Title",
           "text": "It must grab the attention and makes you want to read further\nIt must be intriguing, thought-provoking\nIt must include the 5Ws\nIt must be brief and concise with a maximum of 20 words and writen in inverted pyramid and in capital letters\nIt must avoid a study of, an investigation of , an analysis,,,\nIt must follow the format required by institution.",
           "sources": [
             {
@@ -845,14 +744,15 @@
             }
           ]
         }
-      ],
-      "details": []
+      ]
     },
     {
       "id": "frameworks-hypothesis",
       "topic": "frameworks",
       "term": "Hypothesis",
-      "aliases": [],
+      "aliases": [
+        "Research hypothesis"
+      ],
       "definitions": [
         {
           "text": "is defined as a wise guess that is formulated and temporarily adopted to explain the observed facts covered by the study.",
@@ -864,9 +764,23 @@
               ]
             }
           ]
+        },
+        {
+          "text": "The researcher hypothesis is a predicative statement that relates an independent variable to dependent variable.",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                75
+              ]
+            }
+          ]
         }
       ],
-      "details": []
+      "details": [],
+      "relatedTopics": [
+        "designs"
+      ]
     },
     {
       "id": "frameworks-null",
@@ -935,7 +849,8 @@
             "url": "https://libguides.usc.edu/writingguide/theoreticalframework"
           }
         ]
-      }
+      },
+      "practiceExcludedReason": "The only supplied definition conflates theoretical grounding with a legal basis. Retain the source quotation and verified clarification; do not score this misconception."
     },
     {
       "id": "frameworks-conceptual-framework",
@@ -1202,7 +1117,56 @@
           ]
         }
       ],
-      "details": []
+      "details": [
+        {
+          "label": "Excellent",
+          "text": "r ≥ 0.90\nHigh-stakes diagnostic decisions.",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Good",
+          "text": "0.80 ≤ r < 0.90\nClassroom grading and certification.",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Acceptable",
+          "text": "0.70 ≤ r < 0.80\nFormative tests and research surveys.",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Questionable",
+          "text": "r < 0.70\nRequires item revision or test lengthening.",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                11
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "instruments-usability",
@@ -1222,15 +1186,9 @@
           ]
         }
       ],
-      "details": []
-    },
-    {
-      "id": "instruments-administration",
-      "topic": "instruments",
-      "term": "Base of administration",
-      "aliases": [],
-      "definitions": [
+      "details": [
         {
+          "label": "Base of administration",
           "text": "To facilitate the administration of a research instrument, instruction should be complete and precise.",
           "sources": [
             {
@@ -1240,17 +1198,9 @@
               ]
             }
           ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "instruments-scoring",
-      "topic": "instruments",
-      "term": "Base of scoring",
-      "aliases": [],
-      "definitions": [
+        },
         {
+          "label": "Base of scoring",
           "text": "It depends on the following aspects:\nConstruction of a test in the objective type.\nAnswer keys are adequately prepared.\nScoring directions are fully understood.",
           "sources": [
             {
@@ -1260,17 +1210,9 @@
               ]
             }
           ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "instruments-interpretation",
-      "topic": "instruments",
-      "term": "Ease of interpretation and application",
-      "aliases": [],
-      "definitions": [
+        },
         {
+          "label": "Ease of interpretation and application",
           "text": "Results of test are easy to interpret and apply if tables are provided.",
           "sources": [
             {
@@ -1280,17 +1222,9 @@
               ]
             }
           ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "instruments-cost",
-      "topic": "instruments",
-      "term": "Low cost",
-      "aliases": [],
-      "definitions": [
+        },
         {
+          "label": "Low cost",
           "text": "It is more practical if the test is low cost material-wise.",
           "sources": [
             {
@@ -1300,17 +1234,9 @@
               ]
             }
           ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "instruments-mechanical",
-      "topic": "instruments",
-      "term": "Proper mechanical make-up",
-      "aliases": [],
-      "definitions": [
+        },
         {
+          "label": "Proper mechanical make-up",
           "text": "A good research instrument should be printed clearly in an appropriate size for the grade or year level for which the instrument is intended.",
           "sources": [
             {
@@ -1321,8 +1247,7 @@
             }
           ]
         }
-      ],
-      "details": []
+      ]
     },
     {
       "id": "literature-related-literature",
@@ -1396,7 +1321,7 @@
         },
         {
           "label": "Example and explanation of the related literature",
-          "text": "Example: Murray’s (1998) article on nurse executives’ leadership roles stated that chief nursing officers (CNO) leave their position due to lack of power conflict with chief executive officer (CEO), and inadequate nursing personnel. [Related literature by Bruce P. Murray. 1998. “Nurse Executives’ Leadership Roles.” Journal of Nursing Administration. 28(6):48. (June 1998)]. The article of Murray has bearing to the present study because staff nurses’ performance would be affected if the middle managers or chief nursing officers have conflict with the chief executive officer or top manager and with problems met related to their job, for instance, inadequate nursing personnel. (EXPLANATION OF THE RELATED LITERATURE)",
+          "text": "Example:\n\nMurray’s (1998) article on nurse executives’ leadership roles stated that chief nursing officers (CNO) leave their position due to lack of power conflict with chief executive officer (CEO), and inadequate nursing personnel. [Related literature by Bruce P. Murray. 1998. “Nurse Executives’ Leadership Roles.” Journal of Nursing Administration. 28(6):48. (June 1998)].\n\nThe article of Murray has bearing to the present study because staff nurses’ performance would be affected if the middle managers or chief nursing officers have conflict with the chief executive officer or top manager and with problems met related to their job, for instance, inadequate nursing personnel. (EXPLANATION OF THE RELATED LITERATURE)",
           "sources": [
             {
               "sourceId": "methods",
@@ -1569,7 +1494,7 @@
       "details": [
         {
           "label": "Example and explanation of the legal basis",
-          "text": "Example: Republic Act No. 7164 known as the “Philippine Nursing Act of 1991” defines professional nursing as the performance for a fee, salary, or other reward or compensation… toward the promotion of health, and alleviation of suffering through utilization of nursing process. (LEGAL BASIS). The foregoing professional nursing definition explicitly expressed that nurses practice their profession for a fee or salary commensurate with their work in order to satisfy their needs and wants to cope with the fast changing world. In other words, the performance of a particular job affects nurses’ values especially if nurses meet the problems related to their job in the hospital, hence, promotion of health services cannot be attained. (EXPLANATION OF THE LEGAL BASIS)",
+          "text": "Example:\n\nRepublic Act No. 7164 known as the “Philippine Nursing Act of 1991” defines professional nursing as the performance for a fee, salary, or other reward or compensation… toward the promotion of health, and alleviation of suffering through utilization of nursing process. (LEGAL BASIS).\n\nThe foregoing professional nursing definition explicitly expressed that nurses practice their profession for a fee or salary commensurate with their work in order to satisfy their needs and wants to cope with the fast changing world. In other words, the performance of a particular job affects nurses’ values especially if nurses meet the problems related to their job in the hospital, hence, promotion of health services cannot be attained. (EXPLANATION OF THE LEGAL BASIS)",
           "sources": [
             {
               "sourceId": "methods",
@@ -1605,7 +1530,7 @@
       "details": [
         {
           "label": "Example of local study",
-          "text": "Example of LOCAL STUDY: In 1999, Sultan in her study on perceived sources of stress among staff nurses at a tertiary hospital in Quezon City, found out that lack of administrative support and no rewards were perceived by staff nurses as the most stressing… (Related local study by Vilma Sultan. 1999. “Perceived Sources of Stress Among Staff Nurses at Tertiary Hospital in Quezon City.” MA Thesis in Nursing. Central Philippine University, Iloilo City, Philippines.) Sultan’s study has bearing to the present study because lack of administrative support, no rewards, and no opportunities for career development are among the job-related problems met by staff nurses in private and government hospitals in Iloilo City which block their way to perform effectively and efficiently. (EXPLANATION OF THE RELATED STUDY)",
+          "text": "Example of LOCAL STUDY:\n\nIn 1999, Sultan in her study on perceived sources of stress among staff nurses at a tertiary hospital in Quezon City, found out that lack of administrative support and no rewards were perceived by staff nurses as the most stressing… (Related local study by Vilma Sultan. 1999. “Perceived Sources of Stress Among Staff Nurses at Tertiary Hospital in Quezon City.” MA Thesis in Nursing. Central Philippine University, Iloilo City, Philippines.)\n\nSultan’s study has bearing to the present study because lack of administrative support, no rewards, and no opportunities for career development are among the job-related problems met by staff nurses in private and government hospitals in Iloilo City which block their way to perform effectively and efficiently. (EXPLANATION OF THE RELATED STUDY)",
           "sources": [
             {
               "sourceId": "methods",
@@ -1624,7 +1549,7 @@
       "aliases": [],
       "definitions": [
         {
-          "text": "Task of defining the research problem is the preparation of the research project, popularly known as the “research design”.\nDecisions regarding what, where, when, how much, by what means concerning an inquiry or a research study constitute a research design.",
+          "text": "Task of defining the research problem is the preparation of the research project, popularly known as the “research design\".\nDecisions regarding what, where, when, how much, by what means concerning an inquiry or a research study constitute a research design.",
           "sources": [
             {
               "sourceId": "methods",
@@ -1750,7 +1675,7 @@
       "aliases": [],
       "definitions": [
         {
-          "text": "Which deals with techniques by which the procedures satisfied in sampling .",
+          "text": "Which deals techniques by which the procedures satisfied in sampling .",
           "sources": [
             {
               "sourceId": "methods",
@@ -1761,33 +1686,17 @@
           ]
         }
       ],
-      "details": []
-    },
-    {
-      "id": "designs-research-hypothesis",
-      "topic": "designs",
-      "term": "Research hypothesis",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "The researcher hypothesis is a predicative statement that relates an independent variable to dependent variable.",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                75
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
+      "details": [],
+      "practiceExcludedReason": "The supplied description is fragmentary and does not unambiguously explain operational design.",
+      "sourceNote": "The printed sentence is fragmentary. It is reproduced as supplied, without an invented completion."
     },
     {
       "id": "designs-hypothesis-testing",
       "topic": "designs",
       "term": "Hypothesis-testing research",
-      "aliases": [],
+      "aliases": [
+        "hypothesis testing research"
+      ],
       "definitions": [
         {
           "text": "When the purpose of research is to test a research hypothesis, it us termed as hypothesis testing research .It can be experimental or non-experimental",
@@ -1858,7 +1767,9 @@
       "id": "designs-treatments",
       "topic": "designs",
       "term": "Treatments",
-      "aliases": [],
+      "aliases": [
+        "treatment"
+      ],
       "definitions": [
         {
           "text": "The different conditions under which Experiment and control groups are put up usually referred to as treatment.",
@@ -1980,7 +1891,7 @@
       "aliases": [],
       "definitions": [
         {
-          "text": "Identifying underlying causes and reasons (the ‘Why’).",
+          "text": "Identifying underlying causes and reasons (the 'Why').",
           "sources": [
             {
               "sourceId": "architecture",
@@ -2072,82 +1983,6 @@
       "details": []
     },
     {
-      "id": "designs-non-experimental-correlational",
-      "topic": "designs",
-      "term": "Non-experimental - correlational",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Examine relationship between two variables",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                78
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Examine relationship bet 2 var. where 1 is measured later.",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                79
-              ]
-            }
-          ]
-        }
-      ],
-      "details": [
-        {
-          "label": "Research Designs/Approaches — page 78",
-          "text": "Time frame\nCurrent (cross-sectional) or past\n\nDegree of control\nLow to medium\n\nExamples\nRelationship between studying style and grade point average.",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                78
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Research Designs/Approaches — page 79",
-          "text": "Time frame\nFuture - predictive\n\nDegree of control\nLow to moderate\n\nExamples\nRelationship bet history of depression & development of cancer.",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                79
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "designs-ex-post-facto",
-      "topic": "designs",
-      "term": "Ex post facto",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Examine the effect of past event on current functioning.",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                78
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
       "id": "designs-cohort-sequential",
       "topic": "designs",
       "term": "Cohort-sequential",
@@ -2179,7 +2014,8 @@
           ]
         }
       ],
-      "sourceNote": "The purpose cell ends at “overlapping” in the supplied slide; no missing words have been supplied."
+      "sourceNote": "The purpose cell ends at “overlapping” in the supplied slide; no missing words have been supplied.",
+      "practiceExcludedReason": "The purpose description ends at “overlapping”; no missing completion is invented."
     },
     {
       "id": "historical-historical-research",
@@ -2475,26 +2311,6 @@
       ]
     },
     {
-      "id": "descriptive-survey",
-      "topic": "descriptive",
-      "term": "Descriptive Survey Method",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Survey derived from the Latin sur or super which means “above” or “view” and vey which means “to look” or “to see”. Survey means “to look over or beyond”. Ussually used by graduate and undergraduate students when they attemp to analyze, interpret, and report status od their subject matter or problem",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                92
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
       "id": "descriptive-normative",
       "topic": "descriptive",
       "term": "Descriptive Normative Method",
@@ -2502,46 +2318,6 @@
       "definitions": [
         {
           "text": "Describes the status of events and people or subjects as they exist. Deals with standardized instruments like mental ability test, stress and personality questionnaire, morale and job satisfaction questionnaire.",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                92
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "descriptive-correlational",
-      "topic": "descriptive",
-      "term": "Descriptive Correlational Method",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Used to determine whether or not there is a relationship that exist between two or more quantifiable variables, and if there is, to what extent or degree the relationship is determined, the researcher must identify whether such relationship is positive (+) or negative (-) and the degree or extent (strength) of relationship.",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                92
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "descriptive-evaluative",
-      "topic": "descriptive",
-      "term": "Descriptive Evaluative Method",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "This study judges the goodness of an existing program. It is directed to whether or not a particular program achieved its goal or not. Value judgement in terms of effectiveness, desirability, or social validity.",
           "sources": [
             {
               "sourceId": "methods",
@@ -2581,47 +2357,7 @@
       "aliases": [],
       "definitions": [
         {
-          "text": "This descriptive research based upon longitudinal consideration of recorded data, indicating what has been happening in the past, what the present situation reveals, and on the basis of these data it projects what is likely to happen in the future.",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                93
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "descriptive-ex-post-facto",
-      "topic": "descriptive",
-      "term": "Descriptive Ex-Post Facto Method",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "This type of research is also known as causal-comparative research of after-the-fact research. In this method, the researcher is trying to establish a causal effect between existing conditions.",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                93
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "descriptive-case-study",
-      "topic": "descriptive",
-      "term": "Descriptive Case study Method",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "A case study is an intensive and descriptive analyss of a single subject. It examines a social units as a whole, and the unit may be a single typical individual. It examines a social unit as a whole, and the unit may be a single typical individual, a family, a social group, a social institution or a community",
+          "text": "This descriptive research id based upon longitudinal consideration of recorded data, indicating what has been happening in the past, what the present situation reveals, and on the basis of these data it projects what is likely to happen in the future.",
           "sources": [
             {
               "sourceId": "methods",
@@ -2679,7 +2415,7 @@
         }
       ],
       "clarification": {
-        "text": "The yellow paragraph appears mismatched with its heading: longitudinal development is different from the green box's comparison of similarities and differences. Use the quoted heading only for this source-specific item; do not infer that every comparative study is developmental.",
+        "text": "The yellow paragraph appears mismatched with its heading: longitudinal development is different from the green box's comparison of similarities and differences. The quotations preserve both source passages; they should not be read as equivalent definitions.",
         "references": [
           {
             "title": "University of Kansas: designs with comparison groups",
@@ -2740,6 +2476,54 @@
               ]
             }
           ]
+        },
+        {
+          "label": "7 Ms",
+          "text": "Manpower\nMoney\nMethods\nMaterials\nMachinery\nMoment of time\nMarketing",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                98
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Experimental Plan",
+          "text": "1. Determining the experimental problem or topic\n2. Surveying related literature and studies\n3. Formulating the hypothesis or hypotheses\n4. Identifying the experimental variables\n5. Select the appropriate experimental design\n6. Selecting the sample\n7. Selecting or constructing appropriate instruments to measure the results of the experiment\n8. Conducting the experiment\n   History\n   Maturation\n   Testing\n   Biases in the selection of the respondents\n   Experimental mortality\n   Interaction effects\n9. Measuring the results and applying statistical procedures\n10. Writing the reports of the experiment",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                99
+              ]
+            }
+          ]
+        },
+        {
+          "label": "True Experimental",
+          "text": "Pretest-posttest, Solomon four-group.",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Pre-experimental",
+          "text": "One-shot case, One group pretest.",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                9
+              ]
+            }
+          ]
         }
       ],
       "clarification": {
@@ -2751,46 +2535,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "experimental-seven-ms",
-      "topic": "experimental",
-      "term": "7 Ms",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Manpower\nMoney\nMethods\nMaterials\nMachinery\nMoment of time\nMarketing",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                98
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "experimental-plan",
-      "topic": "experimental",
-      "term": "Experimental Plan",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "1. Determining the experimental problem or topic\n2. Surveying related literature and studies\n3. Formulating the hypothesis or hypotheses\n4. Identifying the experimental variables\n5. Select the appropriate experimental design\n6. Selecting the sample\n7. Selecting or constructing appropriate instruments to measure the results of the experiment\n8. Conducting the experiment\n   History\n   Maturation\n   Testing\n   Biases in the selection of the respondents\n   Experimental mortality\n   Interaction effects\n9. Measuring the results and applying statistical procedures\n10. Writing the reports of the experiment",
-          "sources": [
-            {
-              "sourceId": "methods",
-              "pages": [
-                99
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
     },
     {
       "id": "experimental-posttest-only",
@@ -2961,7 +2705,8 @@
           "diagram": "R Experimental Group    X    O₁\nR Control Group              O₂"
         }
       ],
-      "sourceNote": "The description ends at the quoted word in the supplied slide; no missing ending has been supplied."
+      "sourceNote": "The description ends at the quoted word in the supplied slide; no missing ending has been supplied.",
+      "practiceExcludedReason": "The source description ends at “or”; retain the text as notes, without scoring an incomplete definition."
     },
     {
       "id": "experimental-solomon",
@@ -3039,7 +2784,8 @@
             "url": "https://opentext.ku.edu/assessmentevaluationhighered/chapter/chapter-14-designs-involving-comparison-groups/"
           }
         ]
-      }
+      },
+      "practiceExcludedReason": "The defining assignment sentence is clipped and its diagram also contains a treatment-symbol error. Retain the quotation and clarification without reconstructing the definition."
     },
     {
       "id": "experimental-separate-sample",
@@ -3105,46 +2851,6 @@
       ]
     },
     {
-      "id": "experimental-true-experimental",
-      "topic": "experimental",
-      "term": "True Experimental",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Pretest-posttest, Solomon four-group.",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                9
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "experimental-pre-experimental",
-      "topic": "experimental",
-      "term": "Pre-experimental",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "One-shot case, One group pretest.",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                9
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
       "id": "experimental-internal-validity",
       "topic": "experimental",
       "term": "Internal validity",
@@ -3191,7 +2897,8 @@
             "url": "https://opentextbc.ca/researchmethods/chapter/experiment-basics/"
           }
         ]
-      }
+      },
+      "practiceExcludedReason": "The source describes extraneous variables rather than generalizability; retain the quotation and correction without scoring the erroneous definition."
     },
     {
       "id": "approaches-basic",
@@ -3281,7 +2988,8 @@
       "term": "Evaluation",
       "aliases": [
         "formative",
-        "summative"
+        "summative",
+        "Descriptive Evaluative Method"
       ],
       "definitions": [
         {
@@ -3294,9 +3002,23 @@
               ]
             }
           ]
+        },
+        {
+          "text": "This study judges the goodness of an existing program. It is directed to whether or not a particular program achieved its goal or not. Value judgement in terms of effectiveness, desirability, or social validity.",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                92
+              ]
+            }
+          ]
         }
       ],
-      "details": []
+      "details": [],
+      "relatedTopics": [
+        "descriptive"
+      ]
     },
     {
       "id": "approaches-cross-sectional",
@@ -3365,7 +3087,8 @@
       "topic": "approaches",
       "term": "Qualitative",
       "aliases": [
-        "qualitative research"
+        "qualitative research",
+        "The Naturalistic Lens"
       ],
       "definitions": [
         {
@@ -3389,9 +3112,70 @@
               ]
             }
           ]
+        },
+        {
+          "text": "Focuses on in-depth, subjective descriptions of human complexity in natural settings, unbound by existing theories.",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                10
+              ]
+            }
+          ]
         }
       ],
-      "details": []
+      "details": [
+        {
+          "label": "Limitations as printed on the slide",
+          "text": "Reductionist by nature\nHighly subjective\nInherently limited to small sample sizes",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Orientation & Overview",
+          "text": "Determining what is salient about the phenomenon.",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Focused Exploration",
+          "text": "In-depth scrutiny based on the outcomes of Phase 1.",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Confirmation & Closure",
+          "text": "Establishing trustworthiness by verifying findings with participants.",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                10
+              ]
+            }
+          ]
+        }
+      ],
+      "relatedTopics": []
     },
     {
       "id": "approaches-mixed",
@@ -3417,7 +3201,9 @@
       "id": "approaches-survey",
       "topic": "approaches",
       "term": "Survey",
-      "aliases": [],
+      "aliases": [
+        "Descriptive Survey Method"
+      ],
       "definitions": [
         {
           "text": "Uses interviews and questionnaires to judge behavior with intense precision across one or multiple groups.",
@@ -3440,15 +3226,32 @@
               ]
             }
           ]
+        },
+        {
+          "text": "Survey derived from the Latin sur or super which means “above” or “view” and vey which means “to look” or “to see”. Survey means “to look over or beyond”. Ussually used by graduate and undergraduate students when they attemp to analyze, interpret, and report status od their subject matter or problem",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                92
+              ]
+            }
+          ]
         }
       ],
-      "details": []
+      "details": [],
+      "relatedTopics": [
+        "descriptive"
+      ]
     },
     {
       "id": "approaches-correlational",
       "topic": "approaches",
       "term": "Correlational",
-      "aliases": [],
+      "aliases": [
+        "Non-experimental - correlational",
+        "Descriptive Correlational Method"
+      ],
       "definitions": [
         {
           "text": "Tests relationships between 2+ variables to predict future conditions (Note: Correlation does not equate to causation).",
@@ -3460,15 +3263,80 @@
               ]
             }
           ]
+        },
+        {
+          "text": "Examine relationship between two variables",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                78
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Examine relationship bet 2 var. where 1 is measured later.",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                79
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Used to determine whether or not there is a relationship that exist between two or more quantifiable variables, and if there is, to what extent or degree the relationship is determined, the researcher must identify whether such relationship is positive (+) or negative (-) and the degree or extent (strength) of relationship.",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                92
+              ]
+            }
+          ]
         }
       ],
-      "details": []
+      "details": [
+        {
+          "label": "Research Designs/Approaches — page 78",
+          "text": "Time frame\nCurrent (cross-sectional) or past\n\nDegree of control\nLow to medium\n\nExamples\nRelationship between studying style and grade point average.",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                78
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Research Designs/Approaches — page 79",
+          "text": "Time frame\nFuture - predictive\n\nDegree of control\nLow to moderate\n\nExamples\nRelationship bet history of depression & development of cancer.",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                79
+              ]
+            }
+          ]
+        }
+      ],
+      "relatedTopics": [
+        "designs",
+        "descriptive"
+      ]
     },
     {
       "id": "approaches-causal-comparative",
       "topic": "approaches",
       "term": "Causal-Comparative",
-      "aliases": [],
+      "aliases": [
+        "Ex post facto",
+        "Descriptive Ex-Post Facto Method"
+      ],
       "definitions": [
         {
           "text": "Identifies how different groups are affected by the same circumstance without manipulating variables.",
@@ -3480,102 +3348,35 @@
               ]
             }
           ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "approaches-naturalistic",
-      "topic": "approaches",
-      "term": "The Naturalistic Lens",
-      "aliases": [],
-      "definitions": [
+        },
         {
-          "text": "Focuses on in-depth, subjective descriptions of human complexity in natural settings, unbound by existing theories.",
+          "text": "Examine the effect of past event on current functioning.",
           "sources": [
             {
-              "sourceId": "architecture",
+              "sourceId": "methods",
               "pages": [
-                10
+                78
+              ]
+            }
+          ]
+        },
+        {
+          "text": "This type of research is also known as causal-comparative research of after-the-fact research. In this method, the researcher is trying to establish a causal effect between existing conditions.",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                93
               ]
             }
           ]
         }
       ],
-      "details": [
-        {
-          "label": "Limitations as printed on the slide",
-          "text": "Reductionist by nature\nHighly subjective\nInherently limited to small sample sizes",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                10
-              ]
-            }
-          ]
-        }
+      "details": [],
+      "relatedTopics": [
+        "designs",
+        "descriptive"
       ]
-    },
-    {
-      "id": "approaches-orientation",
-      "topic": "approaches",
-      "term": "Orientation & Overview",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Determining what is salient about the phenomenon.",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                10
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "approaches-focused-exploration",
-      "topic": "approaches",
-      "term": "Focused Exploration",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "In-depth scrutiny based on the outcomes of Phase 1.",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                10
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "approaches-confirmation",
-      "topic": "approaches",
-      "term": "Confirmation & Closure",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Establishing trustworthiness by verifying findings with participants.",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                10
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
     },
     {
       "id": "approaches-phenomenology",
@@ -3621,7 +3422,9 @@
       "id": "approaches-case-study",
       "topic": "approaches",
       "term": "Case Study",
-      "aliases": [],
+      "aliases": [
+        "Descriptive Case study Method"
+      ],
       "definitions": [
         {
           "text": "An in-depth observation of a specific person, group, or event over time. Utilizes interviews, field notes, and direct observation.",
@@ -3633,9 +3436,23 @@
               ]
             }
           ]
+        },
+        {
+          "text": "A case study is an intensive and descriptive analyss of a single subject. It examines a social units as a whole, and the unit may be a single typical individual. It examines a social unit as a whole, and the unit may be a single typical individual, a family, a social group, a social institution or a community",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                93
+              ]
+            }
+          ]
         }
       ],
-      "details": []
+      "details": [],
+      "relatedTopics": [
+        "descriptive"
+      ]
     },
     {
       "id": "approaches-triangulation",
@@ -3795,7 +3612,176 @@
           ]
         }
       ],
-      "details": []
+      "details": [
+        {
+          "label": "Participants — Traditional",
+          "text": "Individual/local teams",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Participants — e-Research",
+          "text": "Diversely skilled, distributed global teams.",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Data — Traditional",
+          "text": "Locally generated and stored",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Data — e-Research",
+          "text": "Globally generated, stored, and accessible.",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Computation — Traditional",
+          "text": "Run on researcher’s own local computers",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Computation — e-Research",
+          "text": "Large-scale, on-demand computation and shared instruments.",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Networking — Traditional",
+          "text": "Not reliant on the internet",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Networking — e-Research",
+          "text": "Entirely reliant on internet and middleware.",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Dissemination — Traditional",
+          "text": "Print publications and physical conferences",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Dissemination — e-Research",
+          "text": "Websites and specialized web portals.",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "label": "The Input",
+          "text": "Purpose & Goals (Exploratory, Descriptive, Explanatory)",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "label": "The Engine",
+          "text": "Methodologies (Quantitative, Qualitative, Mixed) interacting with Time Dimensions (Cross-sectional, Longitudinal)",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "label": "The Infrastructure",
+          "text": "The e-Research Cyberinfrastructure Stack (enabling global scale)",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "label": "The Output",
+          "text": "Translating inquiry into evidence-based practice and societal mobilization",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                15
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "digital-middleware",
@@ -3858,258 +3844,10 @@
       "details": []
     },
     {
-      "id": "digital-participants",
-      "topic": "digital",
-      "term": "Participants",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Individual/local teams",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                14
-              ]
-            }
-          ],
-          "label": "Traditional"
-        },
-        {
-          "text": "Diversely skilled, distributed global teams.",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                14
-              ]
-            }
-          ],
-          "label": "e-Research"
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "digital-data",
-      "topic": "digital",
-      "term": "Data",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Locally generated and stored",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                14
-              ]
-            }
-          ],
-          "label": "Traditional"
-        },
-        {
-          "text": "Globally generated, stored, and accessible.",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                14
-              ]
-            }
-          ],
-          "label": "e-Research"
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "digital-computation",
-      "topic": "digital",
-      "term": "Computation",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Run on researcher’s own local computers",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                14
-              ]
-            }
-          ],
-          "label": "Traditional"
-        },
-        {
-          "text": "Large-scale, on-demand computation and shared instruments.",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                14
-              ]
-            }
-          ],
-          "label": "e-Research"
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "digital-networking",
-      "topic": "digital",
-      "term": "Networking",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Not reliant on the internet",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                14
-              ]
-            }
-          ],
-          "label": "Traditional"
-        },
-        {
-          "text": "Entirely reliant on internet and middleware.",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                14
-              ]
-            }
-          ],
-          "label": "e-Research"
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "digital-dissemination",
-      "topic": "digital",
-      "term": "Dissemination",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Print publications and physical conferences",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                14
-              ]
-            }
-          ],
-          "label": "Traditional"
-        },
-        {
-          "text": "Websites and specialized web portals.",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                14
-              ]
-            }
-          ],
-          "label": "e-Research"
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "digital-input",
-      "topic": "digital",
-      "term": "The Input",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Purpose & Goals (Exploratory, Descriptive, Explanatory)",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                15
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "digital-engine",
-      "topic": "digital",
-      "term": "The Engine",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Methodologies (Quantitative, Qualitative, Mixed) interacting with Time Dimensions (Cross-sectional, Longitudinal)",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                15
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "digital-infrastructure",
-      "topic": "digital",
-      "term": "The Infrastructure",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "The e-Research Cyberinfrastructure Stack (enabling global scale)",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                15
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "digital-output",
-      "topic": "digital",
-      "term": "The Output",
-      "aliases": [],
-      "definitions": [
-        {
-          "text": "Translating inquiry into evidence-based practice and societal mobilization",
-          "sources": [
-            {
-              "sourceId": "architecture",
-              "pages": [
-                15
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
       "id": "reliability-test-retest",
       "topic": "reliability",
       "term": "Test-retest method",
-      "aliases": [
-        "Spearman",
-        "Spearman rank correlation"
-      ],
+      "aliases": [],
       "definitions": [
         {
           "text": "In this method, the same instrument is administered twice to the same group of subjects and the correlation coefficient is determined.",
@@ -4232,8 +3970,7 @@
       "topic": "reliability",
       "term": "Parallel-forms method",
       "aliases": [
-        "Pearson",
-        "product-moment correlation"
+        "Parallel or equivalent forms"
       ],
       "definitions": [
         {
@@ -4363,10 +4100,7 @@
       "id": "reliability-split-half",
       "topic": "reliability",
       "term": "Split-half method",
-      "aliases": [
-        "Spearman-Brown",
-        "prophecy formula"
-      ],
+      "aliases": [],
       "definitions": [
         {
           "text": "The test in this method may be administered twice, but the test items are divided into two values.",
@@ -4448,10 +4182,7 @@
       "id": "reliability-internal-consistency",
       "topic": "reliability",
       "term": "Internal-consistency method",
-      "aliases": [
-        "KR-20",
-        "Kuder-Richardson Formula 20"
-      ],
+      "aliases": [],
       "definitions": [
         {
           "text": "This method is used with psychological test which consist of dichotomously scored items.",
@@ -4463,7 +4194,152 @@
               ]
             }
           ]
-        },
+        }
+      ],
+      "details": []
+    },
+    {
+      "id": "frameworks-construct",
+      "topic": "frameworks",
+      "term": "constructs",
+      "aliases": [
+        "construct"
+      ],
+      "definitions": [
+        {
+          "text": "specific and well-defined concepts",
+          "sources": [
+            {
+              "sourceId": "methods",
+              "pages": [
+                44
+              ]
+            }
+          ]
+        }
+      ],
+      "details": []
+    },
+    {
+      "id": "approaches-formative",
+      "topic": "approaches",
+      "term": "Formative",
+      "aliases": [
+        "formative evaluation"
+      ],
+      "definitions": [
+        {
+          "text": "ongoing monitoring",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "details": []
+    },
+    {
+      "id": "approaches-summative",
+      "topic": "approaches",
+      "term": "Summative",
+      "aliases": [
+        "summative evaluation"
+      ],
+      "definitions": [
+        {
+          "text": "final outcomes",
+          "sources": [
+            {
+              "sourceId": "architecture",
+              "pages": [
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "details": []
+    },
+    {
+      "id": "reliability-spearman",
+      "topic": "reliability",
+      "term": "Spearman's rank correlation coefficient",
+      "aliases": [
+        "Spearman rank correlation",
+        "Spearman rank formula"
+      ],
+      "definitions": [
+        {
+          "text": "When participant scores are expressed as ordinal rankings, Spearman's rank correlation coefficient calculates the consistency of ranking stability.",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "details": []
+    },
+    {
+      "id": "reliability-pearson",
+      "topic": "reliability",
+      "term": "Pearson product-moment correlation",
+      "aliases": [
+        "Pearson correlation"
+      ],
+      "definitions": [
+        {
+          "text": "Two equivalent test forms with identical blueprints are administered to the same group to gauge form equivalence.\nPaired observation scores are correlated using the Pearson product-moment correlation formula.",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "details": []
+    },
+    {
+      "id": "reliability-spearman-brown",
+      "topic": "reliability",
+      "term": "Spearman-Brown prophecy formula",
+      "aliases": [
+        "Spearman-Brown correction"
+      ],
+      "definitions": [
+        {
+          "text": "Because dividing test length underestimates full test reliability, the Spearman-Brown prophecy formula restores full-scale estimation.",
+          "sources": [
+            {
+              "sourceId": "reliability",
+              "pages": [
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "details": []
+    },
+    {
+      "id": "reliability-kr20",
+      "topic": "reliability",
+      "term": "KR-20",
+      "aliases": [
+        "Kuder-Richardson Formula 20",
+        "KR20"
+      ],
+      "definitions": [
         {
           "text": "Homogeneity across dichotomous items.",
           "sources": [
@@ -4515,94 +4391,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "reliability-excellent",
-      "topic": "reliability",
-      "term": "Excellent",
-      "aliases": [
-        "reliability coefficient benchmarks"
-      ],
-      "definitions": [
-        {
-          "text": "r ≥ 0.90\nHigh-stakes diagnostic decisions.",
-          "sources": [
-            {
-              "sourceId": "reliability",
-              "pages": [
-                11
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "reliability-good",
-      "topic": "reliability",
-      "term": "Good",
-      "aliases": [
-        "reliability coefficient benchmarks"
-      ],
-      "definitions": [
-        {
-          "text": "0.80 ≤ r < 0.90\nClassroom grading and certification.",
-          "sources": [
-            {
-              "sourceId": "reliability",
-              "pages": [
-                11
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "reliability-acceptable",
-      "topic": "reliability",
-      "term": "Acceptable",
-      "aliases": [
-        "reliability coefficient benchmarks"
-      ],
-      "definitions": [
-        {
-          "text": "0.70 ≤ r < 0.80\nFormative tests and research surveys.",
-          "sources": [
-            {
-              "sourceId": "reliability",
-              "pages": [
-                11
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
-    },
-    {
-      "id": "reliability-questionable",
-      "topic": "reliability",
-      "term": "Questionable",
-      "aliases": [
-        "reliability coefficient benchmarks"
-      ],
-      "definitions": [
-        {
-          "text": "r < 0.70\nRequires item revision or test lengthening.",
-          "sources": [
-            {
-              "sourceId": "reliability",
-              "pages": [
-                11
-              ]
-            }
-          ]
-        }
-      ],
-      "details": []
     }
   ]
 }
