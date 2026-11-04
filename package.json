@@ -1,0 +1,14 @@
+{
+  "name": "fundamentals-of-research-reviewer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "content": "python scripts/author_content.py",
+    "build": "node scripts/build.cjs",
+    "test": "node scripts/test.cjs",
+    "test:browser": "node scripts/browser-check.cjs",
+    "check:references": "python scripts/check_references.py",
+    "serve": "python -m http.server 4175 --bind 127.0.0.1"
+  },
+  "devDependencies": {"jsdom": "26.1.0"}
+}

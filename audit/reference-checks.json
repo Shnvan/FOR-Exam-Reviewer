@@ -1,0 +1,46 @@
+{
+  "checkedOn": "2026-11-04",
+  "note": "HTTP availability is separate from manual semantic review. Some publishers reject command-line clients while remaining readable in the browser/search retrieval tool. See VALIDATION.md for the distinction.",
+  "references": [
+    {
+      "title": "USC Libraries: theoretical framework",
+      "url": "https://libguides.usc.edu/writingguide/theoreticalframework",
+      "httpStatus": 200,
+      "finalUrl": "https://libguides.usc.edu/writingguide/theoreticalframework"
+    },
+    {
+      "title": "Library of Congress: primary and secondary sources",
+      "url": "https://ask.loc.gov/faq/303148",
+      "httpStatus": 200,
+      "finalUrl": "https://ask.loc.gov/faq/303148"
+    },
+    {
+      "title": "KPU: non-equivalent groups designs",
+      "url": "https://kpu.pressbooks.pub/psychmethods4e/chapter/non-equivalent-control-group-designs/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "title": "BCcampus: experiment basics and validity",
+      "url": "https://opentextbc.ca/researchmethods/chapter/experiment-basics/",
+      "httpStatus": 200,
+      "finalUrl": "https://opentextbc.ca/researchmethods/chapter/experiment-basics/"
+    },
+    {
+      "title": "University of Kansas: designs with comparison groups",
+      "url": "https://opentext.ku.edu/assessmentevaluationhighered/chapter/chapter-14-designs-involving-comparison-groups/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "title": "UConn: instrument reliability",
+      "url": "https://researchbasics.education.uconn.edu/instrument_reliability/",
+      "httpStatus": 200,
+      "finalUrl": "https://researchbasics.education.uconn.edu/instrument_reliability/"
+    },
+    {
+      "title": "ETS: reliability from comparable test halves",
+      "url": "https://www.ets.org/research/policy_research_reports/publications/report/1950/ikve.html",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ets.org/research/policy_research_reports/publications/report/1950/ikve.html"
+    }
+  ]
+}
